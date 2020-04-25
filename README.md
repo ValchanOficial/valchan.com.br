@@ -2,12 +2,12 @@
 
 I'm rebuilding my blog: [valchan.com.br](valchan.com.br)
 
-# Start
+## Start
 ```js
     yarn install
     gatsby develop // http://localhost:8000/
 ```
-# Tecnologies
+## Tecnologies
 - [ReactJS](https://pt-br.reactjs.org/);
 - [Gatsby](https://www.gatsbyjs.org/);
 - [GraphQL](https://graphql.org/);
