@@ -69,8 +69,17 @@ const GlobalStyles = createGlobalStyle`
   	width: 100%;
   	height: auto;
   }
+
+  p {
+    font-style: normal;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+  }
   
   h1, h2, h3, h4, h5, h6 {
+    font-family: Dosis, Arial, Helvetica, sans-serif;
+  }
+
+  small {
     font-family: Montserrat, Arial, Helvetica, sans-serif;
   }
 `

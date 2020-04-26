@@ -1,0 +1,32 @@
+import styled from "styled-components";
+import { Link } from "gatsby";
+
+export const MenuBarWrapper = styled.aside`
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.3rem;
+    position: fixed;
+`
+
+export const MenuBarGroup = styled.div`
+    display: flex;
+    flex-direction: column;
+`
+
+export const MenuBarLink = styled(Link)`
+    display: block;
+`
+
+export const MenuBarIcon = styled.div`
+    color: black;
+    cursor: pointer;
+    width: 2rem;
+    height: auto;
+    margin-top: 1rem;
+
+    &:hover {
+        color: #A51073;
+    }
+`

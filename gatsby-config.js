@@ -22,13 +22,14 @@ module.exports = {
         path: `${__dirname}/posts`,
       },
     },
+    `gatsby-transformer-remark`,
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
           `Dosis`,
           `Satisfy`,
-          `Montserrat`,
+          `Montserrat\:100,300,400,400i,700`,
         ],
         display: 'swap',
       },

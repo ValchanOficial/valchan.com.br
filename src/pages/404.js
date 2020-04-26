@@ -1,7 +1,7 @@
-import React from "react"
+import React from "react";
 
-import Main from "../components/Main"
-import SEO from "../components/seo"
+import Main from '../components/Main'
+import SEO from '../components/seo'
 
 const NotFoundPage = () => (
   <Main>
@@ -11,4 +11,4 @@ const NotFoundPage = () => (
   </Main>
 )
 
-export default NotFoundPage
+export default NotFoundPage;

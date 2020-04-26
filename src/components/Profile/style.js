@@ -24,18 +24,19 @@ export const ProfileAuthor = styled.h1`
 export const ProfilePosition = styled.small`
     display: block;
     font-size: 1.2rem;
-    font-weight: 300;
     margin-bottom: 0.4em;
+    font-weight: 400;
 `
 
 export const ProfileDescription = styled.p`
     font-size: 1.2rem;
     font-weight: 300;
-    line-height: 1.4;
 `
 
 export const ProfileSubtitle = styled.h2`
+    display: block;
     font-size: 1.2rem;
     margin-top: 2em;
     margin-bottom: 0.6em;
+    font-weight: bold;
 `

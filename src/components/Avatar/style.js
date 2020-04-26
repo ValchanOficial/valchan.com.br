@@ -13,7 +13,7 @@ export const AvatarDetails = styled.section`
     width: 165px;
     height: 165px;
     border-radius: 100%;
-    background: linear-gradient(80deg, #720A4C 0%, #EAB9E1 100%);
+	background: linear-gradient(to bottom right, #7F054E, #EAB9E1);
 `
 
 export const AvatarImg = styled(Img)`

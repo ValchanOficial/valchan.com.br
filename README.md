@@ -14,4 +14,5 @@ I'm rebuilding my blog: [valchan.com.br](valchan.com.br)
 - [Styled Components](https://styled-components.com/);
 - [Styled Icons](https://styled-icons.js.org/);
 - [Google Fonts](https://fonts.google.com/);
+- [Markdown](https://daringfireball.net/projects/markdown/);
 - [Coolors](https://coolors.co/720a4c-7f054e-a51073-eab9e1-ffe9f7);

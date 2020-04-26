@@ -1,17 +1,18 @@
 import styled from "styled-components";
 import { Link } from "gatsby"
 
-export const Header = styled.div`
+export const Header = styled.header`
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 20px;
-    margin-bottom: 60px;
+    padding-top: 3rem;
+    margin-bottom: 7rem;
     width: 100vw;
 `
 
 export const HeaderLink = styled(Link)`
     color: #720A4C;
+    text-shadow: 0 2px black;
     text-decoration: none;
     font-family: Satisfy, Helvetica, sans-serif;
     font-size: 90px;

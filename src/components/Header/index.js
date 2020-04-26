@@ -3,12 +3,10 @@ import React from "react"
 import * as S from './style';
 
 const Header = ({ siteTitle }) => (
-  <header>
     <S.Header>
       <S.HeaderLink to="/">{siteTitle}</S.HeaderLink>
       <S.HeaderAnimation>"What we know is a drop.. What we don't know is an ocean." - Isaac Newton</S.HeaderAnimation>
     </S.Header>
-  </header>
 )
 
 Header.propTypes = {
