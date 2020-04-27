@@ -24,8 +24,8 @@ const Main = ({ children }) => {
     <S.LayoutWrapper>      
       <GlobalStyles />
       <Header siteTitle={data.site.siteMetadata.title} />
+      <MenuBar/>
       <S.Content>
-          <MenuBar/>
           <Sidebar/>
           <S.LayoutMain>{children}</S.LayoutMain>
       </S.Content>

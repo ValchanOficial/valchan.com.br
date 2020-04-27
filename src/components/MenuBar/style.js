@@ -6,8 +6,10 @@ export const MenuBarWrapper = styled.aside`
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    padding: 0.3rem;
     position: fixed;
+    bottom: 0;
+    top: 0;
+    height: 100vh;
 `
 
 export const MenuBarGroup = styled.div`

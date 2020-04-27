@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const PostContent = styled.div`
     display: flex;
     flex-direction: column;
-    padding: 2em;
+    margin-left: 0.5rem;
 `
 
 export const PostHeader = styled.header`

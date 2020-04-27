@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const AsideMenuBar = styled.div`
     display: flex;
     flex-direction: row;
+    margin-right: 2.3rem;
 `
 
 export const Aside = styled.aside`
@@ -11,6 +12,5 @@ export const Aside = styled.aside`
     flex-direction: column;
     height: 100vh;
     width: 20rem;
-    margin-right: 4rem;
     text-align: center;
 `

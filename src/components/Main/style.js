@@ -8,13 +8,11 @@ export const LayoutWrapper = styled.section`
 
 export const LayoutMain = styled.main`
     padding-right: 2rem;
-    padding-left: 3rem;
+    padding-left: 4rem;
     width: 100%;
 `
 
 export const Content = styled.div`
     display: flex;
     flex-direction: row-reverse;
-    height: 100vh;
-    width: 98vw;
 `
