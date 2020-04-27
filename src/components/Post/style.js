@@ -148,11 +148,6 @@ export const MainContent = styled.section`
     font-weight: 700;
   }
 
-  hr {
-    border: 1px solid #38444d;
-    margin: 3rem auto;
-  }
-
   #twitter-widget-0,
   .instagram-media,
   .twitter-tweet {

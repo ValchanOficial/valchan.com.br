@@ -96,5 +96,11 @@ const GlobalStyles = createGlobalStyle`
     scrollbar-color: #EAB9E1 #FFE9F7;
     scrollbar-shadow-color: none;
   }
+
+  hr {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, #7F054E, transparent);
+  }
 `
 export default GlobalStyles
