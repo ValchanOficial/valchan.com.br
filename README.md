@@ -1,9 +1,7 @@
 # Valchan - Personal Blog
 
-I'm rebuilding my blog: [valchan.com.br](valchan.com.br)
-
 ## Start
-```js
+```bash
     yarn install
     gatsby develop // http://localhost:8000/
 ```

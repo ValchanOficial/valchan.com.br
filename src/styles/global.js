@@ -82,5 +82,17 @@ const GlobalStyles = createGlobalStyle`
   small {
     font-family: Montserrat, Arial, Helvetica, sans-serif;
   }
+
+  address {
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    color: #A51073;
+  }
+  
+  *{
+    scrollbar-color: #EAB9E1 #FFE9F7;
+    scrollbar-shadow-color: none;
+  }
 `
 export default GlobalStyles

@@ -25,7 +25,11 @@ Agradecimento aos que fizeram esse encontro se tornar possível:
 -   [Red Hat](https://www.redhat.com/en);
 -   [TDC](http://www.thedevelopersconference.com.br/).
 
-<p class="quote">“Porque juntas, vamos mais longe!”</p>
+
+<blockquote>  
+  <p>Porque juntas, vamos mais longe!</p>
+  <cite>Devs JavaGirl</cite>
+</blockquote>
 
 <div class="alinhar">
   <div id="Indicators" class="carousel slide tamanho" data-ride="carousel">

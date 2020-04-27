@@ -25,46 +25,47 @@ category: "node"
 ```
 - Código:
 
-<code>
-<br>
-const nodemailer = require('nodemailer');<br><br>
-function sendEmail() {<br>
-&thinsp;return new Promise((resolve, reject) => {<br>
-&thinsp;&thinsp;try {<br>
-&thinsp;&thinsp;&thinsp;// realiza conexão<br>
-&thinsp;&thinsp;&thinsp;const transporter = nodemailer.createTransport({<br>
-&thinsp;&thinsp;&thinsp;&thinsp;host: 'smtp.gmail.com',<br>
-&thinsp;&thinsp;&thinsp;&thinsp;secure: true, // true para 465, false para outras portas<br>
-&thinsp;&thinsp;&thinsp;&thinsp;port: 465,<br>
-&thinsp;&thinsp;&thinsp;&thinsp;auth: { // você deve criar uma conta gmail para autenticar<br>
-&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;user: 'calopsita.mail@gmail.com', // login<br>
-&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;pass: 'umacalopsitaesteveaqui' // senha<br>
-&thinsp;&thinsp;&thinsp;&thinsp;},<br>
-&thinsp;&thinsp;&thinsp;&thinsp;tls: {<br>
-&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;rejectUnauthorized: false<br>
-&thinsp;&thinsp;&thinsp;&thinsp;}<br>
-&thinsp;&thinsp;&thinsp;});<br>
-&thinsp;&thinsp;&thinsp;// envia e-mail<br>
-&thinsp;&thinsp;&thinsp;const info = transporter.sendMail({<br>
-&thinsp;&thinsp;&thinsp;&thinsp;from: '"Calopsita 🐤" <calopsita.mail@gmail.com>', // remetente<br>
-&thinsp;&thinsp;&thinsp;&thinsp;to: ['destinatario@dest.com.br', 'destinatario@dest.com.br'], // destinatários<br>
-&thinsp;&thinsp;&thinsp;&thinsp;subject: 'Calopsita?!', // Assunto<br>
-&thinsp;&thinsp;&thinsp;&thinsp;text: 'Uma calopsita esteve aqui', // Plain text body<br>
-&thinsp;&thinsp;&thinsp;&thinsp;html: '<b>Uma calopsita esteve aqui</b>' // HTML body<br>
-&thinsp;&thinsp;&thinsp;});<br>
-&thinsp;&thinsp;&thinsp;resolve(info); // se tudo ok então<br>
-&thinsp;&thinsp;} catch (error) {<br>
-&thinsp;&thinsp;&thinsp;reject(error); // se der algum erro<br>
-&thinsp;&thinsp;}<br>
-&thinsp;});<br>
-}<br>
-// executando<br>
-sendEmail().then((info) => {<br>
-&thinsp;console.log('Mensagem enviada!');<br>
-&thinsp;console.log(info.envelope);<br>
-}).catch(error => {<br>
-&thinsp;console.log('Erro: ' + error.message);<br>
-});<br>
-</code><br>
+```javascript
+	const nodemailer = require('nodemailer');
+	function sendEmail() {
+		return new Promise((resolve, reject) => {
+			try {
+			// realiza conexão
+			const transporter = nodemailer.createTransport({
+				host: 'smtp.gmail.com',
+				secure: true, // true para 465, false para outras portas
+				port: 465,
+				auth: { // você deve criar uma conta gmail para autenticar
+				user: 'calopsita.mail@gmail.com', // login
+				pass: 'umacalopsitaesteveaqui' // senha
+				},
+				tls: {
+					rejectUnauthorized: false
+				}
+			});
+
+			// envia e-mail
+			const info = transporter.sendMail({
+				from: '"Calopsita 🐤" <calopsita.mail@gmail.com>', // remetente
+				to: ['destinatario@dest.com.br', 'destinatario@dest.com.br'], // destinatários
+				subject: 'Calopsita?!', // Assunto
+				text: 'Uma calopsita esteve aqui', // Plain text body
+				html: '<b>Uma calopsita esteve aqui</b>' // HTML body
+			});
+				resolve(info); // se tudo ok então
+			} catch (error) {
+				reject(error); // se der algum erro
+			}
+		});
+	}
+
+	// executando
+	sendEmail().then((info) => {
+		console.log('Mensagem enviada!');
+		console.log(info.envelope);
+	}).catch(error => {
+		console.log('Erro: ' + error.message);
+});
+```
 
 Caso tenha interesse em saber mais, segue o link da documentação: <a href="https://nodemailer.com/about/" target="_blank" rel="nofollow, noreferrer,noopener,external">documentação</a>.

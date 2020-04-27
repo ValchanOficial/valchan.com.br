@@ -21,4 +21,7 @@ Basicamente, a ideia é você fazer no mínimo quatro contribuições em projeto
 
 Para você que ainda não participou, corre lá e te <a href="https://hacktoberfest.digitalocean.com/" target="_blank" rel="nofollow, noreferrer,noopener,external">inscreve</a> que este evento irá durar até dia 31/10! ;)
 
-#[Compasso](https://twitter.com/hashtag/Compasso?src=hash) #[Unochapeco](https://twitter.com/hashtag/Unochapeco?src=hash) #[Hacktoberfest](https://twitter.com/hashtag/Hacktoberfest?src=hash) #[Chapeco](https://twitter.com/hashtag/Chapeco?src=hash) #[Opensource](https://twitter.com/hashtag/Opensource?src=hash) #[Tech](https://twitter.com/hashtag/Tech?src=hash)
+<a class="hashtag" href="https://twitter.com/hashtag/Compasso" target="_blank" rel="noopener noreferrer">#Compasso</a>
+<a class="hashtag" href="https://twitter.com/hashtag/Unochapeco" target="_blank" rel="noopener noreferrer">#Unochapeco</a>
+<a class="hashtag" href="https://twitter.com/hashtag/Hacktoberfest" target="_blank" rel="noopener noreferrer">#Hacktoberfest</a>
+<a class="hashtag" href="https://twitter.com/hashtag/Opensource" target="_blank" rel="noopener noreferrer">#Opensource</a>
