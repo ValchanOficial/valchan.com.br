@@ -4,6 +4,10 @@ export const PostContent = styled.div`
     display: flex;
     flex-direction: column;
     margin-left: 0.5rem;
+    border: 2px solid #EAB9E1;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
 `
 
 export const PostHeader = styled.header`
@@ -104,7 +108,6 @@ export const MainContent = styled.section`
   img {
     display: block;
     max-width: 100%;
-    margin: 1.875rem auto;
   }
 
   iframe {
@@ -334,34 +337,6 @@ export const MainContent = styled.section`
     font-weight: 300;
     font-family: Montserrat, Arial, Helvetica, sans-serif;
     color: black;
-  }
-
-  pre {
-    font-family: Monaco, monospace;
-    font-size: 1em;
-  }
-
-  code {
-    background: #2d2d2d;
-    color: white;
-    font-family: Monaco, monospace;
-    font-size: 1em;
-    page-break-inside: avoid;
-  
-    tab-size: initial;
-    overflow: auto;
-    white-space: pre-wrap;
-    line-height: 1.2em;
-    word-wrap: break-word;
-
-    padding: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    display: block;
-
-    border-radius: 15px;
-    border-left: 3px solid #A51073;
-    border-right: 3px solid #A51073;
   }
   
   h1, h2, h3, h4, h5, h6 {

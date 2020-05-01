@@ -10,6 +10,7 @@ export const MenuBarWrapper = styled.aside`
     bottom: 0;
     top: 0;
     height: 100vh;
+    margin-left: 0.5rem;
 `
 
 export const MenuBarGroup = styled.div`

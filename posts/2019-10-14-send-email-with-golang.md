@@ -19,7 +19,7 @@ Enviando email via SMTP do Google com Golang(GO)
 
 **Código:**
 
-``` golang
+```
 package main
 
 import (

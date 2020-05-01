@@ -18,7 +18,7 @@ Lendo arquivo CSV com Golang
 
 **Código:**
 
-``` golang
+```
 package main
 
 import (

@@ -68,8 +68,7 @@ const GlobalStyles = createGlobalStyle`
 
   img {
     display: block;
-  	width: 100%;
-  	height: auto;
+    max-width: 100%;
   }
 
   p {
@@ -102,5 +101,19 @@ const GlobalStyles = createGlobalStyle`
     height: 2px;
     background-image: linear-gradient(to right, transparent, #7F054E, transparent);
   }
+
+  code[class*="language-"], pre[class*="language-"] {
+    white-space: pre-wrap;
+    line-height: 1.3em;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  pre {    
+    border-radius: 15px;
+    border-left: 3px solid #A51073;
+    border-right: 3px solid #A51073;
+  }
+
 `
 export default GlobalStyles
