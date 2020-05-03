@@ -16,4 +16,4 @@
 - [Algolia](https://www.algolia.com/);
 - [Google Fonts](https://fonts.google.com/);
 - [Markdown](https://daringfireball.net/projects/markdown/);
-- [Coolors](https://coolors.co/720a4c-7f054e-a51073-eab9e1-ffe9f7);
+- [Coolors](https://coolors.co/);

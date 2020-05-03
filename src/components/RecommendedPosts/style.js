@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { Link } from "gatsby";
 
 export const RecommendedWrapper = styled.section`
+    background: var(--background);
     display: flex;
     width: 100%;
     margin-top: 1rem;
@@ -13,7 +14,7 @@ export const RecommendedLink = styled(Link)`
     font-weight: bold;
     font-family: Montserrat, Arial, Helvetica, sans-serif;
     align-items: center;
-    color: #A51073;
+    color: var(--color);
     display: flex;
     padding: 2.5rem;
     text-decoration: none;
@@ -22,29 +23,29 @@ export const RecommendedLink = styled(Link)`
     margin: 0.2rem;
 
     &:hover {
-        background: #EAB9E1;
+        background: var(--recommendedPost);
     }
 
     &.previous {
         border-radius: 1rem;
-        border: 1px solid #EAB9E1;
+        border: 1px solid var(--border);
         transition: border-left 300ms ease-in-out, padding-left 300ms ease-in-out;
 
         &:hover {
             padding-left: 0.6rem;
-            border-left: 0.5rem solid #A51073;
+            border-left: 0.5rem solid var(--color);
         }
     }
 
     &.next {
         border-radius: 1rem;
-        border: 1px solid #EAB9E1;
+        border: 1px solid var(--border);
         justify-content: flex-end;
         transition: border-right 300ms ease-in-out, padding-right 300ms ease-in-out;
 
         &:hover {
             padding-right: 0.6rem;
-            border-right: 0.5rem solid #A51073;
+            border-right: 0.5rem solid var(--color);
         }
     }
 

@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 
 export const SocialLinksWrapper = styled.nav`
+    background: var(--background);
     width: 100%;
 `
 
@@ -15,17 +16,17 @@ export const SocialLinksList = styled.ul`
 export const SocialLinksItem = styled.li``
 
 export const SocialLinksLink = styled.a`
-    color: black;
+    color: var(--text);
     text-decoration: none;
     transition: color 0.5s;
 
     &:hover {
-        color: #A51073;
+        color: var(--linkHover);
     }
 `
 
 export const Icon = styled.div`
-    fill: black;
+    fill: var(--text);
     width: 30px;
     height: 30px;
 `

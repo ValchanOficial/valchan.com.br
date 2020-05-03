@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { Link } from "gatsby"
 
 export const Header = styled.header`
+    background: var(--background);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,8 +12,8 @@ export const Header = styled.header`
 `
 
 export const HeaderLink = styled(Link)`
-    color: #720A4C;
-    text-shadow: 0 2px black;
+    color: var(--mainTitle);
+    text-shadow: 0 2px var(--text);
     text-decoration: none;
     font-family: Satisfy, Helvetica, sans-serif;
     font-size: 90px;
@@ -20,8 +21,8 @@ export const HeaderLink = styled(Link)`
 `
 
 export const HeaderAnimation = styled.p`
-    border-right: 2px solid black;
-    color: black;
+    border-right: 2px solid var(--text);
+    color: var(--text);
     font-family: "Special Elite", monospace;
     font-size: 16px;
     text-align: center;
@@ -43,7 +44,7 @@ export const HeaderAnimation = styled.p`
 
     @keyframes blinkCursor {
         from {
-            border-right-color: black;
+            border-right-color: var(--text);
         }
         to {
             border-right-color: transparent;

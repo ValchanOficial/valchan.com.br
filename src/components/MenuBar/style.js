@@ -23,13 +23,19 @@ export const MenuBarLink = styled(Link)`
 `
 
 export const MenuBarIcon = styled.div`
-    color: black;
+    color: var(--text);
     cursor: pointer;
     width: 2rem;
     height: auto;
     margin-top: 1rem;
 
+    &.dark {
+        &:hover {
+        color: #e2e240;
+        }
+    }
+
     &:hover {
-        color: #A51073;
+        color: var(--menuBarHover);
     }
 `

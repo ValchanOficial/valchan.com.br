@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const AsideMenuBar = styled.div`
+    background: var(--background);
     display: flex;
     flex-direction: row;
     margin-right: 2.3rem;

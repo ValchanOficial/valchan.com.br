@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 export const CommentsWrapper = styled.section`
+  background: var(--background);
+  color: var(--text);
   max-width: 70rem;
   padding: 3rem;
 
@@ -10,14 +12,14 @@ export const CommentsWrapper = styled.section`
 
   #disqus_thread {
     a {
-      color: #A51073 !important;
+      color: var(--color) !important;
     }
   }
 `
 
 export const CommentsTitle = styled.h2`
   text-align: center;
-  color: #7F054E;
+  color: var(--color);
   font-size: 2.1rem;
   font-weight: 700;
   padding-bottom: 2rem;

@@ -1,17 +1,18 @@
 import styled from "styled-components";
 
 export const PostContent = styled.div`
+    background: var(--background);
     display: flex;
     flex-direction: column;
     margin-left: 0.5rem;
-    border: 2px solid #EAB9E1;
+    border: 2px solid var(--border);
     border-radius: 1rem;
     padding: 1rem;
     margin-bottom: 1rem;
 `
 
 export const PostHeader = styled.header`
-  color: #A51073;
+  color: var(--postHeader);
   padding: 0;
 `
 
@@ -43,29 +44,28 @@ export const MainContent = styled.section`
   h2,
   h3,
   h4,
+  h5,
+  h6,
   ul,
   ol,
-  .tags,
-  iframe,
-  .button-post {
-    color: #A51073;
-    font-size: 1.25rem;
+  em,
+  strong,
+  samp,
+  form,
+  kbd,
+  s,
+  var,
+  iframe {
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    color: var(--text);
+    font-size: 1.15rem;
     font-weight: 300;
     line-height: 1.7;
     letter-spacing: 0.069rem;
   }
 
   p {
-    color: black;
     margin: 0 auto 1.6rem;
-  }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5 {
-    margin: 2.4rem auto 1rem;
   }
 
   ul,
@@ -75,6 +75,7 @@ export const MainContent = styled.section`
   }
 
   ol {
+    color: var(--text);
     list-style: normal;
   }
 
@@ -87,6 +88,7 @@ export const MainContent = styled.section`
   }
 
   ul {
+    color: var(--text);
     list-style: circle;
   }
 
@@ -119,7 +121,7 @@ export const MainContent = styled.section`
     display:flex;
     margin: auto;
     flex-direction: column;
-    color: #A51073;
+    color: var(--color);
     font-family: Dosis, Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
     font-style: italic;
@@ -130,7 +132,7 @@ export const MainContent = styled.section`
   blockquote p::before,
   blockquote p::after {
     content: "“";
-    color: #A51073;
+    color: var(--color);
     font-size: 7rem;
     font-family: Georgia;
     margin: -3rem 0 0 -3rem;
@@ -140,13 +142,13 @@ export const MainContent = styled.section`
 
   blockquote p::after {
     content: "”";
-    color: #A51073;
+    color: var(--color);
     margin: -2rem -4rem 0 0;
   }
 
   blockquote cite {
     text-align: center;
-    color: black;
+    color: var(--text);
     font-size: 1.5rem;
     font-weight: 700;
   }
@@ -161,7 +163,11 @@ export const MainContent = styled.section`
   h2,
   h3,
   h4,
-  h5 {
+  h5,
+  h6 {    
+    font-family: Dosis, Arial, Helvetica, sans-serif;
+    color: var(--secTitle);
+    margin: 2.4rem auto 1rem;
     font-weight: 800;
     letter-spacing: 0.069rem;
     line-height: 1.4;
@@ -221,16 +227,17 @@ export const MainContent = styled.section`
 
   a {
     font-weight: 300;
-    text-shadow: 1px 0.5px black;
-    color: #A51073;
+    text-shadow: 1px 0.5px var(--color);
+    color: var(--link);
     text-decoration: none;
     transition: font-weight 0.3s;
 
     svg {
-      color: #A51073;
+      color: var(--linkHover);
     }
 
     &:hover {
+      color: var(--linkHover);
       font-weight: 500;
     }
     
@@ -244,19 +251,19 @@ export const MainContent = styled.section`
     font-size: 1.25rem;
     font-weight: 300;
     font-family: Montserrat, Arial, Helvetica, sans-serif;
-    color: black;
+    color: var(--text);
   }
 
   form, input, select {
     font-size: 1.2rem;
     font-weight: 300;
     font-family: Montserrat, Arial, Helvetica, sans-serif;
-    color: black;
+    color: var(--text);
   }
 
   input, select {
     border-color: none;
-    background: #FFD3E5;
+    background: var(--input);
   }
 
   select {
@@ -264,15 +271,15 @@ export const MainContent = styled.section`
     font-family: Montserrat, Arial, Helvetica, sans-serif;
     font-size: 1.25rem;
     font-weight: bold;
-    color: black;
-    background: #EAB9E1;
+    color: var(--text);
+    background: var(--color);
     padding: 0.2rem;
 
     border: none;
     -moz-border-radius: 1rem 1rem 1rem 1rem;
     -webkit-border-radius: 1rem 1rem 1rem 1rem;
     border-radius: 1rem 1rem 1rem 1rem;
-    box-shadow: 1px 1px 11px #A51073;
+    box-shadow: 1px 1px 11px var(--color);
   }
 
   table {
@@ -281,12 +288,12 @@ export const MainContent = styled.section`
     border-collapse: collapse;
     border-spacing: 0;
     width: 100%;
-    border: 0.1rem solid #A51073;
+    border: 0.1rem solid var(--color);
   }
 
   thead {
-    background: #EAB9E1;
-    border: 0.1rem solid #A51073;
+    background: var(--thead);
+    border: 0.1rem solid var(--color);
   }
 
   thead th{
@@ -294,28 +301,33 @@ export const MainContent = styled.section`
   }
 
   th, td {
-    border: 0.1rem solid #A51073;
+    border: 0.1rem solid var(--color);
     font-weight: 300;
     text-align: left;
     padding: 8px;
   }
 
   mark {
-    background: #EAB9E1;
+    color: var(--text);
+    background: var(--mark);
   }
 
   textarea::before {
     border-radius: 8px;
   }
 
-  textarea {
+  textarea {    
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    color: var(--text);
+    font-size: 1rem;
     display:flex;
     border-radius: 8px;
     padding: 0.8rem;
     margin: auto;
     min-height: 10rem;
+    min-width: 10rem;
     border: none;
-    background: #EAB9E1;
+    background: var(--textarea);
   }
 
   video, img, figure{
@@ -336,19 +348,14 @@ export const MainContent = styled.section`
     font-size: 1.2rem;
     font-weight: 300;
     font-family: Montserrat, Arial, Helvetica, sans-serif;
-    color: black;
-  }
-  
-  h1, h2, h3, h4, h5, h6 {
-    font-family: Dosis, Arial, Helvetica, sans-serif;
-    color: #A51073;
+    color: var(--text);
   }
 
   aside {
     font-size: 1rem;
     font-weight: 300;
     font-family: Montserrat, Arial, Helvetica, sans-serif;
-    color: #A51073;
+    color: var(--color);
   }
 
 `

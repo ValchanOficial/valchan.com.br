@@ -2,18 +2,23 @@ import styled from "styled-components";
 import { Link } from "gatsby";
 
 export const PostItemLink = styled(Link)`
-  color: black;
+  color: var(--secTitle);
   display: flex;
   text-decoration: none;
+
+  body#grid & {
+    background-color: var(--background);
+    height: 100%;
+  }
   
   &:hover {
-    color: #A51073;
+    color: var(--linkHover);
   }
 `
 
 export const PostItemWrapper = styled.section`
   align-items: center;
-  border: 3px solid #EAB9E1;
+  border: 3px solid var(--border);
   border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
   position: relative;
   display: flex;
@@ -21,9 +26,16 @@ export const PostItemWrapper = styled.section`
   width: 100%;
   margin-bottom: 0.5rem;
 
+  body#grid & {
+    border: 2px solid var(--border);
+    padding: 2rem 1rem;
+    flex-direction: column;
+    justify-content: center;
+  }
+
   &::before {
       content: '';
-      border: 2px solid #EAB9E1;
+      border: 2px solid var(--border);
       display: block;
       width: 100%;
       height: 100%;
@@ -39,8 +51,8 @@ export const PostItemTag = styled.div`
   align-items: center;
   box-shadow: 0.2em 0.2em 0.2em #262626;
   transform:rotate(-10deg);
-	background: linear-gradient(to bottom right, #A51073, #7F054E);
-  color: white;
+	background: linear-gradient(to bottom right, var(--colorTag), var(--colorTagTwo));
+  color: var(--text);
   display: flex;
   font-size: 1rem;
   font-weight: 700;
@@ -48,6 +60,10 @@ export const PostItemTag = styled.div`
   min-height: 3rem;
   min-width: 7.1rem;
   text-transform: uppercase;
+
+  body#grid & {
+    margin-bottom: 1.5rem;
+  }
 `
 
 export const PostItemInfo = styled.div`
@@ -66,6 +82,11 @@ export const PostItemTitle = styled.h1`
   font-size: 1.6rem;
   font-weight: 700;
   margin: 0.2rem 0 0.5rem;
+
+  body#grid & {
+    line-height: 1.1;
+    margin: 0.8rem 0;
+  }
 `
 
 export const PostItemDescription = styled.p`
