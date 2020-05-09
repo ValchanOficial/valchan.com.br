@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import media from "styled-media-query";
 
 export const PaginationWrapper = styled.section`
   margin-top: 0.5rem;
@@ -20,4 +21,9 @@ export const PaginationWrapper = styled.section`
         color: var(--color);
     }
   }
+
+  ${media.lessThan("medium")`
+    font-size: 0.8rem;
+    padding: 1.5rem 1rem;
+  `}
 `

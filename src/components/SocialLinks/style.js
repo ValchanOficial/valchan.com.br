@@ -1,9 +1,13 @@
 import styled from "styled-components";
-
+import media from "styled-media-query";
 
 export const SocialLinksWrapper = styled.nav`
     background: var(--background);
     width: 100%;
+
+    ${media.lessThan("large")`
+        width: 60%
+    `}
 `
 
 export const SocialLinksList = styled.ul`
@@ -27,6 +31,10 @@ export const SocialLinksLink = styled.a`
 
 export const Icon = styled.div`
     fill: var(--text);
-    width: 30px;
-    height: 30px;
+    width: 2rem;
+    height: auto;
+
+    ${media.lessThan("large")`
+        width: 1.8rem;
+    `}
 `

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import media from "styled-media-query";
 import { Link } from "gatsby";
 
 export const MenuBarWrapper = styled.aside`
@@ -11,6 +12,14 @@ export const MenuBarWrapper = styled.aside`
     top: 0;
     height: 100vh;
     margin-left: 0.5rem;
+
+    ${media.lessThan("large")`
+        margin-left: 0.2rem;
+    `}
+
+    ${media.lessThan("medium")`
+        margin-left: 0.3rem;
+    `}
 `
 
 export const MenuBarGroup = styled.div`
@@ -38,4 +47,14 @@ export const MenuBarIcon = styled.div`
     &:hover {
         color: var(--menuBarHover);
     }
+
+    &.display {
+        ${media.lessThan("large")`
+            display: none;
+        `}
+    }
+
+    ${media.lessThan("large")`
+        width: 1.8rem;
+    `}
 `

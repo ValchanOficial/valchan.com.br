@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import media from "styled-media-query";
 import { Link } from "gatsby"
 
 export const Header = styled.header`
@@ -9,6 +10,10 @@ export const Header = styled.header`
     padding-top: 3rem;
     margin-bottom: 7rem;
     width: 100vw;
+
+    ${media.lessThan("large")`
+        display: none;
+    `}
 `
 
 export const HeaderLink = styled(Link)`
@@ -38,7 +43,7 @@ export const HeaderAnimation = styled.p`
             width: 0;
         }
         to {
-            width: 42em;
+            width: 44.5em;
         }
     }
 

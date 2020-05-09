@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import media from "styled-media-query";
 
 export const CommentsWrapper = styled.section`
   background: var(--background);
@@ -23,4 +24,12 @@ export const CommentsTitle = styled.h2`
   font-size: 2.1rem;
   font-weight: 700;
   padding-bottom: 2rem;
+
+  ${media.lessThan("large")`
+    font-size: 1.4rem;
+  `}
+
+  ${media.lessThan("large")`
+    font-size: 1.2rem;
+  `}
 `

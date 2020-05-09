@@ -32,7 +32,8 @@
     "react-helmet": "^6.0.0",
     "react-instantsearch-dom": "^6.4.0",
     "styled-components": "^5.1.0",
-    "styled-icons": "^10.2.1"
+    "styled-icons": "^10.2.1",
+    "styled-media-query": "^2.1.2"
   },
   "devDependencies": {
     "@hot-loader/react-dom": "^16.13.0",

@@ -11,6 +11,7 @@
 - [GraphQL](https://graphql.org/);
 - [Styled Components](https://styled-components.com/);
 - [Styled Icons](https://styled-icons.js.org/);
+- [Styled Media Query](https://github.com/morajabi/styled-media-query);
 - [PrismJS](https://prismjs.com/);
 - [Disqus](https://disqus.com/);
 - [Algolia](https://www.algolia.com/);

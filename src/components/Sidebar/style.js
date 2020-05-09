@@ -1,10 +1,16 @@
 import styled from "styled-components";
+import media from "styled-media-query";
 
 export const AsideMenuBar = styled.div`
     background: var(--background);
     display: flex;
     flex-direction: row;
     margin-right: 2.3rem;
+
+    ${media.lessThan("large")`
+        height: 10rem;
+        margin: 1rem;
+    `}
 `
 
 export const Aside = styled.aside`

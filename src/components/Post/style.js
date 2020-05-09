@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import media from "styled-media-query";
 
 export const PostContent = styled.div`
     background: var(--background);
@@ -21,6 +22,14 @@ export const PostTitle = styled.h1`
   font-weight: bold;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+  
+  ${media.lessThan("large")`
+    font-size: 2rem;
+  `}
+
+  ${media.lessThan("medium")`
+    font-size: 1.5rem;
+  `}
 `
 
 export const PostDescription = styled.h2`
@@ -28,12 +37,24 @@ export const PostDescription = styled.h2`
   font-weight: 300;
   margin-bottom: 2rem;
   padding-left: 0.1em;
+
+  ${media.lessThan("large")`
+    font-size: 1.2rem;
+  `}
+
+  ${media.lessThan("medium")`
+    font-size: 1rem;
+  `}
 `
 
 export const PostDate = styled.p`
   font-size: 1.1rem;
   font-weight: 300;
   padding-left: 0.1rem;
+
+  ${media.lessThan("large")`
+    font-size: 1rem;
+  `}
 `
 
 export const MainContent = styled.section`
@@ -62,6 +83,14 @@ export const MainContent = styled.section`
     font-weight: 300;
     line-height: 1.7;
     letter-spacing: 0.069rem;
+
+    ${media.lessThan("large")`
+      font-size: 1rem;
+    `}  
+
+    ${media.lessThan("medium")`
+      font-size: 0.9rem;
+    `}  
   }
 
   p {
@@ -138,6 +167,10 @@ export const MainContent = styled.section`
     margin: -3rem 0 0 -3rem;
     position: absolute;
     opacity: 0.5;
+
+    ${media.lessThan("medium")`
+      font-size: 6rem;
+    `}
   }
 
   blockquote p::after {
@@ -196,6 +229,10 @@ export const MainContent = styled.section`
   strong {
     font-size: 1.2rem;    
     font-weight: 400;
+
+    ${media.lessThan("medium")`
+      font-size: 1rem;
+    `}
   }
 
   .gatsby-resp-image-background-image {
@@ -252,6 +289,10 @@ export const MainContent = styled.section`
     font-weight: 300;
     font-family: Montserrat, Arial, Helvetica, sans-serif;
     color: var(--text);
+
+    ${media.lessThan("large")`
+      font-size: 1rem;
+    `}
   }
 
   form, input, select {
@@ -259,6 +300,10 @@ export const MainContent = styled.section`
     font-weight: 300;
     font-family: Montserrat, Arial, Helvetica, sans-serif;
     color: var(--text);
+
+    ${media.lessThan("large")`
+      font-size: 1rem;
+    `}
   }
 
   input, select {
@@ -280,6 +325,10 @@ export const MainContent = styled.section`
     -webkit-border-radius: 1rem 1rem 1rem 1rem;
     border-radius: 1rem 1rem 1rem 1rem;
     box-shadow: 1px 1px 11px var(--color);
+
+    ${media.lessThan("large")`
+      font-size: 1rem;
+    `}
   }
 
   table {
@@ -289,6 +338,10 @@ export const MainContent = styled.section`
     border-spacing: 0;
     width: 100%;
     border: 0.1rem solid var(--color);
+
+    ${media.lessThan("large")`
+      font-size: 1rem;
+    `}
   }
 
   thead {
@@ -328,6 +381,15 @@ export const MainContent = styled.section`
     min-width: 10rem;
     border: none;
     background: var(--textarea);
+
+    ${media.lessThan("large")`
+      font-size: 0.9rem;
+      width: 40rem;
+    `}
+
+    ${media.lessThan("medium")`
+      width: 20rem;
+    `}
   }
 
   video, img, figure{
@@ -337,7 +399,17 @@ export const MainContent = styled.section`
     margin-bottom: 1rem;
     min-height: 20rem;
     max-width: 30rem;
-    max-height: 30rem;
+    max-height: 30rem;  
+
+    ${media.lessThan("large")`
+      background: blue;
+      width: 25rem;
+    `}
+
+    ${media.lessThan("medium")`
+      background: blue;
+      width: 20rem;
+    `}
   }
 
   figure, figcaption {
