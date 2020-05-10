@@ -8,7 +8,7 @@ module.exports = {
     position: `Developer`,
     description: `A technology-loving developer who constantly seeks knowledge. I intend to become a Full-Stack developer!`,
     author: `Valéria Padilha de Vargas`,
-    siteUrl: `http://valchan.com.br`
+    siteUrl: `valchan.com.br`
   },
   plugins: [
     `gatsby-plugin-smoothscroll`,
