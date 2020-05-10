@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react';
+import scrollTo from 'gatsby-plugin-smoothscroll';
 
 import { HomeCircle as Home, Grid } from '@styled-icons/boxicons-solid/';
 import { SearchAlt as Search } from '@styled-icons/boxicons-regular/SearchAlt';
@@ -58,8 +59,12 @@ const MenuBar = () => {
                 >
                     {isListMode ? <Grid /> : <List />}
                 </S.MenuBarIcon>
-
-                <S.MenuBarIcon title='Ir para o Topo'>
+                
+                <S.MenuBarIcon 
+                    title='Ir para o Topo'
+                    onClick={() => scrollTo('header')}
+                    className="display"
+                >
                     <ArrowUp />
                 </S.MenuBarIcon>
             </S.MenuBarGroup>

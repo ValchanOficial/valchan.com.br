@@ -44,7 +44,11 @@ exports.createPages = ({ graphql, actions }) => {
               slug
             }
             frontmatter {
+              category
+              date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
+              description
               title
+              image
             }
           }
           next {

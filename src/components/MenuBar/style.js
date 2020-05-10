@@ -15,6 +15,7 @@ export const MenuBarWrapper = styled.aside`
 
     ${media.lessThan("large")`
         margin-left: 0.2rem;
+        justify-content: center;
     `}
 
     ${media.lessThan("medium")`

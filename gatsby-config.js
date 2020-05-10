@@ -8,17 +8,12 @@ module.exports = {
     position: `Developer`,
     description: `A technology-loving developer who constantly seeks knowledge. I intend to become a Full-Stack developer!`,
     author: `Valéria Padilha de Vargas`,
+    siteUrl: `https://valchan.com.br`
   },
   plugins: [
+    `gatsby-plugin-smoothscroll`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `uploads`,
-        path: `${__dirname}/static/assets/img`,
-      },
-    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -31,6 +26,13 @@ module.exports = {
       options: {
         name: `posts`,
         path: `${__dirname}/posts`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `uploads`,
+        path: `${__dirname}/static/assets/img`,
       },
     },
     {
@@ -83,15 +85,16 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Valéria Padilha de Vargas`,
+        short_name: `Valéria Padilha de Vargas`,
         start_url: `/`,
+        background_color: `#F1C4CB`,
+        theme_color: `#E5183A`,
         display: `minimal-ui`,
-        icon: `src/images/icon.png`,
+        icon: `static/assets/img/icon.png`,
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-sitemap`,
+    `gatsby-plugin-offline`,
   ],
 }

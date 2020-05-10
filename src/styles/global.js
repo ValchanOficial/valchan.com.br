@@ -114,6 +114,21 @@ const GlobalStyles = createGlobalStyle`
     border-right: 3px solid var(--border);
   }
 
+  .notFound {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 4rem;
+    text-align: center;
+    font-weight: bold;
+    padding: 5rem;
+    color: var(--color);
+  }
+
+  .icon {
+    width: 8rem;
+  }
+
   /* Themes */
 
   body.dark {
