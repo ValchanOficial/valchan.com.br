@@ -18,3 +18,5 @@
 - [Google Fonts](https://fonts.google.com/);
 - [Markdown](https://daringfireball.net/projects/markdown/);
 - [Coolors](https://coolors.co/);
+- [Netlify CMS](https://www.netlifycms.org/);
+
