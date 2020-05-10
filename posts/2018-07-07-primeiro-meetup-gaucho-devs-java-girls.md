@@ -3,6 +3,7 @@ date: 2018-07-07
 title: "1º Meetup Gaúcho Devs Java Girl"
 description: "Somos um grupo de mulheres que desenvolvem em Java e desejam aperfeiçoar skills técnicas e melhorar sua segurança com a tecnologia. Porque juntas, vamos mais longe!"
 category: "java"
+image: '/assets/img/cover.png'
 ---
 
 Hoje ocorreu o primeiro encontro de desenvolvedoras Java aqui no RS o [Devs Java Girl](https://www.meetup.com/pt-BR/Devs-Java-Girl/)!

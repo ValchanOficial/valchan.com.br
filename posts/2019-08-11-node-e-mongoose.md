@@ -3,6 +3,7 @@ date: 2019-08-11
 title: "Node.JS + Mongoose + mongoose-auto-increment"
 description: "Pequeno CRUD em Node.JS utilizando o Mongoose e mongoose-auto-increment."
 category: "node"
+image: '/assets/img/cover.png'
 ---
 
 <p class="alinhar"><img src="../assets/images/octocat.gif" alt="Octocat" title="Octocat" width="100" height="100"></p>

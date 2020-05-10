@@ -3,6 +3,7 @@ date: 2018-06-24
 title: "PlastCoLab 2ª edição: Porto Alegre – Plastico Transforma"
 description: "Participei da Oficina Minivideogame dentro do PlastCoLab."
 category: "evento"
+image: '/assets/img/cover.png'
 ---
 
 <p class="alinhar"><img class="tamanho" src="../assets/images-posts/PlastCoLab/PlastCoLab.jpg" alt="PlastCoLab"/></p>

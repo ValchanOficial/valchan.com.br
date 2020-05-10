@@ -3,6 +3,7 @@ date: 2018-12-18
 title: "Pesquisa Developer Economics Q4 2018"
 description: "Developer Economics é o maior programa de pesquisa para desenvolvedores."
 category: "dev"
+image: '/assets/img/cover.png'
 ---
 
 # Developer Economics 16ª edição

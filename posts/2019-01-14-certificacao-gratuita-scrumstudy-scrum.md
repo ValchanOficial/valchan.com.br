@@ -3,6 +3,7 @@ date: 2019-01-14
 title: "Certificação GRATUITA! Scrum Fundamentals Certified"
 description: "A SCRUMstudy está oferecendo seu guia, curso e certificado Scrum Fundamentals Certified de forma gratuita!"
 category: "scrum"
+image: '/assets/img/cover.png'
 ---
 
 A [SCRUMstudy](https://www.scrumstudy.com/) está oferecendo seu guia, curso e certificado **Scrum Fundamentals Certified** de forma gratuita! 

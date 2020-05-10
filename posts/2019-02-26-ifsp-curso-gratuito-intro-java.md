@@ -3,6 +3,7 @@ date: 2019-02-26
 title: "IFSP - Curso Introdução a Orientação a Objetos com Java (EaD): gratuito!"
 description: "Estão abertas de 25 de fevereiro a 08 de março de 2019 as inscrições para o curso de Introdução a Orientação a Objetos com Java (EaD)."
 category: "cursos"
+image: '/assets/img/cover.png'
 ---
 
 <p class="alinhar"><img class="tamanho" src="../assets/images-posts/0-Outros/IFSP2.png" alt="IFSP"></p>

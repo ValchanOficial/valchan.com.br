@@ -3,6 +3,7 @@ date: 2019-09-07
 title: "Tutorial - Instalando o Maven no Windows"
 description: "Instalando o Apache Maven no Windows 10."
 category: "maven"
+image: '/assets/img/cover.png'
 ---
 
 <p class="alinhar"><img src="../assets/images/octocat.gif" alt="Octocat" title="Octocat" width="100" height="100"></p>

@@ -3,6 +3,7 @@ date: 2019-01-09
 title: "Certificação GRATUITA! Scrum Scrum Foundation Professional Certificate (SFPC)"
 description: "A CertiProf está oferecendo seu exame Fundamentos do Scrum de forma gratuita!"
 category: "scrum"
+image: '/assets/img/cover.png'
 ---
 
 <p class="alinhar"><a target="_blank" href="http://br.certiprof.org/scrum-foundation-professional-certificate-sfpc-portuguese/"><img class="tamanho" src="../assets/images-posts/0-Outros/CertiProf.png" alt="CertiProf"></a></p>

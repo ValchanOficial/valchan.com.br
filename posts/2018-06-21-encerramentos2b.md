@@ -3,6 +3,7 @@ date: 2018-06-21
 title: "Encerramento do S2B2018"
 description: "Encerramento do Students do Business(S2B) 2018, cheguei a final da trilha de Automação de Teste de Software."
 category: "s2b"
+image: '/assets/img/cover.png'
 ---
 
 <p class="alinhar"><img class="tamanho" src="../assets/images-posts/s2b/s2b.png" alt="S2B"/></p>

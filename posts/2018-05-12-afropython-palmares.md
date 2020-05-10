@@ -3,6 +3,7 @@ date: 2018-05-12
 title: "AfroPython - Palmares"
 description: "O AfroPython é uma oficina de programação que tem o objetivo de incentivar a população negra nas áreas de tecnologia."
 category: "evento"
+image: '/assets/img/cover.png'
 ---
 
 <p class="alinhar"><img class="tamanho" src="../assets/images-posts/AfroPython - Palmares/AfroPython.jpg" alt="GitHub"/></p>

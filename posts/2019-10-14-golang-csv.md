@@ -3,6 +3,7 @@ date: 2019-10-14
 title: "Lendo arquivo CSV com Golang"
 description: "Utilizando o Golang para ler arquivos CSV."
 category: "golang"
+image: '/assets/img/cover.png'
 ---
 
 <p class="alinhar"><img src="../assets/images/octocat.gif" alt="Octocat" title="Octocat" width="100" height="100"></p>

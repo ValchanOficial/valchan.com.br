@@ -3,6 +3,7 @@ date: 2019-02-27
 title: "Code:Nation - AceleraDev React e Python"
 description: "Tem novidade na plataforma Code:Nation!"
 category: "codenation"
+image: '/assets/img/cover.png'
 ---
 
 <p class="alinhar"><img class="tamanho" src="../assets/images-posts/0-Outros/codenation.png" alt="IFSP"></p>

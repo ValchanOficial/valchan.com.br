@@ -3,6 +3,7 @@ date: 2018-08-18
 title: "2º Meetup Gaúcho Devs Java Girls"
 description: "Estamos cada vez mais compartilhando conhecimento e aumentando a rede da comunidade!"
 category: "java"
+image: '/assets/img/cover.png'
 ---
 
 > ### **Sou mulher, sou dev, sou Java.**

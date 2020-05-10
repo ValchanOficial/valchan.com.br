@@ -3,6 +3,7 @@ date: 2018-11-07
 title: "Configurando o Git com GitHub"
 description: "Vamos versionar nossos códigos com Git e Github!"
 category: "git"
+image: '/assets/img/cover.png'
 ---
 
 <p class="alinhar"><img src="../assets/images-posts/github.png" alt="GitHub" width="300" height="250" /></p>

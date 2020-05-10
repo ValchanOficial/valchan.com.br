@@ -3,6 +3,7 @@ date: 2019-10-21
 title: "Hacktoberfest XAP 19/10/2019"
 description: "O Hacktoberfest é um evento mundial que acontece todo ano durante todo o mês de Outubro."
 category: "evento"
+image: '/assets/img/cover.png'
 ---
 
 <p class="alinhar"><img class="tamanho" src="../assets/images-posts/Hacktoberfest_19.png" alt="Hacktoberfest"/></p>

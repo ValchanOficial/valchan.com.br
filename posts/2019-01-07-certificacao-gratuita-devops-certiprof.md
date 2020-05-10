@@ -3,6 +3,7 @@ date: 2019-01-07
 title: "Certificação GRATUITA! DevOps Essentials Professional Certificate (DEPC)"
 description: "A CertiProf está oferecendo seu exame Fundamentos do DevOps de forma gratuita!"
 category: "devops"
+image: '/assets/img/cover.png'
 ---
 
 <p class="alinhar"><a target="_blank" href="https://www.certiprof.com/devops-essentials-professional-certificate-depc-brazilian-portuguese/"><img class="tamanho" src="../assets/images-posts/0-Outros/CertiProf.png" alt="CertiProf"></a></p>

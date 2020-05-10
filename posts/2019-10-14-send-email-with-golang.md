@@ -3,6 +3,7 @@ date: 2019-10-14
 title: "Enviando email com Golang"
 description: "A piece of cake: Enviando e-mail SMTP com Golang."
 category: "golang"
+image: '/assets/img/cover.png'
 ---
 
 <p class="alinhar"><img src="../assets/images/octocat.gif" alt="Octocat" title="Octocat" width="100" height="100"></p>

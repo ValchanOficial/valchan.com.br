@@ -3,6 +3,7 @@ date: 2019-09-30
 title: "Node.JS + PostgreSQL"
 description: "Pequeno CRUD em Node.JS com PostgreSQL."
 category: "node"
+image: '/assets/img/cover.png'
 ---
 
 <p class="alinhar"><img src="../assets/images/octocat.gif" alt="Octocat" title="Octocat" width="100" height="100"></p>

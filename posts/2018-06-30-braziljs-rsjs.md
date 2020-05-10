@@ -3,6 +3,7 @@ date: 2018-06-30
 title: "BrazilJS – RSJS 2018"
 description: "Por meio de eventos, artigos, notícias e vídeos, o BrazilJS Conf busca unir comunidade e mercado,tendo a diversidade como um dos pilares em todas as iniciativas."
 category: "evento"
+image: '/assets/img/cover.png'
 ---
 
 <p class="alinhar"><img class="tamanho" src="../assets/images-posts/BrazilJS/BrazilJS.jpg" alt="BrazilJS"/></p>

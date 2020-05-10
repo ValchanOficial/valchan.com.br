@@ -3,6 +3,7 @@ date: 2019-02-06
 title: "IFSP - Cursos de extensão gratuitos!"
 description: "O Instituto Federal de São Paulo (IFSP), Câmpus Sertãozinho, está ofertando cursos de extensão gratuitos e à distância na área de desenvolvimento de software!"
 category: "cursos"
+image: '/assets/img/cover.png'
 ---
 
 <p class="alinhar"><img class="tamanho" src="../assets/images-posts/0-Outros/IFSP.jpg" alt="IFSP"></p>

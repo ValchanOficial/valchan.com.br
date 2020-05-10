@@ -3,6 +3,7 @@ date: 2019-10-01
 title: "Node.JS + Nodemailer"
 description: "Enviando e-mail SMTP com Node.JS e Nodemailer."
 category: "node"
+image: '/assets/img/cover.png'
 ---
 
 <p class="alinhar"><img src="../assets/images/octocat.gif" alt="Octocat" title="Octocat" width="100" height="100"></p>
