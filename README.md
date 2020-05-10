@@ -1,5 +1,7 @@
 # Valchan - Personal Blog
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/baaac451-3bf0-4d9a-b3e3-19f82deae099/deploy-status)](https://app.netlify.com/sites/valchan/deploys)
+
 ## Start
 ```bash
     yarn install
