@@ -1,5 +1,6 @@
 # Valchan - Personal Blog
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e2a7483a66704c8cbeef7be144b1e3fe)](https://app.codacy.com/manual/valeria_padilha/valchan.com.br?utm_source=github.com&utm_medium=referral&utm_content=ValchanOficial/valchan.com.br&utm_campaign=Badge_Grade_Dashboard)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/baaac451-3bf0-4d9a-b3e3-19f82deae099/deploy-status)](https://app.netlify.com/sites/valchan/deploys)
 
 ## Start
