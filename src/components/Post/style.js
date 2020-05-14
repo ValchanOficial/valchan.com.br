@@ -412,13 +412,13 @@ export const MainContent = styled.section`
     `}
   }  
 
-  .smallSize p img, span {
+  .smallSize p img, span img {
     min-height: 10rem;
     max-height: 10rem; 
     max-width: auto;
   }
 
-  .averageSize p img, span {
+  .averageSize p img, span img {
     min-height: auto;
     max-width: 45rem;
   }
@@ -432,13 +432,29 @@ export const MainContent = styled.section`
     flex: 33.33%;
   }
 
-  .images-column p img, span {
+  .images-column p img, span img {
     min-height: auto;
     max-width: 20rem;
   }
 
-  .rounded-image p img, span {
+  .rounded-image p img, span img {
     border-radius: 100%;
+  }
+
+  .images-column p span span {
+    display: none;
+  }
+
+  .rounded-image p span span {
+    display: none;
+  }  
+
+  .smallSize p span span {
+    display: none;
+  }
+
+  .averageSize p span span {
+    display: none;
   }
 
   figure, figcaption {
