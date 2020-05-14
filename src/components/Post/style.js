@@ -412,13 +412,13 @@ export const MainContent = styled.section`
     `}
   }  
 
-  .smallSize p img {
+  .smallSize p img, span {
     min-height: 10rem;
     max-height: 10rem; 
     max-width: auto;
   }
 
-  .averageSize p img {
+  .averageSize p img, span {
     min-height: auto;
     max-width: 45rem;
   }
@@ -432,12 +432,12 @@ export const MainContent = styled.section`
     flex: 33.33%;
   }
 
-  .images-column p img {
+  .images-column p img, span {
     min-height: auto;
     max-width: 20rem;
   }
 
-  .rounded-image p img {
+  .rounded-image p img, span {
     border-radius: 100%;
   }
 
