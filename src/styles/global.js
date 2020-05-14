@@ -1,4 +1,5 @@
-import { createGlobalStyle } from "styled-components"
+import { createGlobalStyle } from "styled-components";
+import media from "styled-media-query";
 
 const GlobalStyles = createGlobalStyle`
   /* http://meyerweb.com/eric/tools/css/reset/
@@ -127,6 +128,34 @@ const GlobalStyles = createGlobalStyle`
 
   .icon {
     width: 8rem;
+  }
+
+  .smallSize p img, span img {
+    min-height: 10rem;
+    max-height: 10rem;
+  }
+
+  .averageSize p img, span img {
+    min-height: auto;
+    max-width: 45rem;
+  }
+
+  .images-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .images-column {
+    flex: 33.33%;
+  }
+
+  .images-column p img, span img {
+    min-height: auto;
+    max-width: 20rem;
+  }
+
+  .rounded-image p img, span img {
+    border-radius: 100%;
   }
 
   /* Themes */

@@ -395,6 +395,8 @@ export const MainContent = styled.section`
   video, img, figure, iframe {
     display:flex;
     margin: auto;
+    width: auto;
+    background: transparent;
     margin-top: 1rem;
     margin-bottom: 1rem;
     min-height: 20rem;
@@ -410,35 +412,6 @@ export const MainContent = styled.section`
       background: blue;
       width: 20rem;
     `}
-  }  
-
-  .smallSize p img, span img {
-    min-height: 10rem;
-    max-height: 10rem; 
-    max-width: auto;
-  }
-
-  .averageSize p img, span img {
-    min-height: auto;
-    max-width: 45rem;
-  }
-
-  .images-row {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .images-column {
-    flex: 33.33%;
-  }
-
-  .images-column p img, span img {
-    min-height: auto;
-    max-width: 20rem;
-  }
-
-  .rounded-image p img, span img {
-    border-radius: 100%;
   }
 
   figure, figcaption {
