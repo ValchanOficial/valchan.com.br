@@ -130,12 +130,12 @@ const GlobalStyles = createGlobalStyle`
     width: 8rem;
   }
 
-  .smallSize p img, span img {
+  .smallSize p span img {
     min-height: 10rem;
     max-height: 10rem;
   }
 
-  .averageSize p img, span img {
+  .averageSize p span img {
     min-height: auto;
     max-width: 45rem;
   }
@@ -166,6 +166,19 @@ const GlobalStyles = createGlobalStyle`
     margin: auto !important;
     width: auto !important;
     position: relative !important;
+    background: transparent !important;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    min-height: 20rem;
+    max-height: 30rem;
+    
+    /* ${media.lessThan("large")`
+      width: 30rem;
+    `}
+
+    ${media.lessThan("medium")`
+      width: 20rem;
+    `} */
   }
 
   /* Themes */

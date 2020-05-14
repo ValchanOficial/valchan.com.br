@@ -136,11 +136,6 @@ export const MainContent = styled.section`
     }
   }
 
-  img {
-    display: block;
-    max-width: 100%;
-  }
-
   iframe {
     padding: 0 1.6rem 1.6rem;
     width: 100%;
@@ -392,7 +387,7 @@ export const MainContent = styled.section`
     `}
   }
 
-  video, img, figure, iframe {
+  video, figure, iframe {
     display:flex;
     margin: auto;
     width: auto;
@@ -400,19 +395,14 @@ export const MainContent = styled.section`
     margin-top: 1rem;
     margin-bottom: 1rem;
     min-height: 20rem;
-    max-width: 30rem;
-    max-height: 30rem;  
-
     ${media.lessThan("large")`
-      background: blue;
-      width: 25rem;
+      width: 30rem;
     `}
 
     ${media.lessThan("medium")`
-      background: blue;
       width: 20rem;
     `}
-  }
+  } */
 
   figure, figcaption {
     flex-direction: column;

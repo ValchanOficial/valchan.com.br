@@ -6,12 +6,6 @@ category: "git"
 image: '/assets/img/cover.png'
 ---
 
-<div class="smallSize">
-
-![Nyantocat](/assets/img/nyantocat.gif)
-
-</div>
-
 Realize o download do Git: <a href="https://git-scm.com" target="_blank" rel="nofollow, noreferrer,noopener,external">https://git-scm.com</a> e instale;
 
 -   Execute o GitBash;

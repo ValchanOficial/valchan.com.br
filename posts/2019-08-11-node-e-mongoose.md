@@ -6,12 +6,6 @@ category: "node"
 image: '/assets/img/cover.png'
 ---
 
-<div class="smallSize">
-
-![Octocat](/assets/img/octocat.gif)
-
-</div>
-
 Link: <a href="https://www.npmjs.com/package/mongoose-auto-increment" target="_blank" rel="nofollow, noreferrer,noopener,external">mongoose-auto-increment</a>
 
 **Necessário ter instalado:**
