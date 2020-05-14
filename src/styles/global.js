@@ -149,12 +149,12 @@ const GlobalStyles = createGlobalStyle`
     flex: 33.33%;
   }
 
-  .images-column p img, span img {
+  .images-column p span img {
     min-height: auto;
     max-width: 20rem;
   }
 
-  .rounded-image p img, span img {
+  .rounded-image p span img {
     border-radius: 100%;
   }
 
