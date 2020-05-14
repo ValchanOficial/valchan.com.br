@@ -392,7 +392,7 @@ export const MainContent = styled.section`
     `}
   }
 
-  video, img, figure{
+  video, img, figure, iframe {
     display:flex;
     margin: auto;
     margin-top: 1rem;
@@ -410,6 +410,35 @@ export const MainContent = styled.section`
       background: blue;
       width: 20rem;
     `}
+  }  
+
+  .smallSize p img {
+    min-height: 10rem;
+    max-height: 10rem; 
+    max-width: auto;
+  }
+
+  .averageSize p img {
+    min-height: auto;
+    max-width: 45rem;
+  }
+
+  .images-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .images-column {
+    flex: 33.33%;
+  }
+
+  .images-column p img {
+    min-height: auto;
+    max-width: 20rem;
+  }
+
+  .rounded-image p img {
+    border-radius: 100%;
   }
 
   figure, figcaption {

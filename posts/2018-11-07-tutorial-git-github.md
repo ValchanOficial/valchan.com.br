@@ -6,10 +6,13 @@ category: "git"
 image: '/assets/img/cover.png'
 ---
 
-<p class="alinhar"><img src="../assets/images-posts/github.png" alt="GitHub" width="300" height="250" /></p>
-## Configurando o Git com GitHub
+<div class="smallSize">
 
-Realize o download do Git: [https://git-scm.com/](https://git-scm.com/) e instale;
+![Nyantocat](/assets/img/nyantocat.gif)
+
+</div>
+
+Realize o download do Git: <a href="https://git-scm.com" target="_blank" rel="nofollow, noreferrer,noopener,external">https://git-scm.com</a> e instale;
 
 -   Execute o GitBash;
 -   Digite o comando como seu e-mail: ssh-keygen -t rsa -b 4096 -C “**seuEmailDoGitHub**“;
@@ -53,4 +56,4 @@ Comandos que você irá usar bastante:
 
 **DICA:**
 
--   [StackEdit](https://stackedit.io/): serve para editar o arquivo README.md.
+- <a href="https://stackedit.io" target="_blank" rel="nofollow, noreferrer,noopener,external">StackEdit</a>: serve para editar o arquivo README.md.

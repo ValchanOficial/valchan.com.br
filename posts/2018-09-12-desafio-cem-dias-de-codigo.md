@@ -6,21 +6,23 @@ category: "code"
 image: '/assets/img/cover.png'
 ---
 
-<p class="alinhar"><img src="../assets/images-posts/codelove.jpg" alt="love" width="305" height="292"/></p>
+![Love Code](/assets/img/codelove.jpg)
 
 O desafio não terminou ainda!
 
-Hoje já estou no 50º dia estudando a linguagem de programação Java.
+Estou estudando pela <a href="https://www.treinaweb.com.br" target="_blank" rel="nofollow, noreferrer,noopener,external">TreinaWeb</a> e <a href="https://www.udemy.com" target="_blank" rel="nofollow, noreferrer,noopener,external">Udemy</a>.
 
-Estou estudando pela [TreinaWeb](https://www.treinaweb.com.br/) e [Udemy](https://www.udemy.com/).
-
-<code>
-// CodeLikeAGirl <br>
-while(true) { <br>
-&nbsp;&nbsp;&nbsp;System.out.println(“I ❤ Code!“); <br>
+```java
+// CodeLikeAGirl
+while(true) {
+    System.out.println(“I ❤ Code!“);
 }
-</code>
+```
 
-Para quem quiser ver sobre o desafio: [link](https://inspiradanacomputacao.com/blog/aprenda-a-programar-com-desafio-100-dias-de-codigo).
+Para quem quiser ver sobre o desafio: <a href="https://inspiradanacomputacao.com/blog/aprenda-a-programar-com-desafio-100-dias-de-codigo" target="_blank" rel="nofollow, noreferrer,noopener,external">link</a>.
 
-Participe também do desafio! [#Inspiradanos100diasdecodigo](https://twitter.com/hashtag/InspiradaNos100DiasDeCodigo?src=hash) [#100DaysOfCode](https://twitter.com/hashtag/100DaysOfCode?src=hash) [#100DiasDeCodigo](https://twitter.com/hashtag/100DiasDeCodigo?src=hash) [#CodandoJuntas](https://twitter.com/hashtag/CodandoJuntas?src=hash)
+Participe também do desafio! 
+<a class="hashtag" href="https://twitter.com/hashtag/InspiradaNos100DiasDeCodigo" target="_blank" rel="noopener noreferrer">#Inspiradanos100diasdecodigo</a>
+<a class="hashtag" href="https://twitter.com/hashtag/100DaysOfCode" target="_blank" rel="noopener noreferrer">#100DaysOfCode</a>
+<a class="hashtag" href="https://twitter.com/hashtag/100DiasDeCodigo" target="_blank" rel="noopener noreferrer">#100DiasDeCodigo</a>
+<a class="hashtag" href="https://twitter.com/hashtag/CodandoJuntas" target="_blank" rel="noopener noreferrer">#CodandoJuntas</a>

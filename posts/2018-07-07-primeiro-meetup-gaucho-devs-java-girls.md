@@ -6,69 +6,93 @@ category: "java"
 image: '/assets/img/cover.png'
 ---
 
-Hoje ocorreu o primeiro encontro de desenvolvedoras Java aqui no RS o [Devs Java Girl](https://www.meetup.com/pt-BR/Devs-Java-Girl/)!
+Hoje aconteceu o primeiro encontro de desenvolvedoras Java aqui no Rio Grande do Sul o <a href="https://www.meetup.com/pt-BR/Devs-Java-Girl" target="_blank" rel="nofollow, noreferrer,noopener,external">Devs JavaGirl</a>!
 
-<p class="alinhar"><img class="tamanho" src="../assets/images-posts/1-DevsJavaGirls/DevsJavaGirl.jpg" alt="DevsJavaGirl"/></p>
+<div class="smallSize">
 
-Nele ocorreram as palestras:
+![Devs JavaGirl](/assets/img/DevsJavaGirlLogo.png)
 
--   Paula Santana – Abertura – Quem quer ser uma Devs JavaGirl?
--   Karina Kohl – Minha carreira na TI e highlights do ICSE!
--   Savanna Denega – Spring boot e suas maravilhas!
--   Luine Gallois – Java Funcional, muito prazer!
+</div>
+
+Sobre as Devs JavaGirl:  
+*alguns textos retirados do site.
+
+**O que fazemos**
+
+Somos um grupo de mulheres que desenvolvem em Java e desejam aperfeiçoar skills técnicos, melhorar sua segurança com a tecnologia.
+Somos mulheres que estão aprendendo Java , somos mulheres que estão iniciando a carreira ou já estamos seniores nesta área.
+Sabemos que podemos aprender e ensinar e que juntas somos mais **fortes**!
+
+
+<div class="averageSize">
+
+![Devs JavaGirl](/assets/img/DevsJavaGirlMeetup.jpg)
+
+</div>
+
+Palestras que ocorreram no evento:
+
+-   **Paula Santana – Abertura – Quem quer ser uma Devs JavaGirl?**
+-   **Karina Kohl – Minha carreira na TI e highlights do ICSE!**
+-   **Savanna Denega – Spring boot e suas maravilhas!**
+-   **Luine Gallois – Java Funcional, muito prazer!**
+
+<div class="averageSize">
+
+![Devs JavaGirl](/assets/img/DevsJavaGirlMeetup1.jpg)
+
+</div>
 
 Agradecimento aos que fizeram esse encontro se tornar possível:
 
--   [CWI](https://www.cwi.com.br/);
--   [Sou Java](https://soujava.org.br/);
--   [Desprograme](http://desprograme.com.br/pt/);
--   [FemmeIT](https://femmeit.com.br/);
--   [Red Hat](https://www.redhat.com/en);
--   [TDC](http://www.thedevelopersconference.com.br/).
+- <a href="https://www.cwi.com.br" target="_blank" rel="nofollow, noreferrer,noopener,external">CWI</a>;
+- <a href="https://soujava.org.br" target="_blank" rel="nofollow, noreferrer,noopener,external">Sou Java</a>;
+- <a href="http://desprograme.com.br/pt/" target="_blank" rel="nofollow, noreferrer,noopener,external">Desprograme</a>;
+- <a href="https://femmeit.com.br" target="_blank" rel="nofollow, noreferrer,noopener,external">FemmeIT</a>;
+- <a href="https://www.redhat.com/en" target="_blank" rel="nofollow, noreferrer,noopener,external">Red Hat</a>;
+- <a href="http://www.thedevelopersconference.com.br" target="_blank" rel="nofollow, noreferrer,noopener,external">TDC</a>.
 
+<div class="images-row">
+  <div class="images-column">
+
+  ![Devs JavaGirl](/assets/img/DevsJavaGirlMeetup3.jpg)
+
+  </div>
+  <div class="images-column">
+
+  ![Devs JavaGirl](/assets/img/DevsJavaGirlMeetup4.jpg)
+
+  </div>
+  <div class="images-column">
+
+  ![Devs JavaGirl](/assets/img/DevsJavaGirlMeetup2.jpg)
+
+  </div>
+  <div class="images-column">
+
+  ![Devs JavaGirl](/assets/img/DevsJavaGirlMeetup5.jpg)
+
+  </div>
+</div>
+
+Redes sociais:
+
+- <a href="https://github.com/devs-javagirl" target="_blank" rel="nofollow, noreferrer,noopener,external">Github</a>;
+- <a href="https://www.linkedin.com/groups/8648088" target="_blank" rel="nofollow, noreferrer,noopener,external">LinkeIn</a>;
+- <a href="https://devsjavagirl.slack.com" target="_blank" rel="nofollow, noreferrer,noopener,external">Slack</a>;
+- <a href="https://www.meetup.com/Devs-Java-Girl" target="_blank" rel="nofollow, noreferrer,noopener,external">Meetup</a>;
+- <a href="https://www.youtube.com/channel/UCgoGOLleKmM9ikxQhGhhOhQ" target="_blank" rel="nofollow, noreferrer,noopener,external">Youtube</a>;
+- <a href="https://twitter.com/devsjavagirl" target="_blank" rel="nofollow, noreferrer,noopener,external">Twitter</a>;
+- <a href="https://medium.com/devs-javagirl" target="_blank" rel="nofollow, noreferrer,noopener,external">Medium</a>;
+- <a href="https://t.me/devsjavagirls" target="_blank" rel="nofollow, noreferrer,noopener,external">Telegram</a>; 
+
+<div class="averageSize">
+
+![Devs JavaGirl](/assets/img/DevsJavaGirlMeetup6.jpg)
+
+</div>
 
 <blockquote>  
   <p>Porque juntas, vamos mais longe!</p>
   <cite>Devs JavaGirl</cite>
 </blockquote>
-
-<div class="alinhar">
-  <div id="Indicators" class="carousel slide tamanho" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#Indicators" data-slide-to="0" class="active"></li>
-      <li data-target="#Indicators" data-slide-to="1"></li>
-      <li data-target="#Indicators" data-slide-to="2"></li>
-      <li data-target="#Indicators" data-slide-to="3"></li>
-      <li data-target="#Indicators" data-slide-to="4"></li>
-      <li data-target="#Indicators" data-slide-to="5"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img class="tamanhoCarrousel" src="../assets/images-posts/1-DevsJavaGirls/Fotos.jpg" alt="Foto DevsJavaGirl">
-      </div>
-      <div class="carousel-item">
-        <img class="tamanhoCarrousel" src="../assets/images-posts/1-DevsJavaGirls/Fotos (2).jpg" alt="Foto DevsJavaGirl">
-      </div>
-      <div class="carousel-item">
-        <img class="tamanhoCarrousel" src="../assets/images-posts/1-DevsJavaGirls/Fotos (3).jpg" alt="Foto DevsJavaGirl">
-      </div>
-      <div class="carousel-item">
-        <img class="tamanhoCarrousel" src="../assets/images-posts/1-DevsJavaGirls/Fotos (4).jpg" alt="Foto DevsJavaGirl">
-      </div>
-      <div class="carousel-item">
-        <img class="tamanhoCarrousel" src="../assets/images-posts/1-DevsJavaGirls/Fotos (5).jpg" alt="Foto DevsJavaGirl">
-      </div>
-      <div class="carousel-item">
-        <img class="tamanhoCarrousel" src="../assets/images-posts/1-DevsJavaGirls/Fotos (6).jpg" alt="Foto DevsJavaGirl">
-      </div>
-    </div>
-    <a class="carousel-control-prev" href="#Indicators" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#Indicators" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
-</div>

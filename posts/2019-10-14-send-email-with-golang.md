@@ -6,10 +6,6 @@ category: "golang"
 image: '/assets/img/cover.png'
 ---
 
-<p class="alinhar"><img src="../assets/images/octocat.gif" alt="Octocat" title="Octocat" width="100" height="100"></p>
-
-Enviando email via SMTP do Google com Golang(GO)
-
 **Necessário ter instalado:**
 - <a href="https://golang.org/" target="_blank" rel="nofollow, noreferrer,noopener,external">Go</a>
 
@@ -18,9 +14,15 @@ Enviando email via SMTP do Google com Golang(GO)
 2. Necessário ter uma conta gmail para testar a aplicação(se você não tiver, <a href="https://shorturl.at/bfiQ3" target="_blank" rel="nofollow, noreferrer,noopener,external">crie</a> uma para testar);
 3. Depois adicione os dados no código execute o comando **go run send_email.go** para executar a aplicação.
 
+<div class="smallSize">
+
+![Gopher](/assets/img/Gopher.png)
+
+</div>
+
 **Código:**
 
-```
+```js
 package main
 
 import (

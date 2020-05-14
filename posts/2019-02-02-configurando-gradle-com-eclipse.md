@@ -7,10 +7,10 @@ image: '/assets/img/cover.png'
 ---
 
 **Primeiramente vamos baixar os softwares necessários:**
-- [Gradle](https://gradle.org/releases/). //Versão atual: v5.1.1
-- [Eclipse IDE](https://www.eclipse.org/);
-- [Java](https://www.oracle.com/technetwork/java/javase/downloads/index.html); //Versão atual: 11.0.2
-- [JRE]() //Versão 8u201
+- <a href="https://gradle.org/releases/" target="_blank" rel="nofollow, noreferrer,noopener,external">Gradle</a>; //Versão atual: v5.1.1
+- <a href="https://www.eclipse.org/" target="_blank" rel="nofollow, noreferrer,noopener,external">Eclipse IDE</a>;
+- <a href="https://www.oracle.com/technetwork/java/javase/downloads/index.html" target="_blank" rel="nofollow, noreferrer,noopener,external">Java</a>; //Versão atual: 11.0.2
+- <a href="https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html" target="_blank" rel="nofollow, noreferrer,noopener,external">JRE</a>. //Versão 8u201
 
 **Preparação do ambiente - Passo a Passo:**
 
@@ -34,42 +34,54 @@ image: '/assets/img/cover.png'
 Vá em "File" > "New" > "Other..";
 Em Wizards digite "Gradle", selecione "Gradle Project" e "Next >";
 
-<p class="alinhar"><img class="tamanho" src="../assets/images-posts/Gradle e Eclipse/gradleProject.png" alt="CERTIFICADO S2B"/></p>
+![Gradle](/assets/img/gradleProject.png)
 
 Em Project name utilize um nome de sua escolha, Ex.: Teste e clique em "Next >" e após clique em "Finish";
 
 Seu projeto deve ficar assim:
 
-<p class="alinhar"><img class="tamanho" src="../assets/images-posts/Gradle e Eclipse/gradleProject1.png" alt="CERTIFICADO S2B"/></p>
+<div class="averageSize">
+
+![Gradle Project](/assets/img/gradleProject1.png)
+
+</div>
 
 Adicione dentro do build.gradle abaixo plugin do java-library: 
 "**apply plugin: 'eclipse'** ", salve para que quando você adicionar alguma dependency no **build.gradle**, sempre execute o comando **gradle eclipse** no cmd e dê um Refresh no projeto para ter acesso as bibliotecas.
 
-<p class="alinhar"><img class="tamanho" src="../assets/images-posts/Gradle e Eclipse/gradleProject2.png" alt="CERTIFICADO S2B"/></p>
+<div class="averageSize">
+
+![Gradle Project](/assets/img/gradleProject2.png)
+
+</div>
 
 **DOIS ERROS COMUNS:**
 
 1 -Erro com a versão do Java: corrija em seu build.gradle:
 
-<code>
-apply plugin: 'java' <br>
-apply plugin: 'eclipse' <br>
-sourceCompatibility = 1.8 <br>
-targetCompatibility = 1.8 <br><br>
-repositories { <br>
-&nbsp;&nbsp;&nbsp;jcenter() <br>
-} <br>
-dependencies { <br>
-&nbsp;&nbsp;&nbsp;testImplementation 'junit:junit:4.12' <br>
+```java
+apply plugin: 'java'
+apply plugin: 'eclipse'
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+repositories {
+    jcenter()
 }
-</code>
+dependencies {
+    testImplementation 'junit:junit:4.12'
+}
+```
 
 Não se esqueça de ir no cmd e digitar **gradle eclipse** e no seu projeto dar um **Refresh**
 
 2 - Erro de duplicidade da pasta main e test: Clique com o botão direito sobre o projeto > em "Build Path" > "Configure Build Path.." e delete as pastas repetidas que não contenham nada dentro e clique em "Apply and Close";
-<br>
-<p class="alinhar"><img class="tamanho" src="../assets/images-posts/Gradle e Eclipse/gradleProject3.png" alt="CERTIFICADO S2B"/></p>
 
-**DICA:** Você pode encontrar as bibliotecas que você precisa em [MavenRepository](https://mvnrepository.com/), selecione a biblioteca que você deseja utilizar e na aba de **Gradle** você encontrará a depency para o build.gradle.
+<div class="averageSize">
+
+![Gradle Project](/assets/img/gradleProject3.png)
+
+</div>
+
+**DICA:** Você pode encontrar as bibliotecas que você precisa em <a href="https://mvnrepository.com/" target="_blank" rel="nofollow, noreferrer,noopener,external">MavenRepository</a>, selecione a biblioteca que você deseja utilizar e na aba de **Gradle** você encontrará a depency para o build.gradle.
 
 **Pronto!** Você já pode começar a utilizar o gradle! :D

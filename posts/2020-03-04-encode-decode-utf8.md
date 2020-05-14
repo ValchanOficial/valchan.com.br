@@ -8,7 +8,6 @@ image: '/assets/img/cover.png'
 
 ***1º modo:***
 
-
 ```javascript
 
   function utf8Decode(utf8String) {
@@ -43,21 +42,17 @@ image: '/assets/img/cover.png'
   }
 ```
 
-
 ***2º modo:***
 
-
 ```javascript
-function encode_utf8(s) {
-  return unescape(encodeURIComponent(s));
-}
-
-function decode_utf8(s) {
-  return decodeURIComponent(escape(s));
-}
+const encodeUTF8 = (s) => unescape(encodeURIComponent(s));
+const decodeUTF8  = (s) => decodeURIComponent(escape(s));
+console.log(encodeUTF8('Açaí')) // "AÃ§aÃ­"
+console.log(decodeUTF8("AÃ§aÃ­")) // "Açaí"
 ```
 
-- Fontes:<br>
-http://ecmanaut.blogspot.com/2006/07/encoding-decoding-utf8-in-javascript.html<br>
-https://gist.github.com/chrisveness/bcb00eb717e6382c5608<br>
+***Fontes:***
 
+- <a href="http://ecmanaut.blogspot.com/2006/07/encoding-decoding-utf8-in-javascript.html" target="_blank" rel="noopener noreferrer">ecmanaut</a>
+
+- <a href="https://gist.github.com/chrisveness/bcb00eb717e6382c5608" target="_blank" rel="noopener noreferrer">utf8-regex.js</a>

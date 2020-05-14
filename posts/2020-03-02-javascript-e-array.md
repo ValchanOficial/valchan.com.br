@@ -194,8 +194,13 @@ array.forEach(elemento => console.log(elemento));
 // "b"
 // "c"
 ```
-**Fontes:**
-- https://youtu.be/uFJkTJhDSdA
-- https://developer.mozilla.org/en-US/docs/Web/JavaScript
-- https://stackoverflow.com/a/45784629/11842937
-- https://stackoverflow.com/questions/47841899/js-map-return-object
+
+***Fontes:***
+
+- <a href="https://youtu.be/uFJkTJhDSdA" target="_blank" rel="noopener noreferrer">Tulio Calil</a>
+
+- <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer">MDN Web Docs</a>
+
+- <a href="https://stackoverflow.com/a/45784629/11842937" target="_blank" rel="noopener noreferrer">Stack Overflow</a>
+
+- <a href="https://stackoverflow.com/questions/47841899/js-map-return-object" target="_blank" rel="noopener noreferrer">Stack Overflow</a>

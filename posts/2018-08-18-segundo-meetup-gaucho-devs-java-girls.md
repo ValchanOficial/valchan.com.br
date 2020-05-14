@@ -6,28 +6,37 @@ category: "java"
 image: '/assets/img/cover.png'
 ---
 
-> ### **Sou mulher, sou dev, sou Java.**
+<div class="smallSize">
 
-<p class="alinhar"><img src="../assets/images-posts/2-DevsJavaGirls/devs-javagirl.jpg" alt="DevsJavaGirl" width="250" height="250" /></p>
+![Devs JavaGirl](/assets/img/DevsJavaGirlLogo.png)
 
-Hoje ocorreu o segundo encontro [Devs JavaGirl](https://www.meetup.com/pt-BR/Devs-Java-Girl/) na DBServer dentro do TECNOPUC.  
+</div>
+
+<blockquote>  
+  <p>Sou mulher, sou dev, sou Java.</p>
+  <cite>Devs JavaGirl</cite>
+</blockquote>
+
+Hoje ocorreu o segundo encontro <a href="https://www.meetup.com/pt-BR/Devs-Java-Girl/" target="_blank" rel="nofollow, noreferrer,noopener,external">Devs JavaGirl</a> na DBServer dentro do TECNOPUC.  
 Estamos cada vez mais compartilhando conhecimento e aumentando a rede da comunidade!
 
-Página do facebook: [Facebook](https://www.facebook.com/devsjavagirl/);
+Página do facebook: <a href="https://www.facebook.com/devsjavagirl" target="_blank" rel="nofollow, noreferrer,noopener,external">Facebook</a>;
 
-Grupo no facebook: [Grupo Devs JavaGirl](https://www.facebook.com/groups/966816456805899) – **Somos +600!**
+![GitHub](/assets/img/DevsJavaGirl.jpg)
+
+Grupo no facebook: <a href="https://www.facebook.com/groups/966816456805899" target="_blank" rel="nofollow, noreferrer,noopener,external">Grupo Devs JavaGirl</a> – **Somos +1900!**
 
 Programação:  
-Andreza Rocha – Carreira e Comunidades  
-Catarina Nogueira – Desbravando estruturas funcionais em Java
+**Andreza Rocha – Carreira e Comunidades**
+**Catarina Nogueira – Desbravando estruturas funcionais em Java**
 
 Empresas que apoiaram o evento:  
-- [DBServer](http://www.dbserver.com.br/)  
-- [Softplan](https://www.softplan.com.br/)
+- <a href="http://www.dbserver.com.br/" target="_blank" rel="nofollow, noreferrer,noopener,external">DBServer</a> 
+- <a href="https://www.softplan.com.br/" target="_blank" rel="nofollow, noreferrer,noopener,external">Softplan</a>
 
-<p class="quote">“Porque juntas, vamos mais longe!”</p>
+<blockquote>  
+  <p>Porque juntas, vamos mais longe!</p>
+  <cite>Devs JavaGirl</cite>
+</blockquote>
 
-<p class="alinhar">
-	<img class="agruparImg" src="../assets/images-posts/2-DevsJavaGirls/dbserver-devsjavagirl.jpeg" alt="DevsJavaGirl"/>
-	<img class="agruparImg" src="../assets/images-posts/2-DevsJavaGirls/Foto.jpg" alt="DevsJavaGirl"/>
-</p><br>
+![GitHub](/assets/img/DevsJavaGirlDBServer.jpeg)

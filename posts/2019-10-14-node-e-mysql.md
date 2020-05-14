@@ -1,17 +1,13 @@
 ﻿---
 date: 2019-10-14
-title: "Node.JS + MySQL"
-description: "Pequeno CRUD em Node.JS com MySQL."
+title: "Node.bash + MySQL"
+description: "Pequeno CRUD em Node.bash com MySQL."
 category: "node"
 image: '/assets/img/cover.png'
 ---
 
-<p class="alinhar"><img src="../assets/images/octocat.gif" alt="Octocat" title="Octocat" width="100" height="100"></p>
-
-Pequeno CRUD em Node.JS com MySQL
-
 **Necessário ter instalado:**
-- <a href="https://nodejs.org/en/" target="_blank" rel="nofollow, noreferrer,noopener,external">Node e NPM</a>
+- <a href="https://nodebash.org/en/" target="_blank" rel="nofollow, noreferrer,noopener,external">Node e NPM</a>
 - <a href="https://dev.mysql.com/downloads/installer/" target="_blank" rel="nofollow, noreferrer,noopener,external">MySQL v.8.0.17</a>
 - <a href="https://www.getpostman.com/" target="_blank" rel="nofollow, noreferrer,noopener,external">Postman</a> //Não é necessário, mas serve para facilitar na hora de fazer as requisições
 
@@ -25,38 +21,42 @@ Pequeno CRUD em Node.JS com MySQL
 
 **Rotas:**
 
-**/find** - Retorna os dados de todos usuários cadastrados. Exemplo:<br>
-<code>
-        [{<br>
-            &thinsp;"iduser": 0,<br>
-            &thinsp;"name": "Valchan",<br>
-            &thinsp;"email": "val@valchan.com.br",<br>
-        },<br>
-        {<br>
-            &thinsp; "iduser": 1,<br>
-            &thinsp; "name": "Valéria",<br>
-            &thinsp; "email": "valchan@valchan.com.br",<br>
-        }]<br>
-</code><br>
-**/find/:userId** - Retorna os dados de um usuário. Exemplo:<br>
-<code>
-        {<br>
-            &thinsp; "iduser": 1,<br>
-            &thinsp; "name": "Valéria",<br>
-            &thinsp; "email": "valchan@valchan.com.br",<br>
-        }<br>
-</code><br>
-**/create** - Cria um usuário. Exemplo:<br>
-<code>
-        {<br>
-            &thinsp; "name": "Valéria",<br>
-            &thinsp; "email": "valchan@valchan.com.br"<br>
-        }<br>
-</code><br>
-**/update/:userId** - Atualiza os dados de um usuário. Exemplo resposta 200:<br>
-<code>{<br> &thinsp; "message": "User successfully updated! ID: 12"<br> }</code><br>
+**/find** - Retorna os dados de todos usuários cadastrados. Exemplo:
+```bash
+        [{
+            "iduser": 0,
+            "name": "Valchan",
+            "email": "val@valchan.com.br",
+        },
+        {
+             "iduser": 1,
+             "name": "Valéria",
+             "email": "valchan@valchan.com.br",
+        }]
+```
+**/find/:userId** - Retorna os dados de um usuário. Exemplo:
+```bash
+        {
+             "iduser": 1,
+             "name": "Valéria",
+             "email": "valchan@valchan.com.br",
+        }
+```
+**/create** - Cria um usuário. Exemplo:
+```bash
+        {
+             "name": "Valéria",
+             "email": "valchan@valchan.com.br"
+        }
+```
+**/update/:userId** - Atualiza os dados de um usuário. Exemplo resposta 200:
+```bash
+{ "message": "User successfully updated! ID: 12" }
+```
 **/delete/:userId** - Deleta um usuário. 
-Exemplo resposta 200:<br>
-<code>{<br> &thinsp; "message": "User successfully deleted!"<br> } </code><br>
+Exemplo resposta 200:
+```bash
+{  "message": "User successfully deleted!" } 
+```
 
 **Link para o código: <a href="https://github.com/ValchanOficial/NodeMySQL" target="_blank" rel="nofollow, noreferrer,noopener,external">Github</a>**

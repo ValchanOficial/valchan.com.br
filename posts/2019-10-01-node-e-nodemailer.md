@@ -6,10 +6,7 @@ category: "node"
 image: '/assets/img/cover.png'
 ---
 
-<p class="alinhar"><img src="../assets/images/octocat.gif" alt="Octocat" title="Octocat" width="100" height="100"></p>
-
-
-> Utilizando a dependência <a href="https://nodemailer.com/about/" target="_blank" rel="nofollow, noreferrer,noopener,external">Nodemailer</a> para enviar e-mail
+Utilizando a dependência <a href="https://nodemailer.com/about/" target="_blank" rel="nofollow, noreferrer,noopener,external">Nodemailer</a> para enviar e-mail
 
 - Para testar crie uma conta gmail e <a href="https://myaccount.google.com/u/5/lesssecureapps" target="_blank" rel="nofollow, noreferrer,noopener,external">permita</a> o acesso
 
@@ -26,7 +23,7 @@ image: '/assets/img/cover.png'
 ```
 - Código:
 
-```javascript
+```js
 	const nodemailer = require('nodemailer');
 	function sendEmail() {
 		return new Promise((resolve, reject) => {

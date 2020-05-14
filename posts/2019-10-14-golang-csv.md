@@ -6,10 +6,6 @@ category: "golang"
 image: '/assets/img/cover.png'
 ---
 
-<p class="alinhar"><img src="../assets/images/octocat.gif" alt="Octocat" title="Octocat" width="100" height="100"></p>
-
-Lendo arquivo CSV com Golang
-
 **Necessário ter instalado:**
 - <a href="https://golang.org/" target="_blank" rel="nofollow, noreferrer,noopener,external">Go</a>
 
@@ -17,9 +13,16 @@ Lendo arquivo CSV com Golang
 1. <a href="https://github.com/ValchanOficial/GoCSV/archive/master.zip" target="_blank" rel="nofollow, noreferrer,noopener,external">Projeto</a> e descompacte;
 2. Depois execute o comando **go run read_csv.go** para executar a aplicação.
 
+
+<div class="smallSize">
+
+![Gopher](/assets/img/Gopher.png)
+
+</div>
+
 **Código:**
 
-```
+```js
 package main
 
 import (
