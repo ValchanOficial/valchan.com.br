@@ -12,12 +12,6 @@ Então eu pensei comigo, deve ter outro jeito de reescrever esse código e mante
 
 // Off: Engraçado que eu utilizava Object Literals em outras situações, mas nunca tinha pensado em utilizar com switch/ if-else
 
-<div class="smallSize">
-
-![Javascript](/assets/img/JavascriptLogo.png)
-
-</div>
-
 Situação utilizando o switch:
 
 ```js

@@ -441,22 +441,6 @@ export const MainContent = styled.section`
     border-radius: 100%;
   }
 
-  .images-column p span span {
-    display: none;
-  }
-
-  .rounded-image p span span {
-    display: none;
-  }  
-
-  .smallSize p span span {
-    display: none;
-  }
-
-  .averageSize p span span {
-    display: none;
-  }
-
   figure, figcaption {
     flex-direction: column;
     align-content: center;
