@@ -137,7 +137,6 @@ const GlobalStyles = createGlobalStyle`
 
   .averageSize p span img {
     min-height: auto;
-    max-width: 45rem;
   }
 
   .images-row {
@@ -163,22 +162,12 @@ const GlobalStyles = createGlobalStyle`
   }
 
   .gatsby-resp-image-image {
-    margin: auto !important;
     width: auto !important;
     position: relative !important;
     background: transparent !important;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 1rem !important;
     min-height: 20rem;
     max-height: 30rem;
-    
-    /* ${media.lessThan("large")`
-      width: 30rem;
-    `}
-
-    ${media.lessThan("medium")`
-      width: 20rem;
-    `} */
   }
 
   /* Themes */
