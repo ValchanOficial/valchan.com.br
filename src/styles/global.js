@@ -158,6 +158,16 @@ const GlobalStyles = createGlobalStyle`
     border-radius: 100%;
   }
 
+  .gatsby-resp-image-background-image {
+    display: none !important;
+  }
+
+  .gatsby-resp-image-image {
+    margin: auto !important;
+    width: auto !important;
+    position: relative !important;
+  }
+
   /* Themes */
 
   body.dark {
