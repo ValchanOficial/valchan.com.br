@@ -133,6 +133,7 @@ const GlobalStyles = createGlobalStyle`
   .smallSize p span img {
     min-height: 10rem;
     max-height: 10rem;
+    margin: auto !important;
   }
 
   .averageSize p span img {
