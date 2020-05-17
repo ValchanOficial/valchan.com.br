@@ -158,6 +158,12 @@ const GlobalStyles = createGlobalStyle`
     border-radius: 100%;
   }
 
+  .gatsby-resp-image-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+
   .gatsby-resp-image-background-image {
     display: none !important;
   }
