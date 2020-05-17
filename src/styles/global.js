@@ -159,9 +159,9 @@ const GlobalStyles = createGlobalStyle`
   }
 
   .gatsby-resp-image-wrapper {
-    display: flex;
-    justify-content: center;
-    margin: auto;
+    display: flex !important;;
+    justify-content: center !important;;
+    margin: auto !important;
   }
 
   .gatsby-resp-image-background-image {
