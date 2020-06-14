@@ -1,7 +1,7 @@
 ﻿---
 date: 2019-10-14
-title: "Node.bash + MySQL"
-description: "Pequeno CRUD em Node.bash com MySQL."
+title: "Node.JS + MySQL"
+description: "Pequeno CRUD em Node.JS com MySQL."
 category: "node"
 image: '/assets/img/cover.png'
 ---
