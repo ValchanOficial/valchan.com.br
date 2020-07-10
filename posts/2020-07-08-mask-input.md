@@ -31,7 +31,7 @@ const maskPhone = value => {
 
 // 00000-000
 const maskCEP = value => {
-  return value.replace(/\D/g, "").replace(/^(\d{5})(\d{3})(\d)/, "$1-$2");
+  return value.replace(/\D/g, "").replace(/^(\d{5})(\d{3})+?$/, "$1-$2");
 };
 
 // 00/00/0000
@@ -57,5 +57,13 @@ const maskOnlyNumbers = value => {
 Caso você queira ver um exemplo:
 
 Link: <a href="https://codesandbox.io/s/react-input-mask-go75h" target="_blank" rel="noopener noreferrer">React Input Mask</a>
+
+<iframe
+     src="https://codesandbox.io/embed/react-input-mask-go75h?fontsize=14&hidenavigation=1&theme=dark"
+     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+     title="React Input Mask"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-autoplay allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+></iframe>
 
 Caso você tenha visto algum ponto que possa ser melhorado ou feito diferente e queira compartilhar, só comentar abaixo :3
