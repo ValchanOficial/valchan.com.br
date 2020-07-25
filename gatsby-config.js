@@ -6,7 +6,7 @@ module.exports = {
   siteMetadata: {
     title: `Valchan`,
     position: `Developer`,
-    description: `A technology-loving developer who constantly seeks knowledge. I intend to become a Full-Stack developer!`,
+    description: `A technology-loving developer who constantly seeks knowledge ♡`,
     author: `Valéria Padilha de Vargas`,
     siteUrl: `https://valchan.com.br`
   },
