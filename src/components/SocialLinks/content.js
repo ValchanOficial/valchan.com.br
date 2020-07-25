@@ -25,6 +25,11 @@ const links = [
         label: 'Instagram',
         icon: 'Instagram',
         url: `https://instagram.com/${handle}`
+    },
+    {
+        label: 'MailSend',
+        icon: 'MailSend',
+        url: `mailto:valeria_padilha@yahoo.com.br?Subject=Contato&body=Ola%20Valchan`
     }
 ]
 
