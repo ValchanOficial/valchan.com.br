@@ -21,46 +21,36 @@ export const RecommendedLink = styled(Link)`
     align-items: center;
     color: var(--color);
     display: flex;
-    padding: 2.5rem;
+    padding: 2.8rem;
     text-decoration: none;
-    transition: background 0.5s;
+    transition: background-color 0.5s;
     width: 50%;
     margin: 0.2rem;
 
     &:hover {
-        background: var(--recommendedPost);
+        background-color: var(--recommendedPost);
     }
 
     &.previous {
         border-radius: 1rem;
-        border: 1px solid var(--border);
-        transition: border-left 300ms ease-in-out, padding-left 300ms ease-in-out;
-
-        &:hover {
-            padding-left: 0.6rem;
-            border-left: 0.5rem solid var(--color);
-        }
-    }
+        transition:  border-bottom 300ms ease-in-out;
+    } 
 
     &.next {
         border-radius: 1rem;
-        border: 1px solid var(--border);
         justify-content: flex-end;
-        transition: border-right 300ms ease-in-out, padding-right 300ms ease-in-out;
-
-        &:hover {
-            padding-right: 0.6rem;
-            border-right: 0.5rem solid var(--color);
-        }
+        transition: border-bottom 300ms ease-in-out;
     }
 
     &.previous:before {
-        content: "\\2190";
+        content: "⯇";
+        font-size: 25px;
         margin-right: 0.5rem;
     }
     
     &.next:after {
-        content: "\\2192";
+        content: "⯈";
+        font-size: 25px;
         margin-left: 0.5rem;
     }
 `

@@ -1,27 +1,20 @@
 import React, {useState, useEffect} from 'react';
 import scrollTo from 'gatsby-plugin-smoothscroll';
 
-import { HomeCircle as Home, Grid } from '@styled-icons/boxicons-solid/';
+import { HomeCircle as Home } from '@styled-icons/boxicons-solid/';
 import { SearchAlt as Search } from '@styled-icons/boxicons-regular/SearchAlt';
 import { Lightbulb as Light } from "@styled-icons/remix-fill/Lightbulb";
 import { ArrowUpCircle as ArrowUp } from '@styled-icons/remix-line/ArrowUpCircle';
-import { ThList as List } from "@styled-icons/typicons/ThList";
 
 import * as S from './style';
 
 const MenuBar = () => {
     const [theme, setTheme] = useState('light');
-    const [display, setDisplay] = useState('list');
-
     const isDarkMode = theme === 'dark';
-    const isListMode = display === 'list';
 
     useEffect(() => {
         setTheme(window.__theme);
-        setDisplay(window.__display);
-
         window.__onThemeChange = () => setTheme(window.__theme);
-        window.__onDisplayChange = () => setDisplay(window.__display);
     }, []);
 
     return (
@@ -48,16 +41,6 @@ const MenuBar = () => {
                     className={theme}
                 >
                     <Light />
-                </S.MenuBarIcon>
-
-                <S.MenuBarIcon 
-                    title='Mudar visualização'
-                    onClick={() => {
-                        window.__setPreferredDisplay(isListMode ? "grid" : "list")
-                    }}
-                    className="display"
-                >
-                    {isListMode ? <Grid /> : <List />}
                 </S.MenuBarIcon>
                 
                 <S.MenuBarIcon 
