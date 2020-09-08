@@ -24,7 +24,16 @@ Eu continuei procurando emprego na área de Desenvolvimento, em 2018 eu tinha me
 
 Em Julho de 2019, curiosamente um dia depois do meu aniversário eu fui chamada para trabalhar como desenvolvedora júnior trainee, eu tinha ficado muito feliz pela oportunidade que me foi dada, trabalhar com desenvolvimento era tudo que eu sempre busquei! Infelizmente com o a chegada da pandemia no Brasil as coisas começaram a mudar e o desequilíbrio entre a vida pessoal e a profissional, entre outras coisas me fizeram solicitar demissão. Bastante infeliz, mas acontece.
 
-Sigo buscando um lugar onde meu esforço seja reconhecido.
+<blockquote>  
+  <p>Uma das coisas mais difíceis da vida para aprender é quais pontes atravessar e quais pontes queimar.</p>
+  <cite>Oprah Winfrey</cite>
+</blockquote>
+
+Percebi que não era apenas comigo, percebi que muitas pessoas já passaram e ainda passam por isso de estar em lugares onde não são valorizadas.. é aquela frase: "O maior erro de um gestor é tratar o bom funcionário e o ruim da mesma forma. O bom desanima e o ruim não melhora." - Ducatti. 
+
+Meu pensamento quando ocorreu isso comigo foi: "Me perderam!". Participei de alguns processos seletivos, a <a href="https://www.facebook.com/paulasanrosa13" target="_blank" rel="noopener noreferrer">Paula Santana</a> me ajudou a refazer meu currículo levantando muitos pontos de melhoria que eu podia fazer, obrigada 💙, recebi feedbacks muito legais de algumas empresas(RH humanizado é importante!), e logo fui aprovada em quatro deles. 
+
+A afinidade me influênciou bastante, decidi seguir junto de quem conheceu as mesmas dores que as minhas, junto de um lugar onde eu vi a união na equipe, onde eu posso ser eu mesma, posso trazer ideias e sou ouvida, onde eu tenho a oportunidade de aprender coisas novas e contruibuir com o que sei. Eu não gosto de comparações, mas deu para perceber a diferença dos ambientes, eu não vi superficialidade nas palavras que me foram ditas, sempre gostei de sinceridade e humildade.
 
 Eu sempre digo para quem está procurando, <b>NÃO desista</b>, você vai passar por muitas situações injustas, muitos não irão te reconhecer, muitos irão dizer que você teve "sorte"(como eu odeio essa frase), mas não desista, por mais que existam pessoas que derrubam as outras, existem também pessoas que te ajudam a levantar. Eu sou muita grata por ter tido/ter essas pessoas na minha vida. Mais uma coisa que eu digo: <b>NUNCA pare de estudar!</b>
 
