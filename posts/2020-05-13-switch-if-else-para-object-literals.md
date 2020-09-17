@@ -51,7 +51,7 @@ const fruta = (texto) => {
   }else if(texto.includes('Banana')) {
     return 'Bananas são deliciosas!'
   } else if(texto === 'Limão') {
-    'Limões são deliciosos!'
+    return 'Limões são deliciosos!'
   } else {
       return 'Desculpa, mas não encontrei este termo.';
   }
