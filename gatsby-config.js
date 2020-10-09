@@ -86,6 +86,7 @@ module.exports = {
         icon: `static/assets/img/icon.png`,
       },
     },
+    `gatsby-plugin-feed`,
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-netlify-cms`,
