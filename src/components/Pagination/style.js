@@ -9,6 +9,7 @@ export const PaginationWrapper = styled.section`
   display: flex;
   padding: 1.5rem 3rem;
   justify-content: space-between;
+  margin-bottom: 3rem;
 
   a {
     color: var(--text);
@@ -16,14 +17,36 @@ export const PaginationWrapper = styled.section`
     font-family: Montserrat, Arial, Helvetica, sans-serif;
     text-decoration: none;
     transition: color 0.5s;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
 
     &:hover {
-        color: var(--color);
+      color: var(--color);
     }
+
+    > svg {
+      width: 30px;
+    }
+
+  }
+
+  > p {
+    white-space: nowrap;
   }
 
   ${media.lessThan("medium")`
     font-size: 0.8rem;
-    padding: 1.5rem 1rem;
+    padding: 1rem 0;
+
+    a {
+      > span {
+        display: none;
+      }
+
+      > svg {
+        width: 40px;
+      }
+    }
   `}
 `

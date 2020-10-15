@@ -1,6 +1,11 @@
 import styled from "styled-components";
 
 export const ListWrapper = styled.section`
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 2rem;
+
   body#grid & {
     background-color: var(--borders);
     border-bottom: 1px solid var(--borders);

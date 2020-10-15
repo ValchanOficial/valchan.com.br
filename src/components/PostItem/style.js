@@ -6,6 +6,11 @@ export const PostItemLink = styled(Link)`
   color: var(--secTitle);
   display: flex;
   text-decoration: none;
+  height: 180px;
+
+  ${media.lessThan("medium")`
+    height: 280px;
+  `}
 
   body#grid & {
     background-color: var(--background);
@@ -25,7 +30,11 @@ export const PostItemWrapper = styled.section`
   display: flex;
   padding: 2rem 2rem;
   width: 100%;
-  margin-bottom: 0.5rem;
+  position: relative;
+
+  ${media.lessThan("medium")`
+    padding: 0.5rem;
+  `}
 
   body#grid & {
     border: 2px solid var(--border);
@@ -74,6 +83,10 @@ export const PostItemTag = styled.div`
     font-size: 0.8rem;
     min-height: 2rem;
     min-width: 5.5rem;
+
+    position: absolute;
+    top: 10px;
+    left: 5px;
   `}
 `
 
@@ -87,13 +100,19 @@ export const PostItemInfo = styled.div`
   `}
 `
 
+export const PostItemBreak = styled.span``;
+
 export const PostItemDate = styled.time`
   font-size: 0.9rem;
   font-weight: 300;
   font-family: Montserrat, Arial, Helvetica, sans-serif;
 
   ${media.lessThan("large")`
-    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    
+    font-size: 0.9rem;
+    margin-bottom: 0.8rem;
   `}
 `
 
@@ -109,6 +128,7 @@ export const PostItemTitle = styled.h1`
 
   ${media.lessThan("large")`
     font-size: 1.2rem;
+    margin-bottom: 1.2rem;
   `}
 `
 
