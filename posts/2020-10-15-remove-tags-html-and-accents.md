@@ -29,7 +29,7 @@ console.log(`${name1}, ${name2}`);
 
 <div class="smallSize" align="center">
 
-![Magic](/assets/img/magic.gif)
+![Magic](https://media1.tenor.com/images/a3ef12891434d1a97d124c7faf633904/tenor.gif)
 
 </div>
 
