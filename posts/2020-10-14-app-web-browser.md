@@ -38,6 +38,10 @@ Além disso o BrowserStack tem um ponto que sobressai bastante: o fato dele poss
 
 </div>
 
-<br/><br/>
+E para quem tem o <a href="https://education.github.com/pack" target="_blank" rel="noopener noreferrer">Github Student Pack</a>, você consegue utilizar o BrowserStack de graça por um ano!!
+
+Link: <a href="https://www.browserstack.com/github-students" target="_blank" rel="noopener noreferrer">BrowserStack for GitHub Students</a>
+
+<br/>
 
 E aí? O que achou dessas ferramentas? Já conhecia? 😊
