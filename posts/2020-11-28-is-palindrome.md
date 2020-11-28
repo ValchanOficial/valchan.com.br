@@ -9,9 +9,15 @@ image: '/assets/img/cover.png'
 Um palíndromo é uma palavra, frase ou qualquer outra sequência de unidades que tenha a propriedade de poder ser lida tanto da direita para a esquerda como da esquerda para a direita. Num palíndromo, normalmente são desconsiderados os sinais ortográficos, assim como o espaços entre palavras <a href="https://pt.wikipedia.org/wiki/Pal%C3%ADndromo" target="_blank" rel="noopener noreferrer">Wikipédia</a>
 
 ``` javascript
-const removeAccentsAndSpecialCharacters = (word) => word.toString().normalize('NFD').replace(/[^\w\s]/gi, '')
+const removeAccentsAndSpecialCharacters = (word) => word.toString()
+.normalize('NFD')
+.replace(/[^\w\s]/gi, '')
 
-const isPalindrome = (word) =>  removeAccentsAndSpecialCharacters(word).toLowerCase().replace(/\s/g, "") === removeAccentsAndSpecialCharacters(word).split('').reverse().join('').replace(/\s/g, "").toLowerCase();
+const isPalindrome = (word) =>  
+removeAccentsAndSpecialCharacters(word).toLowerCase().replace(/\s/g, "") 
+=== 
+removeAccentsAndSpecialCharacters(word).split('').reverse()
+.join('').replace(/\s/g, "").toLowerCase();
 
 console.log(isPalindrome('abccba')) //true
 console.log(isPalindrome('abccbx')) // false
