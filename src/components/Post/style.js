@@ -333,6 +333,7 @@ export const MainContent = styled.section`
     border-spacing: 0;
     width: 100%;
     border: 0.1rem solid var(--color);
+    color: var(--text);
 
     ${media.lessThan("large")`
       font-size: 1rem;
@@ -349,10 +350,18 @@ export const MainContent = styled.section`
   }
 
   th, td {
+    color: var(--text);
     border: 0.1rem solid var(--color);
     font-weight: 300;
     text-align: left;
     padding: 8px;
+    
+    > a {
+      color: var(--text);
+      transition: unset;
+      text-shadow: unset;
+      pointer-events: none;
+    }
   }
 
   mark {

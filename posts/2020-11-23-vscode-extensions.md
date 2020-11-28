@@ -27,7 +27,7 @@ Exemplo: se eu escrever: #335bff(https://www.color-hex.com/color/335bff), esse t
 Como próprio nome já diz, a extensão adiciona icons na aba Explorer do seu VSCode.
 
 <a href="https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer" target="_blank" rel="noopener noreferrer">Bracket Pair Colorizer</a>
-Se você é uma pessoa assim como eu que quando começa abrir e fechar chaves, parênteses um dentro do outro demais começa a se perder, então essa extensão vai te ajuda também, ela melhora a visualização de onde começa e de onde encerra cada bloco, adicionando uma cor diferente para cada par de chaves ou parênteses.
+Se você é uma pessoa assim como eu que quando começa abrir e fechar chaves, parênteses um dentro do outro demais de modo que você começa a se perder, então essa extensão vai te ajuda também, ela melhora a visualização de onde começa e de onde encerra cada bloco, adicionando uma cor diferente para cada par de chaves ou parênteses.
 
 <a href="https://marketplace.visualstudio.com/items?itemName=natqe.reload" target="_blank" rel="noopener noreferrer">Reload</a>
 Como o próprio nome já diz, Reload é uma extensão que adiciona um botão no canto inferior direito, que serve para reiniciar o VSCode.
