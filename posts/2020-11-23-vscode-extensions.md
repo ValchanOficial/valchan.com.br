@@ -21,7 +21,7 @@ Uma extensão muito boa, que auxilia na hora de escrever o css.
 
 <a href="https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight" target="_blank" rel="noopener noreferrer">Color Highlight</a>
 Essa extensão deixa em destaque as cores nos arquivos.
-Exemplo: se eu escrever: #335bff(https://www.color-hex.com/color/335bff), esse texto ficará destacado na cor azul.
+Exemplo: se eu escrever: <a href="https://www.color-hex.com/color/335bff" target="_blank" rel="noopener noreferrer">#335bff</a>, esse texto ficará destacado na cor azul.
 
 <a href="https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons" target="_blank" rel="noopener noreferrer">vscode-icons</a>
 Como próprio nome já diz, a extensão adiciona icons na aba Explorer do seu VSCode.
