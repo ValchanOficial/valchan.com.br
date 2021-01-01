@@ -6,6 +6,8 @@ export const CommentsWrapper = styled.section`
   color: var(--text);
   max-width: 70rem;
   padding: 3rem;
+  width: 100%;
+  align-self: center;
 
   iframe[src*="ads-iframe"] {
     display: none;
@@ -16,6 +18,10 @@ export const CommentsWrapper = styled.section`
       color: var(--color) !important;
     }
   }
+
+  ${media.lessThan("large")`
+    display: none;
+  `}
 `
 
 export const CommentsTitle = styled.h2`

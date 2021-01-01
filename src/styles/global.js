@@ -69,6 +69,7 @@ const GlobalStyles = createGlobalStyle`
   img {
     display: block;
     max-width: 100%;
+    margin: auto;
   }
 
   p {
@@ -208,7 +209,7 @@ const GlobalStyles = createGlobalStyle`
     --mainTitle: #e43f5a;
     --secTitle: #222;
     --postHeader: #E5183A;
-    --link: #222;
+    --link: #e43f5a;
     --linkHover: #E5183A;
     --colorTag: #E5183A;
     --colorTagTwo: #FA607A;

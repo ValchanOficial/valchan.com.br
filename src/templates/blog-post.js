@@ -20,6 +20,7 @@ const BlogPost = ({ data, pageContext }) => {
         description={post.frontmatter.description}
         image={post.frontmatter.image}
        />
+      <S.PostContainer>
         <S.PostContent>
           <S.PostHeader>
             <S.PostDate>
@@ -34,6 +35,7 @@ const BlogPost = ({ data, pageContext }) => {
           <RecommendedPosts next={next} previous={previous} />
           <Comments url={post.fields.slug} title={post.frontmatter.title} />
         </S.PostContent>
+      </S.PostContainer>
     </Main>
   )
 }

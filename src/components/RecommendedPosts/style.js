@@ -10,9 +10,11 @@ export const RecommendedWrapper = styled.section`
     margin-bottom: 0.5rem;
 
     ${media.lessThan("large")`
-        font-size: 0.8rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     `}
-    
 `
 
 export const RecommendedLink = styled(Link)`
@@ -42,15 +44,24 @@ export const RecommendedLink = styled(Link)`
         transition: border-bottom 300ms ease-in-out;
     }
 
-    &.previous:before {
-        content: "⯇";
-        font-size: 25px;
-        margin-right: 0.5rem;
+    > svg {
+        width: 30px;
     }
-    
-    &.next:after {
-        content: "⯈";
-        font-size: 25px;
-        margin-left: 0.5rem;
-    }
+
+    ${media.lessThan("medium")`
+        width: unset;
+        margin: unset;
+        margin-bottom: 1rem;
+        padding: 0;
+
+        > span {
+            font-size: 0.8rem;
+            padding: 0 1rem;
+            word-break: break-word;
+        }
+
+        > svg {
+            width: 40px;
+        }
+    `}
 `

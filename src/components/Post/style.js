@@ -1,20 +1,33 @@
 import styled from "styled-components";
 import media from "styled-media-query";
 
+export const PostContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  width: 100%;
+`
+
 export const PostContent = styled.div`
     background: var(--background);
     display: flex;
     flex-direction: column;
-    margin-left: 0.5rem;
+    /* margin-left: 0.5rem; */
     border: 2px solid var(--border);
     border-radius: 1rem;
-    padding: 1rem;
+    padding: 2rem;
     margin-bottom: 1rem;
+    width: 100%;
+    align-items: center;
+
+    ${media.lessThan("large")`
+      padding: 1rem 0.5rem;
+    `}
 `
 
 export const PostHeader = styled.header`
   color: var(--postHeader);
   padding: 0;
+  align-self: flex-start;
 `
 
 export const PostTitle = styled.h1`
@@ -58,7 +71,7 @@ export const PostDate = styled.p`
 `
 
 export const MainContent = styled.section`
-  max-width: 70rem;
+  width: 100%;
 
   p,
   h1,
@@ -251,6 +264,10 @@ export const MainContent = styled.section`
 
   .gatsby-highlight {
     padding: 0 1.6rem 1.6rem;
+
+    ${media.lessThan("large")`
+      padding: 0;
+    `}
   }
 
   .instagram-media {
@@ -259,7 +276,6 @@ export const MainContent = styled.section`
 
   a {
     font-weight: 300;
-    text-shadow: 1px 0.5px var(--color);
     color: var(--link);
     text-decoration: none;
     transition: font-weight 0.3s;
@@ -332,11 +348,11 @@ export const MainContent = styled.section`
     border-collapse: collapse;
     border-spacing: 0;
     width: 100%;
-    border: 0.1rem solid var(--color);
     color: var(--text);
 
     ${media.lessThan("large")`
-      font-size: 1rem;
+      font-size: 0.8rem;
+      word-break: break-word;
     `}
   }
 
@@ -430,5 +446,9 @@ export const MainContent = styled.section`
     font-family: Montserrat, Arial, Helvetica, sans-serif;
     color: var(--color);
   }
+
+  ${media.lessThan("large")`
+    word-break: break-word;
+  `}
 
 `
