@@ -53,7 +53,7 @@ const fruta = (texto) => {
   } else if(texto === 'Limão') {
     return 'Limões são deliciosos!'
   } else {
-      return 'Desculpa, mas não encontrei este termo.';
+    return 'Desculpa, mas não encontrei este termo.';
   }
 }
 
@@ -73,13 +73,15 @@ const fruta = (texto) => ({
   'Laranja': 'Laranjas são deliciosas!',
   'Banana': 'Bananas são deliciosas!',
   'Limão': 'Limões são deliciosos!',
-  'Default': 'Desculpa, mas não encontrei este termo.'
+  null: 'Desculpa, mas não encontrei este termo.',
+  undefined: 'Desculpa, mas não encontrei este termo.',
+  '': 'Desculpa, mas não encontrei este termo.'
 })[texto];
 
 console.log(fruta(texto));
 // "Laranjas são deliciosas!"
 
-console.log(fruta(textoDefault) ? fruta(textoDefault) : fruta('Default'));
+console.log(fruta(textoDefault) ? fruta(textoDefault) : fruta(''));
 // "Desculpa, mas não encontrei este termo."
 ```
 
