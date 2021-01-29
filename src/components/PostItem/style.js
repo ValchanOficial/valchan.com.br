@@ -7,6 +7,7 @@ export const PostItemLink = styled(Link)`
   display: flex;
   text-decoration: none;
   height: 180px;
+  margin-bottom: 2rem; // at ListWrapper gap: 2rem; doesn't work 
 
   ${media.lessThan("medium")`
     height: 280px;
