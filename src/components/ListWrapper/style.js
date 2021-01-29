@@ -3,7 +3,9 @@ import styled from "styled-components";
 export const ListWrapper = styled.section`
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 2rem; // some browsers it doesn't work
+  row-gap: 2rem;
+  column-gap: 2rem;
   margin-bottom: 2rem;
 
   body#grid & {

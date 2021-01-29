@@ -12,14 +12,19 @@ export const LayoutMain = styled.main`
     background: var(--background);
     padding-right: 2rem;
     padding-left: 4rem;
-    width: 100%;
+    margin: auto;
+
+    ${media.greaterThan("large")`
+      width: 75%;
+    `}
 
     body#grid & {
       grid-template-areas: "posts" "pagination";
     }
 
     ${media.lessThan("large")`
-      margin: 0;
+      width: 95%;
+      padding: unset;
       padding-left: 2.5rem;
       padding-right: 2.5rem;
     `}
