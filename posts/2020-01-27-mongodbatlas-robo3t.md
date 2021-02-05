@@ -41,7 +41,7 @@ Abra o Robo3T e siga as instruções:
 
 Feito isso você conseguirá acessar seu banco pelo Robo3T! :3
 
-Aproveitando para avisar -> usando o código **MAXIME200** você ganha $200 para usar como quiser no MongoAtlas.
+Aproveitando para avisar -> usando o código **~~MAXIME200~~**(expirado) você ganha $200 para usar como quiser no MongoAtlas.
 Para ativar o código é bem simples:
 - Vai em "Organizations" (clicando no menu que fica no canto superior direito);
 - Seleciona a "Organization Name" que você quer ativar;
