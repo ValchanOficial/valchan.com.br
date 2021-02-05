@@ -41,10 +41,13 @@ Abra o Robo3T e siga as instruções:
 
 Feito isso você conseguirá acessar seu banco pelo Robo3T! :3
 
-Aproveitando para avisar -> usando o código **~~MAXIME200~~**(expirado) você ganha $200 para usar como quiser no MongoAtlas.
+Aproveitando para avisar -> usando o códigos **GETATLAS, JOEK100 e LAUREN200** você ganha $400 para usar como quiser no MongoAtlas.
 Para ativar o código é bem simples:
 - Vai em "Organizations" (clicando no menu que fica no canto superior direito);
 - Seleciona a "Organization Name" que você quer ativar;
 - Billing;
 - Ali em Credits -> "Apply Credit";
 - Adiciona o código e "Submit" e pronto :3
+
+
+Encontrei os codes no <a class="hashtag" href="https://www.reddit.com/r/mongodb/comments/koki7a/jan_1_2021_credit_codes/" target="_blank" rel="noopener noreferrer">Reddit</a>
