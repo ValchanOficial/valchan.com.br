@@ -9,7 +9,7 @@
 ## Start
 ```bash
     yarn install
-    gatsby develop // http://localhost:8000/
+    yarn dev or yarn start or gatsby develop // http://localhost:8000/
 ```
 
 ## Tecnologies
