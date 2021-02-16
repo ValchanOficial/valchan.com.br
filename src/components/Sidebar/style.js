@@ -8,7 +8,6 @@ export const AsideMenuBar = styled.div`
     margin-right: 2.3rem;
 
     ${media.lessThan("large")`
-        height: 10rem;
         margin: 1rem;
     `}
 `
@@ -20,4 +19,9 @@ export const Aside = styled.aside`
     height: 100vh;
     width: 20rem;
     text-align: center;
+
+    ${media.lessThan("large")`
+        margin: 1rem;
+        height: unset;
+    `}
 `

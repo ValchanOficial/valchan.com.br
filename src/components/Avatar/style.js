@@ -17,8 +17,8 @@ export const AvatarDetails = styled.section`
 	background: linear-gradient(to bottom right, var(--avatarColor), var(--avatarColorTwo));
 
     ${media.lessThan("large")`
-        width: 65px;
-        height: 65px;
+        width: 110px;
+        height: 110px;
     `}
 `
 
@@ -29,7 +29,7 @@ export const AvatarImg = styled(Img)`
     margin: auto;
 
     ${media.lessThan("large")`
-        height: 55px;
-        width: 55px;
+        height: 100px;
+        width: 100px;
     `}
 `

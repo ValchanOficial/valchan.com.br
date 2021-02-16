@@ -22,7 +22,8 @@ export const ProfileAuthor = styled.h1`
     margin: 0.5rem auto 0.8rem;
 
     ${media.lessThan("large")`
-        font-size: 1rem;
+        font-size: 1.8rem;
+        margin-top: 0.6em;
     `}
 `
 
@@ -33,7 +34,8 @@ export const ProfilePosition = styled.small`
     font-weight: 400;
 
     ${media.lessThan("large")`
-        font-size: 0.8rem;
+        font-size: 1.4rem;
+        margin-bottom: 0.8em;
     `}
 `
 

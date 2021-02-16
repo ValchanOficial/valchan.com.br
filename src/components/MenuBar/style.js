@@ -56,6 +56,6 @@ export const MenuBarIcon = styled.div`
     }
 
     ${media.lessThan("large")`
-        width: 1.8rem;
+        width: 3rem;
     `}
 `
