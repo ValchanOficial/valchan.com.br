@@ -24,9 +24,8 @@ export const LayoutMain = styled.main`
 
     ${media.lessThan("large")`
       width: 95%;
-      padding: unset;
-      padding-left: 2.5rem;
-      padding-right: 2.5rem;
+      padding: 0 3rem;
+      padding-right: 1rem;
     `}
 `
 

@@ -36,6 +36,6 @@ export const Icon = styled.div`
 
     ${media.lessThan("large")`
         width: 3rem;
-        margin-left: 0.5rem;
+        margin-left: 0.2rem;
     `}
 `

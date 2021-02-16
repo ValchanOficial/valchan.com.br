@@ -50,7 +50,7 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-fonts`,
+      resolve: `gatsby-plugin-google-fonts-with-attributes`,
       options: {
         fonts: [
           `Dosis`,
@@ -58,6 +58,9 @@ module.exports = {
           `Montserrat\:100,300,400,400i,700`,
         ],
         display: 'swap',
+        attributes: {
+          rel: "stylesheet preload prefetch",
+        },
       },
     
     },

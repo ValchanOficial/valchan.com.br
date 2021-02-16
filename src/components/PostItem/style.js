@@ -33,10 +33,6 @@ export const PostItemWrapper = styled.section`
   width: 100%;
   position: relative;
 
-  ${media.lessThan("medium")`
-    padding: 0.5rem;
-  `}
-
   body#grid & {
     border: 2px solid var(--border);
     padding: 2rem 1rem;
@@ -59,6 +55,10 @@ export const PostItemWrapper = styled.section`
 
   ${media.lessThan("large")`
     border: 1px solid var(--border);
+  `}
+
+  ${media.lessThan("medium")`
+    padding: 1.8rem;
   `}
 `
 
@@ -98,6 +98,7 @@ export const PostItemInfo = styled.div`
 
   ${media.lessThan("large")`
     text-align: left;
+    margin-right: auto;
   `}
 `
 
@@ -112,7 +113,7 @@ export const PostItemDate = styled.time`
     display: flex;
     flex-direction: column;
     
-    font-size: 0.9rem;
+    font-size: 1rem;
     margin-bottom: 0.8rem;
   `}
 `
@@ -128,7 +129,7 @@ export const PostItemTitle = styled.h1`
   }
 
   ${media.lessThan("large")`
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     margin-bottom: 1.2rem;
   `}
 `
@@ -139,6 +140,6 @@ export const PostItemDescription = styled.p`
   line-height: 1.2;  
 
   ${media.lessThan("large")`
-    font-size: 1rem;
+    font-size: 1.1rem;
   `}
 `
