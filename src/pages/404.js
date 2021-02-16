@@ -6,7 +6,7 @@ import { EmojiSad } from "@styled-icons/entypo/EmojiSad";
 
 const NotFoundPage = () => (
   <Main>
-    <SEO title="404: Not found" />
+    <SEO title="404: Not found" description="Página não encontrada | Page not found" />
     <div className="notFound">
       <h1>404</h1>
       <p>Page Not Found!</p>
