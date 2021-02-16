@@ -29,6 +29,13 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `icons`,
+        path: `${__dirname}/static/assets/icons`,
+      },
+    },
+    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
@@ -86,7 +93,51 @@ module.exports = {
         background_color: `#F1C4CB`,
         theme_color: `#E5183A`,
         display: `minimal-ui`,
-        icon: `static/assets/img/icon.png`,
+        icon: `static/assets/icons/maskable_icon.png`,
+        icons: [
+          {
+            src: `static/assets/icons/maskable_icon_x48.png`,
+            sizes: `48x48`,
+            type: `image/png`,
+            purpose: `maskable`,
+          },
+          {
+            src: `static/assets/icons/maskable_icon_x72.png`,
+            sizes: `72x72`,
+            type: `image/png`,
+            purpose: `maskable`,
+          },
+          {
+            src: `static/assets/icons/maskable_icon_x96.png`,
+            sizes: `96x96`,
+            type: `image/png`,
+            purpose: `maskable`,
+          },
+          {
+            src: `static/assets/icons/maskable_icon_x128.png`,
+            sizes: `128x128`,
+            type: `image/png`,
+            purpose: `maskable`,
+          },
+          {
+            src: `static/assets/icons/maskable_icon_x192.png`,
+            sizes: `192x192`,
+            type: `image/png`,
+            purpose: `maskable`,
+          },
+          {
+            src: `static/assets/icons/maskable_icon_x384.png`,
+            sizes: `384x384`,
+            type: `image/png`,
+            purpose: `maskable`,
+          },
+          {
+            src: `static/assets/icons/maskable_icon_x512.png`,
+            sizes: `512x512`,
+            type: `image/png`,
+            purpose: `maskable`,
+          },
+        ],
       },
     },
     {
