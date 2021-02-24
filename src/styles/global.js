@@ -180,7 +180,7 @@ const GlobalStyles = createGlobalStyle`
   /* Themes */
 
   body.dark {
-    --background: #232130;
+    --background: #18191A;
     --text: #F1C4CB;
     --color: #E5183A;
     --mainTitle: #e43f5a;
@@ -193,17 +193,18 @@ const GlobalStyles = createGlobalStyle`
     --avatarColor: #e43f5a;
     --avatarColorTwo: #F793A4;
     --border: #e43f5a;
-    --mark: #E5183A;
+    --mark: #F1C4CB;
+    --markText: #222;
     --textarea: #e43f5a;
     --thead: #F1C4CB;
-    --recommendedPost: #201E2D;
+    --recommendedPost: #242526;
     --input: #e43f5a;
     --hover: #E5183A;
     --menuBarHover: #e43f5a;
   }
   
   body.light {
-    --background: #F1C4CB;
+    --background: #FFFFFF;
     --text: #222;
     --color: #E5183A;
     --mainTitle: #e43f5a;
@@ -217,6 +218,7 @@ const GlobalStyles = createGlobalStyle`
     --avatarColorTwo: #F793A4;
     --border: #e43f5a;
     --mark: #FA607A;
+    --markText: #222;
     --textarea: #FA607A;
     --thead: #F1C4CB;
     --recommendedPost: #F793A4;

@@ -344,11 +344,12 @@ export const MainContent = styled.section`
 
   table {
     font-family: Montserrat, Arial, Helvetica, sans-serif;
-    font-size: 1rem;
+    font-size: 1.1rem;
     border-collapse: collapse;
     border-spacing: 0;
     width: 100%;
     color: var(--text);
+    line-height: 1.6;
 
     ${media.lessThan("large")`
       font-size: 0.8rem;
@@ -381,8 +382,9 @@ export const MainContent = styled.section`
   }
 
   mark {
-    color: var(--text);
+    color: var(--markText);
     background: var(--mark);
+    font-weight: bold;
   }
 
   textarea::before {
