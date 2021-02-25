@@ -32,6 +32,9 @@ Se você é uma pessoa assim como eu que quando começa abrir e fechar chaves, p
 <a href="https://marketplace.visualstudio.com/items?itemName=natqe.reload" target="_blank" rel="noopener noreferrer">Reload</a>
 Como o próprio nome já diz, Reload é uma extensão que adiciona um botão no canto inferior direito, que serve para reiniciar o VSCode.
 
+<a href="https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode" target="_blank" rel="noopener noreferrer">Quokka.js</a>
+O Quokka.js é uma ferramenta de produtividade para devs JavaScript / TypeScript. Bastante rápida, atualiza e exibe os valores em tempo de execução na sua IDE conforme você digita, sendo exibido próximo do seu código. Possui a versão Community que é gratuita para todos. Para mais informações acesse: <a href="https://quokkajs.com/docs/" target="_blank" rel="noopener noreferrer">Docs</a>.
+
 </br>
 
 Além dessas tem as mais conhecidas como o Prettier, ESlint, SonarLint, EditorConfig, Import Cost, Live Server, Peacock
