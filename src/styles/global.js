@@ -186,7 +186,7 @@ const GlobalStyles = createGlobalStyle`
     --mainTitle: #e43f5a;
     --secTitle: #F793A4;
     --postHeader: #FA607A;
-    --link: #F1C4CB;
+    --link: #e43f5a;
     --linkHover: #e43f5a;
     --colorTag: #E5183A;
     --colorTagTwo: #FA607A;
