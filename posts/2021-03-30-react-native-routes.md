@@ -59,6 +59,12 @@ Crie a pasta src na raiz do projeto e exclua o App.js da raiz
 
 Dentro da pasta src, adicione as pastas pages e routes e o App.js
 
+No index.js altere o caminho, apontando para o App.js
+
+```bash
+import App from './src/App';
+```
+
 Feito isso, vamos criar a estrutura dentro do src:
 
 ```bash
