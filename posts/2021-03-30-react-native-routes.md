@@ -14,6 +14,12 @@ Primeiramente vamos ver a diferença entre os tipos de navegação:
 
 - <a href="https://reactnavigation.org/docs/getting-started/" target="_blank" rel="noopener noreferrer">DrawerNavigator</a>: a navegação se da por slide, ou seja, ao arrastar a tela, um menu lateral será exibido contendo as opções para navegação.
 
+<div class="averageSize">
+
+![React Navigation](/assets/img/Navigation.png)
+
+</div>
+
 Agora que você já sabe a diferença entre eles, vamos colocar a mão na massa e juntar as três formas?
 
 Vamos inicializar um projeto :
