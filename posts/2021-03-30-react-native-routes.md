@@ -10,9 +10,9 @@ Primeiramente vamos ver a diferença entre os tipos de navegação:
 
 - <a href="https://reactnavigation.org/docs/stack-navigator/" target="_blank" rel="noopener noreferrer">StackNavigator</a>: assim como o próprio nome diz, o StackNavigator irá empilhar as telas conforme elas são acessadas, ou seja, telas mais antigas ficarão abaixo e a tela mais recente no topo.
 
-- <a href="https://reactnavigation.org/docs/getting-started/" target="_blank" rel="noopener noreferrer">TabNavigator</a>: já com o TabNavigator, a navegação é pelas guias(tabs), ou menu de opções, que fica na parte superior ou inferior da tela.
+- <a href="https://reactnavigation.org/docs/bottom-tab-navigator/" target="_blank" rel="noopener noreferrer">TabNavigator</a>: já com o TabNavigator, a navegação é pelas guias(tabs), ou menu de opções, que fica na parte superior ou inferior da tela.
 
-- <a href="https://reactnavigation.org/docs/getting-started/" target="_blank" rel="noopener noreferrer">DrawerNavigator</a>: a navegação se da por slide, ou seja, ao arrastar a tela, um menu lateral será exibido contendo as opções para navegação.
+- <a href="https://reactnavigation.org/docs/drawer-navigator/" target="_blank" rel="noopener noreferrer">DrawerNavigator</a>: a navegação se da por slide, ou seja, ao arrastar a tela, um menu lateral será exibido contendo as opções para navegação.
 
 <div class="averageSize">
 
