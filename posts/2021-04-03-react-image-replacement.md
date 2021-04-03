@@ -30,8 +30,8 @@ const App = () => {
   );
 
   const setDefaultImage = useCallback((currentTarget) => {
-    currentTarget.onerror = null;
     setImageWithErro(defaultImage);
+    currentTarget.onerror = null;
   }, []);
 
   return (
