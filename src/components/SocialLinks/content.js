@@ -27,10 +27,15 @@ const links = [
         url: `https://instagram.com/${handle}`
     },
     {
+        label: 'BuyMeACoffee',
+        icon: 'Coffee',
+        url: `https://www.buymeacoffee.com/${handle}`
+    },
+    {
         label: 'MailSend',
         icon: 'MailSend',
         url: `mailto:valeria_padilha@yahoo.com.br?Subject=Contato&body=Ola%20Valchan`
-    }
+    },
 ]
 
 export default links;

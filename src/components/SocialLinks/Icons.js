@@ -1,5 +1,5 @@
 import { Github, Twitter, FacebookSquare, LinkedinSquare, Instagram } from '@styled-icons/boxicons-logos';
-import { MailSend } from '@styled-icons/boxicons-regular';
+import { MailSend, Coffee } from '@styled-icons/boxicons-regular';
 
 const Icons = {
     Github,
@@ -7,7 +7,8 @@ const Icons = {
     FacebookSquare,
     LinkedinSquare,
     Instagram,
-    MailSend
+    MailSend,
+    Coffee,
 }
 
 export default Icons;
