@@ -63,18 +63,19 @@ export const PostItemWrapper = styled.section`
 `
 
 export const PostItemTag = styled.div`
-  align-items: center;
-  box-shadow: 0.2em 0.2em 0.2em #262626;
+	background: transparent;
+  color: var(--colorTagTwo);
   transform:rotate(-10deg);
-	background: linear-gradient(to bottom right, var(--colorTag), var(--colorTagTwo));
-  color: var(--text);
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
   font-size: 1rem;
   font-weight: 700;
-  justify-content: center;
   min-height: 3rem;
   min-width: 7.1rem;
   text-transform: uppercase;
+  font-family: Dosis, Arial, Helvetica, sans-serif;
 
   body#grid & {
     margin-bottom: 1.5rem;

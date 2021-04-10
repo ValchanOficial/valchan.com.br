@@ -5,6 +5,7 @@ export const ListWrapper = styled.section`
   flex-direction: column;
   /* gap: 2rem; // some browsers it doesn't work */ 
   margin-bottom: 2rem;
+  width: 100%;
 
   body#grid & {
     background-color: var(--borders);

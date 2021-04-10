@@ -10,6 +10,7 @@ export const PaginationWrapper = styled.section`
   padding: 1.5rem 3rem;
   justify-content: space-between;
   margin-bottom: 3rem;
+  width: 100%;
 
   a {
     color: var(--text);

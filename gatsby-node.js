@@ -36,43 +36,41 @@ exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions;
 
   return graphql(`
-    {
-      allMarkdownRemark(sort: { fields: frontmatter___date, order: DESC }) {
-        edges {
-          node {
-            fields {
-              slug
-            }
-            frontmatter {
-              category
-              date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
-              description
-              title
-              image
-            }
+  {
+    posts: allMarkdownRemark(sort: { fields: frontmatter___date, order: DESC }) {
+      edges {
+        node {
+          fields {
+            slug
           }
-          next {
-            fields {
-              slug
-            }
-            frontmatter {
-              title
-            }
+          frontmatter {
+            category
+            date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
+            description
+            title
+            image
           }
-          previous {
-            frontmatter {
-              title
-            }
-            fields {
-              slug
-            }
+        }
+        next {
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+          }
+        }
+        previous {
+          frontmatter {
+            title
+          }
+          fields {
+            slug
           }
         }
       }
     }
-  `)
-  .then(result => {
-    const posts = result.data.allMarkdownRemark.edges;
+  }`).then(result => {
+    const posts = result.data.posts.edges;
     const postsPerPage = 6;
     const numPages = Math.ceil(posts.length / postsPerPage);
 

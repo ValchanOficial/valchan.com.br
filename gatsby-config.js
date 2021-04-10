@@ -15,6 +15,13 @@ module.exports = {
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
     {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+        endpoint: 'https://valchan.us1.list-manage.com/subscribe/post?u=babcaf62e2cad74799b8c19e1&amp;id=b10871eb30', // Mailchimp endpoint
+        timeout: 3500,
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `posts`,

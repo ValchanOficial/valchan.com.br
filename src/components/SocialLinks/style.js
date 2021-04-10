@@ -4,10 +4,6 @@ import media from "styled-media-query";
 export const SocialLinksWrapper = styled.nav`
     background: var(--background);
     width: 100%;
-
-    ${media.lessThan("large")`
-        width: 60%
-    `}
 `
 
 export const SocialLinksList = styled.ul`

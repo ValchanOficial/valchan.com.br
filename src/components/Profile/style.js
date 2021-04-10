@@ -6,6 +6,8 @@ export const ProfileWrapper = styled.section`
     color: var(--text);
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 `
 export const ProfileLink = styled(Link)`
     color: var(--link);

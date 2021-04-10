@@ -4,24 +4,17 @@ import { Link } from "gatsby";
 
 export const MenuBarWrapper = styled.aside`
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    flex-direction: row;
     align-items: center;
-    position: fixed;
-    bottom: 0;
-    top: 0;
-    height: 100vh;
-    margin-left: 0.5rem;
+    justify-content: space-around;
+    width: 120px;
+    height: 32px;
+    margin-top: 2em;
+    margin-bottom: 2em;
 
     ${media.lessThan("large")`
-        margin: auto;
-        justify-content: center;
+        height: 42px;
     `}
-`
-
-export const MenuBarGroup = styled.div`
-    display: flex;
-    flex-direction: column;
 `
 
 export const MenuBarLink = styled(Link)`
@@ -31,9 +24,12 @@ export const MenuBarLink = styled(Link)`
 export const MenuBarIcon = styled.div`
     color: var(--text);
     cursor: pointer;
-    width: 2rem;
+    width: 32px;
     height: auto;
-    margin-top: 1rem;
+
+    ${media.lessThan("large")`
+        width: 42px;
+    `}
 
     &.dark {
         &:hover {
@@ -44,14 +40,4 @@ export const MenuBarIcon = styled.div`
     &:hover {
         color: var(--menuBarHover);
     }
-
-    &.display {
-        ${media.lessThan("large")`
-            display: none;
-        `}
-    }
-
-    ${media.lessThan("large")`
-        width: 3rem;
-    `}
 `

@@ -9,7 +9,7 @@ import Comments from "../components/Comments";
 import * as S from "../components/Post/style";
 
 const BlogPost = ({ data, pageContext }) => {
-  const post = data.markdownRemark;
+  const post = data.post;
   const next = pageContext.nextPost;
   const previous = pageContext.previousPost;
 
@@ -24,7 +24,7 @@ const BlogPost = ({ data, pageContext }) => {
         <S.PostContent>
           <S.PostHeader>
             <S.PostDate>
-              {post.frontmatter.date} • {post.timeToRead} min de leitura
+              {post.frontmatter.date} • {post.time} min de leitura
             </S.PostDate>
             <S.PostTitle>{post.frontmatter.title}</S.PostTitle>
             <S.PostDescription>{post.frontmatter.description}</S.PostDescription>
@@ -41,21 +41,20 @@ const BlogPost = ({ data, pageContext }) => {
 }
 
 export const query = graphql`
-  query Post($slug: String) {
-    markdownRemark(fields: { slug: { eq: $slug } }) {
-      fields {
-        slug
-      }
-      frontmatter {
-        title,
-        description,
-        date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
-        image
-      }
-      html,
-      timeToRead
+query ($slug: String) {
+  post: markdownRemark(fields: { slug: { eq: $slug } }) {
+    fields {
+      slug
     }
+    frontmatter {
+      title,
+      description,
+      date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
+      image
+    }
+    html,
+    time: timeToRead
   }
-`
+}`
 
 export default BlogPost;

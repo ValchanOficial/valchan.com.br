@@ -10,9 +10,13 @@ export const LayoutWrapper = styled.section`
 
 export const LayoutMain = styled.main`
     background: var(--background);
-    padding-right: 2rem;
-    padding-left: 4rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     ${media.greaterThan("large")`
       width: 75%;
@@ -22,11 +26,11 @@ export const LayoutMain = styled.main`
       grid-template-areas: "posts" "pagination";
     }
 
-    ${media.lessThan("large")`
+    /* ${media.lessThan("large")`
       width: 95%;
       padding: 0 3rem;
       padding-right: 1rem;
-    `}
+    `} */
 `
 
 export const Content = styled.div`

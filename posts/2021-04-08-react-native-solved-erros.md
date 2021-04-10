@@ -38,7 +38,7 @@ No arquivo Podfile você pode:</br>
 2 - Ou você pode remover o ``IPHONEOS_DEPLOYMENT_TARGET``</br>
 3 - Você também pode verificar e alterar a versão do platform :ios</br>
 
-``` pod
+```
 1: 
 post_install do |installer|
  installer.pods_project.targets.each do |target|

@@ -7,24 +7,21 @@ import GlobalStyles from "../../styles/global";
 
 import Header from "../Header";
 import Sidebar from "../Sidebar";
-import MenuBar from "../MenuBar";
 
 const Main = ({ children }) => {
   const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
+  query {
+    site {
+      siteMetadata {
+        title
       }
     }
-  `)
+  }`)
 
   return (
     <S.LayoutWrapper>      
       <GlobalStyles />
       <Header siteTitle={data.site.siteMetadata.title} />
-      <MenuBar/>
       <S.Content>
           <Sidebar/>
           <S.LayoutMain>{children}</S.LayoutMain>

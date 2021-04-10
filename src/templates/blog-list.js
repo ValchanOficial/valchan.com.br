@@ -1,5 +1,4 @@
 import React from "react";
-import { graphql } from "gatsby";
 
 import Main from '../components/Main';
 import SEO from "../components/seo";
@@ -7,9 +6,11 @@ import PostItem from "../components/PostItem";
 import Pagination from '../components/Pagination';
 
 import * as S from "../components/ListWrapper/style";
+import { graphql } from "gatsby";
+import Newsletter from "../components/Newsletter";
 
-const BlogList = props => {
-  const postList = props.data.allMarkdownRemark.edges;
+const BlogList = (props) => {
+  const postList = props.data.posts.edges;
   const { currentPage, numPages } = props.pageContext;
   const isFirst = currentPage === 1;
   const isLast = currentPage === numPages;
@@ -24,7 +25,7 @@ const BlogList = props => {
           ({
             node: {
               frontmatter: { category, date, description, title },
-              timeToRead,
+              time,
               fields: { slug }
             },
           }) => (
@@ -33,7 +34,7 @@ const BlogList = props => {
               slug={slug}
               category={category}
               date={date}
-              timeToRead={timeToRead}
+              time={time}
               title={title}
               description={description}
             />
@@ -48,33 +49,33 @@ const BlogList = props => {
         prevPage={prevPage}
         nextPage={nextPage}
       />
+      <Newsletter/>
     </Main>
   )
 }
 
 export const query = graphql`
-    query PostList($skip: Int, $limit: Int) {
-        allMarkdownRemark(
-            sort: { fields: frontmatter___date, order: DESC }
-            limit: $limit
-            skip: $skip
-            ) {
-            edges {
-                node {
-                fields {
-                    slug
-                }
-                frontmatter {
-                    category
-                    date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
-                    description
-                    title
-                }
-                timeToRead
-                }
-            }
-        }
-    }
-`
+query ($skip: Int, $limit: Int) {
+  posts: allMarkdownRemark(
+      sort: { fields: frontmatter___date, order: DESC }
+      limit: $limit
+      skip: $skip
+      ) {
+      edges {
+          node {
+          fields {
+              slug
+          }
+          frontmatter {
+              category
+              date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
+              description
+              title
+          }
+          time: timeToRead
+          }
+      }
+  }
+}`
 
 export default BlogList;
