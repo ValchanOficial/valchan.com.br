@@ -57,7 +57,7 @@
     "start": "npm run develop",
     "dev": "npm run develop",
     "serve": "gatsby serve",
-    "clean": "gatsby clean",
+    "clean": "rm -rf node_modules/ && gatsby clean",
     "test": "echo && exit 1"
   },
   "repository": {
