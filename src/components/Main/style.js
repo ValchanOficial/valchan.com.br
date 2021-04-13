@@ -26,11 +26,9 @@ export const LayoutMain = styled.main`
       grid-template-areas: "posts" "pagination";
     }
 
-    /* ${media.lessThan("large")`
-      width: 95%;
-      padding: 0 3rem;
-      padding-right: 1rem;
-    `} */
+    ${media.lessThan("large")`
+      width: 100%;
+    `}
 `
 
 export const Content = styled.div`
