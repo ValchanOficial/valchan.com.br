@@ -48,7 +48,7 @@ post_install do |installer|
  end
 end
 ```
-``` pod
+```
 2: 
 post_install do |installer|
  installer.pods_project.targets.each do |target|
@@ -58,7 +58,7 @@ post_install do |installer|
  end
 end
 ```
-``` pod
+``` 
 3:
 platform :ios, '9.0'
 ```

@@ -35,6 +35,9 @@ Como o próprio nome já diz, Reload é uma extensão que adiciona um botão no 
 <a href="https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode" target="_blank" rel="noopener noreferrer">Quokka.js</a>
 O Quokka.js é uma ferramenta de produtividade para devs JavaScript / TypeScript. Bastante rápida, atualiza e exibe os valores em tempo de execução na sua IDE conforme você digita, sendo exibido próximo do seu código. Possui a versão Community que é gratuita para todos. Para mais informações acesse: <a href="https://quokkajs.com/docs/" target="_blank" rel="noopener noreferrer">Docs</a>.
 
+<a href="https://marketplace.visualstudio.com/items?itemName=NathHorrigan.code-svgr" target="_blank" rel="noopener noreferrer">SVGR - SVG to React</a>
+Esta extensão permite que você convertar um SVG em um JSX (ReactJS ou React Native)
+
 </br>
 
 Além dessas tem as mais conhecidas como o Prettier, ESlint, SonarLint, EditorConfig, Import Cost, Live Server, Peacock
