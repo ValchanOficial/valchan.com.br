@@ -204,7 +204,7 @@ const GlobalStyles = createGlobalStyle`
   }
   
   body.light {
-    --background: #FFFFFF;
+    --background: #FFF4FF;
     --text: #222;
     --color: #E5183A;
     --mainTitle: #e43f5a;
