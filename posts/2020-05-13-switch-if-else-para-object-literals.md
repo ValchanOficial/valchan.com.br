@@ -69,19 +69,22 @@ Resolução:
 ```js
 const texto = 'Laranja';
 const textoDefault = 'Arroz';
+
 const fruta = (texto) => ({
   'Laranja': 'Laranjas são deliciosas!',
   'Banana': 'Bananas são deliciosas!',
   'Limão': 'Limões são deliciosos!',
-  null: 'Desculpa, mas não encontrei este termo.',
-  undefined: 'Desculpa, mas não encontrei este termo.',
-  '': 'Desculpa, mas não encontrei este termo.'
-})[texto];
+})[texto] || 'Desculpa, mas não encontrei este termo.';
 
 console.log(fruta(texto));
 // "Laranjas são deliciosas!"
 
-console.log(fruta(textoDefault) ? fruta(textoDefault) : fruta(''));
+console.log(fruta(textoDefault));
+// "Desculpa, mas não encontrei este termo."
+
+console.log(fruta(null));
+console.log(fruta(undefined));
+console.log(fruta(''));
 // "Desculpa, mas não encontrei este termo."
 ```
 
