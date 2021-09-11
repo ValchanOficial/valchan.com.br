@@ -2,7 +2,7 @@
 date: 2020-07-09
 title: "Como executar um script externo no ReactJS"
 description: "Como executar um script externo no ReactJS"
-category: "reactjs"
+category: "ReactJS"
 image: '/assets/img/cover.png'
 ---
 
