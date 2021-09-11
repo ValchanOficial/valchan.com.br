@@ -6,6 +6,16 @@ category: "ReactJS"
 image: "/assets/img/cover.png"
 ---
 
+Vamos por partes:
+
+**clientHeight** e **clientWidth** são as dimensões da janela do navegador, ou seja, apenas o que o usuário vê.
+
+**scrollHeight** e **scrollWidth** são as dimensões da página.
+
+Segue imagem abaixo:
+
+![Imagem representando clientHeight, clientWidth, scrollHeight, scrollWidth entre outros](/assets/img/content.png)
+
 App.js
 
 ```javascript
@@ -93,7 +103,9 @@ ProgressBar/styles.css
     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
 ></iframe>
 
-
+- Img: <a href="https://stackoverflow.com/a/45897388/11842937" target="_blank" rel="noopener noreferrer">StackOverflow</a>
 - <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/clientHeight" target="_blank" rel="noopener noreferrer">clientHeight</a>
+- <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/clientWidth" target="_blank" rel="noopener noreferrer">clientWidth</a>
 - <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollHeight" target="_blank" rel="noopener noreferrer">scrollHeight</a> 
+- <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollWidth" target="_blank" rel="noopener noreferrer">scrollWidth</a> 
 - <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollTop" target="_blank" rel="noopener noreferrer">scrollTop</a> 
