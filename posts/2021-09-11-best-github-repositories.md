@@ -1,6 +1,6 @@
 ---
 date: 2021-09-11
-title: "Os melhores repositórios do Github na minha opnião"
+title: "Os melhores repositórios do Github na minha opinião"
 description: "Fiz uma pequena lista dos repositórios que eu sigo no Github"
 category: "Github"
 image: "/assets/img/cover.png"
@@ -27,7 +27,9 @@ Segue uma lista dos repositórios que eu considero os melhores:
 - <a href="https://github.com/git-tips/tips" target="_blank" rel="noopener noreferrer">Git Tips</a>
 - <a href="https://github.com/getify/You-Dont-Know-JS" target="_blank" rel="noopener noreferrer">You Don't Know JS</a>
 - <a href="https://github.com/kamranahmedse/design-patterns-for-humans" target="_blank" rel="noopener noreferrer">Design Patterns for Humans</a>
+- <a href="https://github.com/sindresorhus/awesome" target="_blank" rel="noopener noreferrer">Awesome</a>
+- <a href="https://github.com/lerrua/remote-jobs-brazil" target="_blank" rel="noopener noreferrer">Remote Jobs Brazil</a>
 
 Já conhecia alguns dos repositórios acima? O que achou? 😊
 
-Caso você queira contribuir, deixe seu comentário abaixo.
+Caso você queira contribuir, deixe seu comentário abaixo(disponível apenas na versão desktop).
