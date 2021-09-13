@@ -5,19 +5,17 @@ import * as S from './style';
 const Avatar = () => {
     const { avatar } = useStaticQuery(graphql`
     query {
-      avatar: file(relativePath: { eq: "valchan.jpg"}) {
-          image: childImageSharp {
-              fluid(maxWidth: 150, maxHeight: 150, quality: 100) {
-                  ...GatsbyImageSharpFluid
-              }
-          }
-      }
+        avatar: file(relativePath: { eq: "valchan.jpg"}) {
+            image: childImageSharp {
+                gatsbyImageData(width: 150, height: 150, quality: 100)
+            }
+        }
     }`);
     
     return (
         <S.Avatar>
             <S.AvatarDetails>
-                <S.AvatarImg fluid={avatar.image.fluid} alt="Valchan" className="image" />
+                <S.AvatarImg image={avatar.image.gatsbyImageData} alt="Valchan" className="image" />
             </S.AvatarDetails>            
         </S.Avatar>
     );

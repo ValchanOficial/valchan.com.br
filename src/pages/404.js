@@ -1,12 +1,12 @@
 import React from "react";
 
 import Main from '../components/Main'
-import SEO from '../components/seo'
+import Seo from '../components/seo'
 import { EmojiSad } from "@styled-icons/entypo/EmojiSad";
 
 const NotFoundPage = () => (
   <Main>
-    <SEO title="404: Not found" description="Página não encontrada | Page not found" />
+    <Seo title="404: Not found" description="Página não encontrada | Page not found" />
     <div className="notFound">
       <h1>404</h1>
       <p>Page Not Found!</p>

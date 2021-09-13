@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import media from "styled-media-query";
-import Img from 'gatsby-image';
+import { GatsbyImage } from 'gatsby-plugin-image';
 
 export const Avatar = styled.div`
     width: auto;
@@ -22,7 +22,7 @@ export const AvatarDetails = styled.section`
     `}
 `
 
-export const AvatarImg = styled(Img)`
+export const AvatarImg = styled(GatsbyImage)`
     width: 150px;
     height: 150px;
     border-radius: 100%;
