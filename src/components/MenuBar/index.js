@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 
-import { SearchAlt as Search, HomeAlt as Home, Sun, Moon } from '@styled-icons/boxicons-regular';
+import Icons from '../Icons'
 import * as S from './style';
 
 const MenuBar = () => {
@@ -16,13 +16,13 @@ const MenuBar = () => {
         <S.MenuBarWrapper>
             <S.MenuBarLink to='/' title='Voltar para Home'>
                 <S.MenuBarIcon>
-                    <Home />
+                    <Icons.Home/>
                 </S.MenuBarIcon>
             </S.MenuBarLink>
 
             <S.MenuBarLink to='/search' title='Pesquisar'>
                 <S.MenuBarIcon>
-                    <Search />
+                    <Icons.Search/>
                 </S.MenuBarIcon>
             </S.MenuBarLink>
             <S.MenuBarIcon
@@ -32,7 +32,7 @@ const MenuBar = () => {
                 }}
                 className={theme}
             >
-               {isDarkMode ? <Sun /> : <Moon />}
+               {isDarkMode ? <Icons.Sun/> : <Icons.Moon/>}
             </S.MenuBarIcon>
         </S.MenuBarWrapper>
     );

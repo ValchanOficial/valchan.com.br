@@ -16,7 +16,6 @@
 - [Gatsby](https://www.gatsbyjs.org/);
 - [GraphQL](https://graphql.org/);
 - [Styled Components](https://styled-components.com/);
-- [Styled Icons](https://styled-icons.js.org/);
 - [Styled Media Query](https://github.com/morajabi/styled-media-query);
 - [PrismJS](https://prismjs.com/);
 - [Disqus](https://disqus.com/);
@@ -25,4 +24,5 @@
 - [Markdown](https://daringfireball.net/projects/markdown/);
 - [Coolors](https://coolors.co/);
 - [Netlify CMS](https://www.netlifycms.org/);
+- [React Icons](https://react-icons.github.io/react-icons/);
 

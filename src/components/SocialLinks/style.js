@@ -30,8 +30,18 @@ export const Icon = styled.div`
     width: 2rem;
     height: auto;
 
+    svg {
+      height: 30px;
+      width: 30px;
+    }
+
     ${media.lessThan("large")`
         width: 3rem;
         margin-left: 0.2rem;
+
+        svg {
+            height: 40px;
+            width: 40px;
+        }
     `}
 `

@@ -8,12 +8,12 @@ const links = [
     },
     {
         label: 'Linkedin',
-        icon: 'LinkedinSquare',
+        icon: 'Linkedin',
         url: `https://www.linkedin.com/in/${handle}`
     },
     {
         label: 'Facebook',
-        icon: 'FacebookSquare',
+        icon: 'Facebook',
         url: `https://www.facebook.com/${handle}`
     },
     {

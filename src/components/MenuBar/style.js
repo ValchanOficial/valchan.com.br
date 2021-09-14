@@ -12,8 +12,18 @@ export const MenuBarWrapper = styled.aside`
     margin-top: 2em;
     margin-bottom: 2em;
 
+    svg {
+        height: 30px;
+        width: 30px;
+    }
+
     ${media.lessThan("large")`
         height: 42px;
+
+        svg {
+            height: 40px;
+            width: 40px;
+        }
     `}
 `
 

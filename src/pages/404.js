@@ -2,7 +2,7 @@ import React from "react";
 
 import Main from '../components/Main'
 import Seo from '../components/seo'
-import { EmojiSad } from "@styled-icons/entypo/EmojiSad";
+import Icons from '../components/Icons'
 
 const NotFoundPage = () => (
   <Main>
@@ -11,7 +11,7 @@ const NotFoundPage = () => (
       <h1>404</h1>
       <p>Page Not Found!</p>
       <div className="icon">
-        <EmojiSad/>
+        <Icons.EmojiSad/>
       </div>
     </div>
   </Main>

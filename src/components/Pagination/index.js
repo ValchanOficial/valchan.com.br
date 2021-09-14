@@ -1,5 +1,5 @@
 import React from "react";
-import { NavigateNext, NavigateBefore } from '@styled-icons/material-rounded';
+import Icons from '../Icons';
 import propTypes from "prop-types";
 import { Link } from "gatsby";
 
@@ -14,11 +14,11 @@ const Pagination = ({
   nextPage,
 }) => (
   <S.PaginationWrapper>
-    {!isFirst && <Link to={prevPage} title="Página anterior"><NavigateBefore title="Página anterior"/><span>Página anterior</span></Link>}
+    {!isFirst && <Link to={prevPage} title="Página anterior"><Icons.NavigateBefore title="Página anterior"/></Link>}
     <p>
       {currentPage} de {numPages}
     </p>
-    {!isLast && <Link to={nextPage} title="Próxima página" ><span>Próxima página</span><NavigateNext title="Próxima página"/></Link>}
+    {!isLast && <Link to={nextPage} title="Próxima página" ><Icons.NavigateNext title="Próxima página"/></Link>}
   </S.PaginationWrapper>
 )
 

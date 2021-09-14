@@ -44,10 +44,6 @@ export const RecommendedLink = styled(Link)`
         transition: border-bottom 300ms ease-in-out;
     }
 
-    > svg {
-        width: 30px;
-    }
-
     ${media.lessThan("medium")`
         width: unset;
         margin: unset;
@@ -58,10 +54,6 @@ export const RecommendedLink = styled(Link)`
             font-size: 0.8rem;
             padding: 0 1rem;
             word-break: break-word;
-        }
-
-        > svg {
-            width: 40px;
         }
     `}
 `

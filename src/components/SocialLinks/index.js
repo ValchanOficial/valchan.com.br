@@ -1,7 +1,7 @@
 import React from 'react';
 
 import links from './content';
-import Icons from './Icons';
+import Icons from '../Icons';
 
 import * as S from './style';
 
