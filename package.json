@@ -68,6 +68,6 @@
     "url": "https://github.com/ValchanOficial/valchan.com.br/issues"
   },
   "engines": {
-    "node": "^14.13.1"
+    "node": "^15.9.0"
   }
 }
