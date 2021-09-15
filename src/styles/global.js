@@ -130,13 +130,13 @@ const GlobalStyles = createGlobalStyle`
     width: 8rem;
   }
 
-  .smallSize p span img {
+  .smallSize p img {
     min-height: 10rem;
     max-height: 10rem;
     margin: auto !important;
   }
 
-  .averageSize p span img {
+  .averageSize p img {
     min-height: auto;
   }
 
