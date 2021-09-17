@@ -8,6 +8,8 @@ image: "/assets/img/cover.png"
 
 Segue uma lista dos repositórios que eu considero os melhores:
 
+* Esta lista irá receber atualizações
+
 - <a href="https://github.com/kamranahmedse/developer-roadmap" target="_blank" rel="noopener noreferrer">Web Developer Roadmap</a>
 - <a href="https://github.com/sdras/awesome-actions" target="_blank" rel="noopener noreferrer">Awesome Actions</a>
 - <a href="https://github.com/public-apis/public-apis" target="_blank" rel="noopener noreferrer">Public APIs</a> 
@@ -29,6 +31,18 @@ Segue uma lista dos repositórios que eu considero os melhores:
 - <a href="https://github.com/kamranahmedse/design-patterns-for-humans" target="_blank" rel="noopener noreferrer">Design Patterns for Humans</a>
 - <a href="https://github.com/sindresorhus/awesome" target="_blank" rel="noopener noreferrer">Awesome</a>
 - <a href="https://github.com/lerrua/remote-jobs-brazil" target="_blank" rel="noopener noreferrer">Remote Jobs Brazil</a>
+- <a href="https://github.com/30-seconds/30-seconds-of-code" target="_blank" rel="noopener noreferrer">30 Seconds of Code</a>
+- <a href="https://github.com/LeCoupa/awesome-cheatsheets" target="_blank" rel="noopener noreferrer">Awesome Cheatsheets</a>
+- <a href="https://github.com/markodenic/web-development-resources" target="_blank" rel="noopener noreferrer">Awesome Web Development Resources</a>
+- <a href="https://github.com/AllThingsSmitty/css-protips" target="_blank" rel="noopener noreferrer">CSS Protips</a>
+- <a href="https://github.com/DovAmir/awesome-design-patterns" target="_blank" rel="noopener noreferrer">Awesome Software and Architectural Design Patterns</a>
+- <a href="https://github.com/jwasham/coding-interview-university" target="_blank" rel="noopener noreferrer">Coding Interview University</a>
+- <a href="https://github.com/DopplerHQ/awesome-interview-questions" target="_blank" rel="noopener noreferrer">Awesome Interview Questions</a>
+- <a href="https://github.com/jlevy/the-art-of-command-line" target="_blank" rel="noopener noreferrer">The Art of Command Line</a>
+- <a href="https://github.com/dypsilon/frontend-dev-bookmarks" target="_blank" rel="noopener noreferrer">Frontend Development</a>
+- <a href="https://github.com/yangshun/tech-interview-handbook" target="_blank" rel="noopener noreferrer">Tech Interview Handbook</a>
+- <a href="https://github.com/microsoft/Web-Dev-For-Beginners" target="_blank" rel="noopener noreferrer">Web Dev For Beginners</a>
+- <a href="https://github.com/microsoft/ML-For-Beginners" target="_blank" rel="noopener noreferrer">Machine Learning For Beginners</a>
 
 Já conhecia alguns dos repositórios acima? O que achou? 😊
 
