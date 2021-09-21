@@ -17,6 +17,12 @@ npm update                       # atualiza dependências
 npm install                      # instala dependências
 ```
 
+``` bash
+yarn upgrade-interactive --latest   # atualiza dependências selecionadas
+yarn upgrade --latest               # atualiza dependências
+```
+
+
 Ou utilizando o <a href="https://www.npmjs.com/package/npm-check-updates" target="_blank" rel="noopener noreferrer">npm-check-updates</a>
 
 

@@ -44,6 +44,12 @@ export const RecommendedLink = styled(Link)`
         transition: border-bottom 300ms ease-in-out;
     }
 
+    svg {
+      height: 30px;
+      width: 30px;
+      margin: 0.5rem;
+    }
+
     ${media.lessThan("medium")`
         width: unset;
         margin: unset;
@@ -54,6 +60,12 @@ export const RecommendedLink = styled(Link)`
             font-size: 0.8rem;
             padding: 0 1rem;
             word-break: break-word;
+        }
+
+        > svg {
+            height: 40px;
+            width: 40px;
+            margin: unset;
         }
     `}
 `
