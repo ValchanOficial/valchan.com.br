@@ -68,7 +68,7 @@ const GlobalStyles = createGlobalStyle`
 
   img {
     display: block;
-    max-width: 100%;
+    max-width: 80%;
     margin: auto;
   }
 
