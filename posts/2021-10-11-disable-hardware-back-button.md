@@ -1,7 +1,7 @@
 ---
 date: 2021-10-11
 title: "Desabilitando botão de voltar do hardware: Android e iOS"
-description: "Como desabitar a função de voltar a nível de hardware dos celulares utilizando o React Native?"
+description: "Como desabitar a função de voltar do botão a nível de hardware dos celulares utilizando o React Native?"
 category: "React Native"
 image: "/assets/img/cover.png"
 ---
