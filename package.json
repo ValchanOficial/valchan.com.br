@@ -13,7 +13,7 @@
     "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-google-fonts-with-attributes": "^1.0.8",
     "gatsby-plugin-image": "^2.0.0-zz-next.1",
-    "gatsby-plugin-mailchimp": "^4.0.0-zz-next.1",
+    "gatsby-plugin-mailchimp": "^5.2.2",
     "gatsby-plugin-manifest": "^4.0.0-zz-next.1",
     "gatsby-plugin-netlify-cms": "^6.0.0-zz-next.8",
     "gatsby-plugin-offline": "^5.0.0-zz-next.1",
