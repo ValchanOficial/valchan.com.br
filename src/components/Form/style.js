@@ -27,7 +27,7 @@ export const Input = styled.input`
     margin-right: 0.1em;
 `
 
-export const Button = styled.input`
+export const Button = styled.button`
     cursor: pointer;
     font-family: Montserrat, Arial, Helvetica, sans-serif;
     border-radius: 4px;
@@ -36,6 +36,7 @@ export const Button = styled.input`
     color: var(--secTitle);
     font-size: 1rem;
     padding: 0.4em 1.6em;
+    width: 100%;
 
     &:active {
         opacity: 0.8;

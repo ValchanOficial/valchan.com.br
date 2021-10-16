@@ -32,7 +32,7 @@ const Form = ({ setSending, setResult }) => {
                 <S.Input type="text" value={values.FNAME} placeholder="Nome" name="FNAME" onChange={handleChange}/>
                 <S.Input type="text" value={values.email} placeholder="E-mail" name="email" onChange={handleChange}/>
             </S.InputContainer>
-            <S.Button type="button" value="Inscrever-se" onClick={disabled ? () => {} : (e) => onSubmit(e)} disabled={disabled}/>
+            <S.Button type="button" onClick={disabled ? () => {} : (e) => onSubmit(e)} disabled={disabled}>Inscrever-se</S.Button>
         </S.Container>
     )
 }

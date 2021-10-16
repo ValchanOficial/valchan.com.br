@@ -5989,10 +5989,10 @@ gatsby-plugin-image@^2.0.0-zz-next.1:
     objectFitPolyfill "^2.3.5"
     prop-types "^15.7.2"
 
-gatsby-plugin-mailchimp@^4.0.0-zz-next.1:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-mailchimp/-/gatsby-plugin-mailchimp-4.1.0.tgz#355784eb05b2f6eb4cc5913b13b81b860cb1a056"
-  integrity sha512-ZUY1AyNCkIQWq8I6h9Ronf6lSPFzXBWMQ9P5n5ViD498h2ZeKzQHuaFCvdx78U8sjwYEo+IAYxTJpBshOeDnow==
+gatsby-plugin-mailchimp@^5.2.2:
+  version "5.2.2"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-mailchimp/-/gatsby-plugin-mailchimp-5.2.2.tgz#bed94cb70b9d91267329a5e6a0220e821d8ff6e8"
+  integrity sha512-O9JizVPJAe5YT1QAHZNRh1xUVdPnfayfIRhsBULiK2629TQRvEzzQxTDbt/WZU02cVm8415Fx2CneaxYKLt0ag==
   dependencies:
     email-validator "^2.0.4"
     jsonp "^0.2.1"
@@ -6332,7 +6332,7 @@ gatsby-worker@^1.0.0-zz-next.4:
     "@babel/core" "^7.15.5"
     "@babel/runtime" "^7.15.4"
 
-gatsby@^4.0.0-zz-next.1:
+gatsby@next:
   version "4.0.0-zz-next.8"
   resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-4.0.0-zz-next.8.tgz#abe6a6b37511dd2fbe103150f2d4ac7452249f52"
   integrity sha512-/nef9Q5aGz8tK1ZzFB/swcVOgO1XEnvuquRtBPMjupgUQ5b9pILXOL7O0iJxKAdkLWkH6cem6ZLsAmO/CjVPZg==
