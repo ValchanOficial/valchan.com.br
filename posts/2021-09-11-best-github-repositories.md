@@ -10,6 +10,7 @@ Segue uma lista dos repositórios que eu considero os melhores:
 
 * Esta lista irá receber atualizações
 
+- <a href="https://github.com/arthurspk/guiadevbrasil" target="_blank" rel="noopener noreferrer">Guia Dev Brasil</a>
 - <a href="https://github.com/kamranahmedse/developer-roadmap" target="_blank" rel="noopener noreferrer">Web Developer Roadmap</a>
 - <a href="https://github.com/sdras/awesome-actions" target="_blank" rel="noopener noreferrer">Awesome Actions</a>
 - <a href="https://github.com/public-apis/public-apis" target="_blank" rel="noopener noreferrer">Public APIs</a> 

@@ -6,6 +6,9 @@
 [![Twitter Follow](https://img.shields.io/twitter/follow/ValchanOficial?style=social)](https://twitter.com/ValchanOficial)  
 
 ## Start
+
+Node version: 16
+
 ```bash
     yarn install
     yarn dev or yarn start or gatsby develop // http://localhost:8000/
