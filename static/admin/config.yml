@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: ValchanOficial/valchan.com.br
-  branch: master
+  branch: main
   site_domain: valchan.com.br
 
 publish_mode: editorial_workflow

@@ -1,7 +1,7 @@
 ---
 date: 2021-10-27
 title: "Lint-staged + Husky"
-description: "A Piece of Cake: como configurar lint-stage com o husky"
+description: "A Piece of Cake: como configurar lint-staged com o husky"
 category: "Javascript"
 image: "/assets/img/cover.png"
 ---
