@@ -58,6 +58,17 @@ Agora na raiz do projeto, criamos o arquivo `.lintstagedrc.json`, e nele colocam
 }
 ```
 
+Na versão mais recente do Next.js, criamos o arquivo `.lintstagedrc.js`:
+
+```javascript
+module.exports = {
+  '**/*.js?(x)': (filenames) =>
+  `next lint --fix --file ${filenames
+    .map((file) => file.split(process.cwd())[1])
+    .join(' --file ')}`,
+}
+```
+
 Como você pode ver, há várias formas de configurar o arquivo do lint-staged, prepare da forma que melhor se adéque ao seu projeto. Feito isso, precisamos configurar o husky para que ele execute o lint-staged a cada commit.<br/>
 Dentro do package.json, iremos adicionar o script do husky:<br/>
 
