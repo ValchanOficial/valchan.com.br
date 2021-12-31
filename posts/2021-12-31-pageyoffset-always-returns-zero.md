@@ -7,7 +7,9 @@ image: "/assets/img/cover.png"
 ---
 
 Este é um erro bem curioso que acontece quando você tenta utilizar o ``pageYOffset`` para obter a posição vertical do scroll.
+
 Motivo: ``overflow-x: hidden`` no html/body
+
 Como resolver: Basicamente você vai precisar envolver seu conteúdo em uma div com ``overflow-x: hidden``.
 
 ```html

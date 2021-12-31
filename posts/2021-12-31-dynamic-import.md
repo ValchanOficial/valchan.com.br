@@ -1,6 +1,6 @@
 ---
 date: 2021-12-31
-title: "Importação dinâmic"
+title: "Importação dinâmica"
 description: "Next.js e a importação dinâmica de módulos ES2020"
 category: "NextJS"
 image: "/assets/img/cover.png"
