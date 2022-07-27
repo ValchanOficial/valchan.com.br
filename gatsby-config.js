@@ -1,6 +1,6 @@
-require("dotenv").config();
+require("dotenv").config()
 
-const queries = require("./src/utils/algolia_queries");
+const queries = require("./src/utils/algolia_queries")
 
 module.exports = {
   siteMetadata: {
@@ -8,16 +8,17 @@ module.exports = {
     position: `Developer`,
     description: `A technology-loving developer who constantly seeks knowledge ♡`,
     author: `Valéria Padilha de Vargas`,
-    siteUrl: `https://valchan.com.br`
+    siteUrl: `https://valchan.com.br`,
   },
   plugins: [
     `gatsby-plugin-smoothscroll`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
     {
-      resolve: 'gatsby-plugin-mailchimp',
+      resolve: "gatsby-plugin-mailchimp",
       options: {
-        endpoint: 'https://valchan.us1.list-manage.com/subscribe/post?u=babcaf62e2cad74799b8c19e1&amp;id=b10871eb30', // Mailchimp endpoint
+        endpoint:
+          "https://valchan.us1.list-manage.com/subscribe/post?u=babcaf62e2cad74799b8c19e1&amp;id=b10871eb30", // Mailchimp endpoint
         timeout: 3500,
       },
     },
@@ -61,17 +62,12 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts-with-attributes`,
       options: {
-        fonts: [
-          `Dosis`,
-          `Satisfy`,
-          `Montserrat\:100,300,400,400i,700`,
-        ],
-        display: 'swap',
+        fonts: [`Dosis`, `Satisfy`, `Montserrat\:100,300,400,400i,700`],
+        display: "swap",
         attributes: {
           rel: "stylesheet preload prefetch",
         },
       },
-    
     },
     `gatsby-plugin-image`,
     `gatsby-transformer-sharp`,
@@ -129,6 +125,12 @@ module.exports = {
             purpose: `maskable`,
           },
           {
+            src: `static/assets/icons/maskable_icon_x384.png`,
+            sizes: `384x384`,
+            type: `image/png`,
+            purpose: `maskable`,
+          },
+          {
             src: `static/assets/icons/maskable_icon_x512.png`,
             sizes: `512x512`,
             type: `image/png`,
@@ -161,7 +163,7 @@ module.exports = {
                   date: edge.node.frontmatter.date,
                   url: site.siteMetadata.siteUrl + edge.node.fields.slug,
                   guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
-                  custom_elements: [{ 'content:encoded': edge.node.html }]
+                  custom_elements: [{ "content:encoded": edge.node.html }],
                 })
               })
             },
@@ -185,11 +187,11 @@ module.exports = {
                 }
               }
             `,
-            output: '/rss.xml',
-            title: "Valchan's RSS Feed"
-          }
-        ]
-      }
+            output: "/rss.xml",
+            title: "Valchan's RSS Feed",
+          },
+        ],
+      },
     },
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-offline`,
