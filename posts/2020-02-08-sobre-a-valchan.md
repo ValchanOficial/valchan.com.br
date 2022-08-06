@@ -12,7 +12,8 @@ image: '/assets/img/cover.png'
 
 </div>
 
-*Essas postagem irá receber atualizações conforme os acontecimentos
+*Essas postagem irá receber atualizações conforme os acontecimentos<br/>
+Atualizado em: 05/08/2022
 
 Hoje eu irei escrever um pouco sobre meu relacionamento com a tecnologia..  
 
@@ -25,7 +26,7 @@ Eu continuei procurando emprego na área de Desenvolvimento, em 2018 eu tinha me
 Em Julho de 2019, curiosamente um dia depois do meu aniversário eu fui chamada para trabalhar como desenvolvedora júnior trainee, eu tinha ficado muito feliz pela oportunidade que me foi dada, trabalhar com desenvolvimento era tudo que eu sempre busquei! Nesse tempo eu havia feito o GoStack e concluído, até me lembro de ir no Discord contar para o Diego que eu tinha oficialmente entrado na área de desenvolvimento, que estava mostrando para as pessoas sobre o quanto o Typescript ajuda no desenvolvimento. Infelizmente com o a chegada da pandemia no Brasil as coisas começaram a mudar e o desequilíbrio entre a vida pessoal e a profissional, entre outras coisas me fizeram solicitar demissão. Bastante infeliz, mas acontece.
 
 <blockquote>  
-  <p>Uma das coisas mais difíceis da vida para aprender é quais pontes atravessar e quais pontes queimar.</p>
+  <p>Uma das coisas mais difíceis da vida para aprender é<br/>quais pontes atravessar e quais pontes queimar.</p>
   <cite>Oprah Winfrey</cite>
 </blockquote>
 
@@ -42,8 +43,18 @@ Em metade de 2021 eu tinha sido chamada para trabalhar em outra empresa, devo di
   <cite>Autor(a) desconhecido(a)</cite>
 </blockquote>
 
-Eu estava em um arrependimento tão grande de ter saído de onde eu estava e ter acreditado no que tinham me dito na entrevista, mas eu entendo que isso faz parte, não tem como a pessoa saber o que vai acontecer. Eu agradeci imensamente o <a href="https://www.linkedin.com/in/jaydson/" target="_blank" rel="noopener noreferrer">Jaydson</a> e o <a href="https://www.linkedin.com/in/felipenmoura/" target="_blank" rel="noopener noreferrer">Felipe</a>, por terem sido compreensivos comigo e por terem me dado a oportunidade de voltar para o On2, eu realmente estou muito feliz de ter voltado. No dia que eu estava saindo eu tinha enviado uma mensagem para o Jaydson: "Vocês estão aceitando pessoas arrependidas de volta?" e ele respondeu: "Só se for a Val".
+Eu estava em um arrependimento tão grande de ter saído de onde eu estava e ter acreditado no que tinham me dito na entrevista, mas eu entendo que isso faz parte, não tem como a pessoa saber o que vai acontecer. Eu agradeci imensamente o <a href="https://www.linkedin.com/in/jaydson/" target="_blank" rel="noopener noreferrer">Jaydson</a> e o <a href="https://www.linkedin.com/in/felipenmoura/" target="_blank" rel="noopener noreferrer">Felipe</a>, por terem sido compreensivos comigo e por terem me dado a oportunidade de voltar para o On2, eu realmente fiquei muito feliz de ter voltado. No dia que eu estava saindo eu tinha enviado uma mensagem para o Jaydson: "Vocês estão aceitando pessoas arrependidas de volta?" e ele respondeu: "Só se for a Val".
 
-Eu sempre digo para quem está procurando, <b>NÃO desista</b>, você vai passar por muitas situações injustas, muitos não irão te reconhecer, muitos irão dizer que você teve "sorte", nunca gostei dessa frase, o que as pessoas chamam de sorte, eu chamo de coragem, eu chamo de sair da zona de conforto, mas enfim, sendo direta, não desista! Por mais que existam pessoas que derrubam as outras, existem também pessoas que te ajudam a levantar. Eu sou muita grata por ter tido/ter essas pessoas na minha vida. Mais uma coisa que eu digo: <b>NUNCA pare de estudar!</b>
+<blockquote>  
+  <p>Uma beleza de futuro</p>
+  <cite>Grupo Boticário</cite>
+</blockquote>
+
+Determinada e inquieta, esta sou eu.<br/>
+Sempre buscando me tornar uma pessoa cada vez melhor, aprendendo com os erros e acertos<br/>
+
+Vejo que a beleza se constrói através do planejmento, criatividade e comprometimento, com novos desafios e oportunidades agora faço parte do Grupo Boticário, e estou bastante feliz em ver que nossos propósitos seguem lado a lado.
+
+Para quem segue buscando uma oportunidade, um lugar melhor, eu sempre digo: <b>NÃO desista</b>, você vai passar por muitas situações injustas, muitos não irão te reconhecer, muitos irão dizer que você teve "sorte", nunca gostei dessa frase, o que as pessoas chamam de sorte, eu chamo de coragem, eu chamo de sair da zona de conforto, mas enfim, sendo direta, não desista! Por mais que existam pessoas que derrubam as outras, existem também pessoas que te ajudam a levantar. Eu sou muita grata por ter tido/ter essas pessoas na minha vida. Mais uma coisa que eu digo: <b>NUNCA pare de estudar!</b>
 
 Eu espero que esse texto sirva de motivação, para que as pessoas vejam que elas não estão sozinhas nessa jornada. 💙
