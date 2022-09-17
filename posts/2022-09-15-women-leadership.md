@@ -47,7 +47,7 @@ Quero deixar meu agradecimento especial para <a href="https://www.linkedin.com/i
 Caso você tenha interesse, o próximo Bootcamp vai acontecer nos dias 06 a 27 de Outubro</br>
 E tem voucher com desconto de 10% em!! 😉</br>
 Voucher: VALERIA10</br>
-Link inscrição: https://bit.ly/3Bvjeqj</br></br>
+Link inscrição: <a href="https://bit.ly/3Bvjeqj" target="_blank" rel="noopener noreferrer">https://bit.ly/3Bvjeqj</a></br></br>
 
 
 <a class="hashtag" href="https://twitter.com/hashtag/WomenLeadership" target="_blank" rel="noopener noreferrer">#WomenLeadership</a>
