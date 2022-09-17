@@ -45,8 +45,8 @@ Quero deixar meu agradecimento especial para <a href="https://www.linkedin.com/i
 </br>
 
 Caso você tenha interesse, o próximo Bootcamp vai acontecer nos dias 06 a 27 de Outubro</br>
-E tem voucher com desconto de R$100 em!! 😉</br>
-Voucher: AMIGAWL13</br>
+E tem voucher com desconto de 10% em!! 😉</br>
+Voucher: VALERIA10</br>
 Link inscrição: https://bit.ly/3Bvjeqj</br></br>
 
 
