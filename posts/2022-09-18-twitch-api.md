@@ -10,7 +10,7 @@ Tutorial rápido de como gerar seu OAuth Token e consumir a Twitch API.
 
 ## Criando seu App no Console da Twitch
 
-- Abra o Console na <a href="https://dev.twitch.tv/console/apps" target="_blank" rel="noopener noreferrer">Aba Aplicativos</a>
+- Abra o Console na <a href="https://dev.twitch.tv/console/apps" target="_blank" rel="noopener noreferrer">Aba Aplicativos</a>;
 - Clique em "+ Registre seu aplicativo";
 - Preencha os campos com as informações do seu App;
 - No campo URLs de redirecionamento OAuth, para testar localmente você pode colocar o http://localhost:3000, a porta não precisa ser necessariamente a 3000, use a mesma que você setou no seu projeto;
@@ -68,7 +68,8 @@ app.post('/twitch/token', async (_: Request, res: Response) => {
     });
   }
 });
-
+```
+```js
 app.get('/twitch/top-games', async (_: Request, res: Response) => {
   try {
     const { data } = await axios.get('https://api.twitch.tv/helix/games/top', {
@@ -80,11 +81,12 @@ app.get('/twitch/top-games', async (_: Request, res: Response) => {
     return res.status(200).json(data?.data);
   } catch (error) {
     return res.status(500).json({
-      message: 'Error while fetching top games from Twitch API',
+      message: 'Error while fetching top games',
     });
   }
 });
-
+```
+```js
 app.get('/twitch/users/:login', async (req: Request, res: Response) => {
   try {
     const login = String(req.params.login);
@@ -96,13 +98,13 @@ app.get('/twitch/users/:login', async (req: Request, res: Response) => {
     });
     return res.status(200).json(data?.data[0]);
   } catch (error) {
-    console.log(error);
     return res.status(500).json({
-        message: 'Error while fetching user info',
+      message: 'Error while fetching user info',
     });
   }
 });
-
+```
+```js
 app.get('/twitch/users/follows/:userId', async (req: Request, res: Response) => {
   try {
     const userId = String(req.params.userId);
@@ -114,9 +116,8 @@ app.get('/twitch/users/follows/:userId', async (req: Request, res: Response) => 
     });
     return res.status(200).json(data?.data);
   } catch (error) {
-    console.log(error);
     return res.status(500).json({
-      message: 'Error while fetching followers',
+        message: 'Error while fetching followers',
     });
   }
 });
