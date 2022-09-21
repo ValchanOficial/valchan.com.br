@@ -44,7 +44,7 @@ image: "/assets/img/cover.png"
 
 </div>
 
-- Pair Extraordinaire: Tenha coautoria em uma pull request mergeada - <a href="https://docs.github.com/pt/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/creating-a-commit-with-multiple-authors" target="_blank" rel="noopener noreferrer">Como criar um commit com vários autores</a>
+- Pair Extraordinaire: Tenha coautoria em um pull request mergeado - <a href="https://docs.github.com/pt/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/creating-a-commit-with-multiple-authors" target="_blank" rel="noopener noreferrer">Como criar um commit com vários autores</a>
 
 <div class="smallSizeLeft">
 
@@ -79,7 +79,7 @@ image: "/assets/img/cover.png"
 
 ## Conquistas que não podem mais ser obtidas
 
-- Mars 2020 Contributor: dado para aqueles que contribuíram no desenvolvimento do código do <a href="https://github.com/readme/featured/nasa-ingenuity-helicopter" target="_blank" rel="noopener noreferrer">Helicóptero Ingenuity</a>
+- Mars 2020 Contributor: Dado para aqueles que contribuíram no desenvolvimento do código do <a href="https://github.com/readme/featured/nasa-ingenuity-helicopter" target="_blank" rel="noopener noreferrer">Helicóptero Ingenuity</a>
 
 <div class="smallSizeLeft">
 
@@ -87,7 +87,7 @@ image: "/assets/img/cover.png"
 
 </div>
 
-- Arctic Code Vault Contributor: para todos que contribuiram com o desenvolvimento de código aberto - <a href="https://archiveprogram.github.com/." target="_blank" rel="noopener noreferrer">2020 GitHub Archive Program</a>
+- Arctic Code Vault Contributor: Para todos que contribuiram com o desenvolvimento de código aberto - <a href="https://archiveprogram.github.com/." target="_blank" rel="noopener noreferrer">2020 GitHub Archive Program</a>
 
 <div class="smallSizeLeft">
 
