@@ -67,6 +67,38 @@ Se tudo estiver ok, ao fazer isso você deverá ver a mensagem "Hello from Docke
 
 Info: sempre que necessário se o serviço não estiver rodando, use o comando para inicia-lo ``service docker start``.
 
+## Caso você tenha problemas de Rede/ DNS, faça esses passos:
+
+- No terminal do Ubuntu:
+Abra o arquivo resol.conf:
+
+```bash
+sudo nano /etc/resolv.conf
+```
+
+- Adicione as seguintes linhas:
+
+```bash
+nameserver 8.8.8.8
+nameserver 8.8.4.4
+```
+
+- Crie um arquivo wsl.conf:
+
+```bash
+sudo nano /etc/wsl.conf
+```
+
+- Adicione as seguintes linhas:
+
+```bash
+[automount]
+root = /
+options = "metadata"
+[network]
+generateResolvConf = false
+```
+
 ***Fontes:***
 
 - <a href="https://docs.docker.com/desktop/install/windows-install/" target="_blank" rel="noopener noreferrer">Install Docker Desktop on Windows</a>
