@@ -32,5 +32,5 @@ Um pequeno texto de lembrete, tome cuidado com dados que você utiliza na sua to
 ***Fontes:***
 
 - <a href="http://www.tylervigen.com/spurious-correlations" target="_blank" rel="noopener noreferrer">spurious correlations</a>
-- <a href="https://towardsdatascience.com/correlation-is-not-causation-ae05d03c1f53" target="_blank" rel="noopener noreferrer">Marketoonist</a>
-- <a href="https://marketoonist.com" target="_blank" rel="noopener noreferrer">Towards Data Science - Correlation is not causation</a>
+- <a href="https://towardsdatascience.com/correlation-is-not-causation-ae05d03c1f53" target="_blank" rel="noopener noreferrer">Towards Data Science - Correlation is not causation</a>
+- <a href="https://marketoonist.com" target="_blank" rel="noopener noreferrer">Marketoonist</a>
