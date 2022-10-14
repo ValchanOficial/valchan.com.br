@@ -70,26 +70,30 @@ Info: sempre que necessário se o serviço não estiver rodando, use o comando p
 ## Caso você tenha problemas de Rede/ DNS, faça esses passos:
 
 - No terminal do Ubuntu:
-Abra o arquivo resol.conf:
+- - Se houver o arquivo resolv.conf, apague-o:
+```bash
+sudo rm /etc/resolv.conf
+```
+- - E crie um novo resolv.conf:
 
 ```bash
 sudo nano /etc/resolv.conf
 ```
 
-- Adicione as seguintes linhas:
+- - Adicione os namespaces:
 
 ```bash
 nameserver 8.8.8.8
 nameserver 8.8.4.4
 ```
 
-- Crie um arquivo wsl.conf:
+- - Crie um arquivo wsl.conf:
 
 ```bash
 sudo nano /etc/wsl.conf
 ```
 
-- Adicione as seguintes linhas:
+- - Adicione as seguintes linhas:
 
 ```bash
 [automount]
@@ -99,9 +103,18 @@ options = "metadata"
 generateResolvConf = false
 ```
 
+- Caso você tenha este erro: `Error response from daemon: Get https://registry-1.docker.io/v2/: x509: certificate is valid for *.api.trato.io, *.app.trato.io, not registry-1.docker.io.`, acesse o arquivo hosts `(C:\Windows\System32\drivers\etc\hosts)` e adicione o registry do docker:
+    
+```bash
+# Apague o antigo se houver
+# 34.228.211.243 registry-1.docker.io
+34.228.211.243 registry-1.docker.io/v2/
+```
+
 ***Fontes:***
 
 - <a href="https://docs.docker.com/desktop/install/windows-install/" target="_blank" rel="noopener noreferrer">Install Docker Desktop on Windows</a>
 
 - <a href="https://askubuntu.com/questions/883032/installing-docker-on-ubuntu-16-04-setting-up-repository" target="_blank" rel="noopener noreferrer">AskUbuntu</a>
  
+- <a href="https://github.com/docker/for-win/issues/7938" target="_blank" rel="noopener noreferrer">GitHub - Docker for win</a>
