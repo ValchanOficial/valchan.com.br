@@ -6,7 +6,6 @@ category: "Javascript"
 image: "/assets/img/cover.png"
 ---
 
-
 Primeiramente precisamos instalar o husky e o lint-staged.
 
 ```bash
@@ -45,7 +44,7 @@ Agora na raiz do projeto, criamos o arquivo `.lintstagedrc.json`, e nele colocam
 {
   "*.js": [
     "eslint --fix",
-    "jest --passWithNoTests" 
+    "jest --passWithNoTests"
     // --passWithNoTests permite que a verificação passe mesmo que não existam arquivos de teste
   ]
 }
@@ -62,10 +61,10 @@ Na versão mais recente do Next.js, criamos o arquivo `.lintstagedrc.js`:
 
 ```javascript
 module.exports = {
-  '**/*.js?(x)': (filenames) =>
-  `next lint --fix --file ${filenames
-    .map((file) => file.split(process.cwd())[1])
-    .join(' --file ')}`,
+  "**/*.js?(x)": filenames =>
+    `next lint --fix --file ${filenames
+      .map(file => file.split(process.cwd())[1])
+      .join(" --file ")}`,
 }
 ```
 
@@ -99,7 +98,24 @@ npx husky add .husky/pre-commit "npx lint-staged"
 
 Feito isso um arquivo de pre-commit será criado na pasta do husky, e agora a cada commit que você fizer o husky irá rodar o lint-staged.<br/>
 
+- **Extra**
+
+Instalação do git-commit-msg-linter:
+
+```bash
+npm install git-commit-msg-linter --save-dev
+# ou
+yarn add -D git-commit-msg-linter
+```
+
+Depois rodar o comando:
+
+```bash
+npx husky add .husky/commit-msg ".git/hooks/commit-msg \$1"
+```
 
 - <a href="https://github.com/okonet/lint-staged" target="_blank" rel="noopener noreferrer">lint-staged</a>
 
-- <a href="https://github.com/typicode/husky" target="_blank" rel="noopener noreferrer">husky</a> 
+- <a href="https://github.com/typicode/husky" target="_blank" rel="noopener noreferrer">husky</a>
+
+- <a href="https://github.com/legend80s/commit-msg-linter" target="_blank" rel="noopener noreferrer">git-commit-msg-linter</a>
