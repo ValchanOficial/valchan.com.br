@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import media from "styled-media-query";
+import styled from "styled-components"
+import media from "styled-media-query"
 
 export const PostContainer = styled.div`
   display: flex;
@@ -8,20 +8,18 @@ export const PostContainer = styled.div`
 `
 
 export const PostContent = styled.div`
-    background: var(--background);
-    display: flex;
-    flex-direction: column;
-    /* margin-left: 0.5rem; */
-    border: 2px solid var(--border);
-    border-radius: 1rem;
-    padding: 2rem;
-    margin-bottom: 1rem;
-    width: 100%;
-    align-items: center;
+  background: var(--background);
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--border);
+  padding: 2rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  align-items: center;
 
-    ${media.lessThan("large")`
-      padding: 1rem 0.5rem;
-    `}
+  ${media.lessThan("large")`
+    padding: 1rem 0.5rem;
+  `}
 `
 
 export const PostHeader = styled.header`
@@ -35,7 +33,7 @@ export const PostTitle = styled.h1`
   font-weight: bold;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-  
+
   ${media.lessThan("large")`
     font-size: 2rem;
   `}
@@ -99,11 +97,11 @@ export const MainContent = styled.section`
 
     ${media.lessThan("large")`
       font-size: 1rem;
-    `}  
+    `}
 
     ${media.lessThan("medium")`
       font-size: 0.9rem;
-    `}  
+    `}
   }
 
   p {
@@ -155,7 +153,7 @@ export const MainContent = styled.section`
   }
 
   blockquote {
-    display:flex;
+    display: flex;
     margin: auto;
     flex-direction: column;
     color: var(--color);
@@ -205,7 +203,7 @@ export const MainContent = styled.section`
   h3,
   h4,
   h5,
-  h6 {    
+  h6 {
     font-family: Dosis, Arial, Helvetica, sans-serif;
     color: var(--secTitle);
     margin: 2.4rem auto 1rem;
@@ -235,7 +233,7 @@ export const MainContent = styled.section`
   }
 
   strong {
-    font-size: 1.2rem;    
+    font-size: 1.2rem;
     font-weight: 400;
 
     ${media.lessThan("medium")`
@@ -288,10 +286,10 @@ export const MainContent = styled.section`
       color: var(--linkHover);
       font-weight: 500;
     }
-    
   }
 
-  a[class="hashtag"], a[href*="twitter"] {
+  a[class="hashtag"],
+  a[href*="twitter"] {
     border-bottom: none;
   }
 
@@ -306,7 +304,9 @@ export const MainContent = styled.section`
     `}
   }
 
-  form, input, select {
+  form,
+  input,
+  select {
     font-size: 1.2rem;
     font-weight: 300;
     font-family: Montserrat, Arial, Helvetica, sans-serif;
@@ -317,13 +317,14 @@ export const MainContent = styled.section`
     `}
   }
 
-  input, select {
+  input,
+  select {
     border-color: none;
     background: var(--input);
   }
 
   select {
-	  cursor: pointer;
+    cursor: pointer;
     font-family: Montserrat, Arial, Helvetica, sans-serif;
     font-size: 1.25rem;
     font-weight: bold;
@@ -362,17 +363,18 @@ export const MainContent = styled.section`
     border: 0.1rem solid var(--color);
   }
 
-  thead th{
+  thead th {
     font-weight: 500;
   }
 
-  th, td {
+  th,
+  td {
     color: var(--text);
     border: 0.1rem solid var(--color);
     font-weight: 300;
     text-align: left;
     padding: 8px;
-    
+
     > a {
       color: var(--text);
       transition: unset;
@@ -391,11 +393,11 @@ export const MainContent = styled.section`
     border-radius: 8px;
   }
 
-  textarea {    
+  textarea {
     font-family: Montserrat, Arial, Helvetica, sans-serif;
     color: var(--text);
     font-size: 1rem;
-    display:flex;
+    display: flex;
     border-radius: 8px;
     padding: 0.8rem;
     margin: auto;
@@ -414,8 +416,10 @@ export const MainContent = styled.section`
     `}
   }
 
-  video, figure, iframe {
-    display:flex;
+  video,
+  figure,
+  iframe {
+    display: flex;
     margin: auto;
     width: auto;
     background: transparent;
@@ -429,9 +433,9 @@ export const MainContent = styled.section`
     ${media.lessThan("medium")`
       width: 20rem;
     `}
-  } */
-
-  figure, figcaption {
+  }
+  */ figure,
+  figcaption {
     flex-direction: column;
     align-content: center;
     align-items: center;
@@ -452,5 +456,4 @@ export const MainContent = styled.section`
   ${media.lessThan("large")`
     word-break: break-word;
   `}
-
 `
