@@ -1,22 +1,20 @@
-const path = require("path");
-const { createFilePath } = require(`gatsby-source-filesystem`);
+const path = require("path")
+const { createFilePath } = require(`gatsby-source-filesystem`)
 
 exports.onCreateWebpackConfig = ({ getConfig, stage }) => {
-    const config = getConfig();
-    if (stage.startsWith('develop') && config.resolve) {
-      config.resolve.alias = {
-        ...config.resolve.alias,
-        'react-dom': '@hot-loader/react-dom'
-      }
+  const config = getConfig()
+  if (stage.startsWith("develop") && config.resolve) {
+    config.resolve.alias = {
+      ...config.resolve.alias,
     }
+  }
 }
 
 // To add the slug field to each post
 exports.onCreateNode = ({ node, getNode, actions }) => {
-  const { createNodeField } = actions;
-  
+  const { createNodeField } = actions
+
   if (node.internal.type === "MarkdownRemark") {
-    
     const slug = createFilePath({
       node,
       getNode,
@@ -33,46 +31,49 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 
 // To create the posts pages
 exports.createPages = ({ graphql, actions }) => {
-  const { createPage } = actions;
+  const { createPage } = actions
 
   return graphql(`
-  {
-    posts: allMarkdownRemark(sort: { fields: frontmatter___date, order: DESC }) {
-      edges {
-        node {
-          fields {
-            slug
+    {
+      posts: allMarkdownRemark(
+        sort: { fields: frontmatter___date, order: DESC }
+      ) {
+        edges {
+          node {
+            fields {
+              slug
+            }
+            frontmatter {
+              category
+              date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
+              description
+              title
+              image
+            }
           }
-          frontmatter {
-            category
-            date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
-            description
-            title
-            image
+          next {
+            fields {
+              slug
+            }
+            frontmatter {
+              title
+            }
           }
-        }
-        next {
-          fields {
-            slug
-          }
-          frontmatter {
-            title
-          }
-        }
-        previous {
-          frontmatter {
-            title
-          }
-          fields {
-            slug
+          previous {
+            frontmatter {
+              title
+            }
+            fields {
+              slug
+            }
           }
         }
       }
     }
-  }`).then(result => {
-    const posts = result.data.posts.edges;
-    const postsPerPage = 6;
-    const numPages = Math.ceil(posts.length / postsPerPage);
+  `).then(result => {
+    const posts = result.data.posts.edges
+    const postsPerPage = 6
+    const numPages = Math.ceil(posts.length / postsPerPage)
 
     posts.forEach(({ node, next, previous }) => {
       createPage({
@@ -98,5 +99,5 @@ exports.createPages = ({ graphql, actions }) => {
         },
       })
     })
-  });
+  })
 }
