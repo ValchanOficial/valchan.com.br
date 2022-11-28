@@ -19,7 +19,7 @@ export const LayoutMain = styled.main`
   align-items: center;
 
   ${media.greaterThan("large")`
-      width: 75%;
+      width: 70%;
     `}
 
   body#grid & {

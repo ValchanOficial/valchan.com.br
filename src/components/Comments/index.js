@@ -1,11 +1,11 @@
-import React from "react";
-import PropTypes from "prop-types";
-import ReactDisqusComments from "react-disqus-comments";
+import PropTypes from "prop-types"
+import React from "react"
+import ReactDisqusComments from "react-disqus-comments"
 
 import * as S from "./style"
 
 const Comments = ({ url, title }) => {
-  const completeURL = `https://valchan.com.br${url}`;
+  const completeURL = `https://valchan.com.br${url}`
 
   return (
     <S.CommentsWrapper>
@@ -25,4 +25,4 @@ Comments.propTypes = {
   title: PropTypes.string.isRequired,
 }
 
-export default Comments;
+export default Comments

@@ -7,16 +7,16 @@ image: "/assets/img/cover.png"
 ---
 
 ```javascript
-import { useState } from "react";
-import "./styles.css";
+import { useState } from "react"
+import "./styles.css"
 
-import img from "./undraw_arrow.svg";
+import img from "./undraw_arrow.svg"
 
 export default function App() {
-  const [rotate, setRotate] = useState(0);
+  const [rotate, setRotate] = useState(0)
 
   const handleRotateImage = () =>
-    setRotate((oldState) => (oldState === 270 ? 0 : oldState + 90));
+    setRotate(oldState => (oldState === 270 ? 0 : oldState + 90))
 
   return (
     <div className="App">
@@ -32,7 +32,7 @@ export default function App() {
         />
       </div>
     </div>
-  );
+  )
 }
 ```
 
@@ -59,7 +59,8 @@ export default function App() {
   border-radius: 8px;
 }
 
-.Img { // necessário para imagem se manter com o tamanho da div pai
+.Img {
+  // necessário para imagem se manter com o tamanho da div pai
   display: block;
   height: 100%;
   width: 100%;
@@ -69,6 +70,6 @@ export default function App() {
 <iframe src="https://codesandbox.io/embed/rotate-image-45v2zt?fontsize=14&hidenavigation=1&theme=dark"
   style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
   title="rotate image"
-  allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+  allow="camera; geolocation; microphone;"
   sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
 ></iframe>

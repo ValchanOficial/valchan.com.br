@@ -1,9 +1,8 @@
-import styled from "styled-components";
+import styled from "styled-components"
 
 export const ListWrapper = styled.section`
   display: flex;
   flex-direction: column;
-  /* gap: 2rem; // some browsers it doesn't work */ 
   margin-bottom: 2rem;
   width: 100%;
 

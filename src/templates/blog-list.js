@@ -1,21 +1,24 @@
-import React from "react";
+import PropTypes from "prop-types"
+import React from "react"
 
-import Main from '../components/Main';
-import Seo from "../components/seo";
-import PostItem from "../components/PostItem";
-import Pagination from '../components/Pagination';
+import Main from "../components/Main"
+import Pagination from "../components/Pagination"
+import PostItem from "../components/PostItem"
+import Seo from "../components/seo"
 
-import * as S from "../components/ListWrapper/style";
-import { graphql } from "gatsby";
-import Newsletter from "../components/Newsletter";
+import { graphql } from "gatsby"
+import * as S from "../components/ListWrapper/style"
+import Newsletter from "../components/Newsletter"
 
-const BlogList = (props) => {
-  const postList = props.data.posts.edges;
-  const { currentPage, numPages } = props.pageContext;
-  const isFirst = currentPage === 1;
-  const isLast = currentPage === numPages;
-  const prevPage = currentPage - 1 === 1 ? '/' : `/page/${currentPage - 1}`;
-  const nextPage = `/page/${currentPage + 1}`;
+export default function BlogList(props) {
+  const { data, pageContext } = props
+
+  const postList = data.posts.edges
+  const { currentPage, numPages } = pageContext
+  const isFirst = currentPage === 1
+  const isLast = currentPage === numPages
+  const prevPage = currentPage - 1 === 1 ? "/" : `/page/${currentPage - 1}`
+  const nextPage = `/page/${currentPage + 1}`
 
   return (
     <Main>
@@ -26,7 +29,7 @@ const BlogList = (props) => {
             node: {
               frontmatter: { category, date, description, title },
               time,
-              fields: { slug }
+              fields: { slug },
             },
           }) => (
             <PostItem
@@ -49,33 +52,41 @@ const BlogList = (props) => {
         prevPage={prevPage}
         nextPage={nextPage}
       />
-      <Newsletter/>
+      <Newsletter />
     </Main>
   )
 }
 
 export const query = graphql`
-query ($skip: Int, $limit: Int) {
-  posts: allMarkdownRemark(
+  query ($skip: Int, $limit: Int) {
+    posts: allMarkdownRemark(
       sort: { fields: frontmatter___date, order: DESC }
       limit: $limit
       skip: $skip
-      ) {
+    ) {
       edges {
-          node {
+        node {
           fields {
-              slug
+            slug
           }
           frontmatter {
-              category
-              date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
-              description
-              title
+            category
+            date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
+            description
+            title
           }
           time: timeToRead
-          }
+        }
       }
+    }
   }
-}`
+`
 
-export default BlogList;
+BlogList.propTypes = {
+  data: PropTypes.object,
+  pageContext: PropTypes.object,
+}
+
+BlogList.defaultProps = {
+  data: [],
+}

@@ -6,20 +6,20 @@ category: "ReactJS"
 image: "/assets/img/cover.png"
 ---
 
-
 ```javascript
 // App.js
-import "./styles.css";
+import "./styles.css"
 
 export default function App() {
-  const imageUrl = "https://images.unsplash.com/photo-1637247474589-e948ee383422";
-  const bgImage = { "--bg-image": `url(${imageUrl})` };
+  const imageUrl =
+    "https://images.unsplash.com/photo-1637247474589-e948ee383422"
+  const bgImage = { "--bg-image": `url(${imageUrl})` }
 
   return (
     <div className="App" style={bgImage}>
       <h1>Hello ReactJS</h1>
     </div>
-  );
+  )
 }
 ```
 
@@ -60,11 +60,10 @@ export default function App() {
   src="https://codesandbox.io/embed/set-background-image-by-var-inline-9z7m4?fontsize=14&hidenavigation=1&theme=dark"
   style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
   title="set-background-image-by-var-inline"
-  allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+  allow="camera; geolocation; microphone;"
   sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
 ></iframe>
 
+- <a href="https://unsplash.com/photos/v5RRE2uTQJk" target="_blank" rel="noopener noreferrer">Imagem em Unsplash</a>
 
-- <a href="https://unsplash.com/photos/v5RRE2uTQJk" target="_blank" rel="noopener noreferrer">Imagem em Unsplash</a> 
-
-- <a href="https://react-typescript-cheatsheet.netlify.app/docs/advanced/types_react_api/#typesreact" target="_blank" rel="noopener noreferrer">CSSProperties</a> 
+- <a href="https://react-typescript-cheatsheet.netlify.app/docs/advanced/types_react_api/#typesreact" target="_blank" rel="noopener noreferrer">CSSProperties</a>

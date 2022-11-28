@@ -119,15 +119,15 @@ const GlobalStyles = createGlobalStyle`
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 4rem;
+    font-size: 2.5rem;
     text-align: center;
     font-weight: bold;
-    padding: 5rem;
     color: var(--color);
   }
 
-  .icon {
-    width: 8rem;
+  .notFound__img {
+    max-height: 50rem;
+    height: 100%;
   }
 
   .smallSizeLeft p img,  .smallSizeLeft p span img{
@@ -193,12 +193,12 @@ const GlobalStyles = createGlobalStyle`
 
   body.dark {
     --background: #18191A;
-    --text: #BE95C4;
+    --text: #edeced;
     --color: #5E548E;
     --mainTitle: #5E548E;
     --secTitle: #CEB1E0;
     --postHeader: #9F86C0;
-    --link: #5E548E;
+    --link: #8075B6;
     --linkHover: #5E548E;
     --colorTag: #231942;
     --colorTagTwo: #9F86C0;

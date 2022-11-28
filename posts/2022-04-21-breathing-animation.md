@@ -7,14 +7,14 @@ image: "/assets/img/cover.png"
 ---
 
 ```javascript
-import "./styles.css";
+import "./styles.css"
 
 export default function App() {
   return (
     <div className="main">
       <div className="breathing" />
     </div>
-  );
+  )
 }
 ```
 
@@ -56,12 +56,11 @@ Exemplo:
 <iframe src="https://codesandbox.io/embed/breathing-animation-r82hsj?fontsize=14&hidenavigation=1&theme=dark"
     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
     title="breathing animation"
-    allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+    allow="camera; geolocation; microphone;"
     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
 ></iframe>
 
 Se quiser ver mais sobre o clip-path, dê uma olhada no meu outro [post](https://valchan.com.br/clip-path/)
-
 
 Não se esqueça:
 

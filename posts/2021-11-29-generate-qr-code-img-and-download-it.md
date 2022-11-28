@@ -10,71 +10,71 @@ Função utilizando a lib qrcode:
 
 ```javascript
 const usingQRCodeJS = () => {
-    // https://github.com/soldair/node-qrcode#qr-code-options
-    const errorCorrectionLevel = "M"; // Error correction level ('L', 'M', 'Q', 'H')
-    const url = "https://valchan.com.br/";
-    const opts = {
-        errorCorrectionLevel,
-        type: "image/jpeg", // Possible values are: image/png, image/jpeg, image/webp.
-        quality: 1, // A number between 0 and 1 indicating image quality if the requested type is image/jpeg or image/webp.
-        margin: 0, // Define how much wide the quiet zone should be.
-        scale: 50
-    };
-    QRCode.toDataURL(url, opts, (err, urlResponse) => {
-        console.log(urlResponse);
-    });
-};
+  // https://github.com/soldair/node-qrcode#qr-code-options
+  const errorCorrectionLevel = "M" // Error correction level ('L', 'M', 'Q', 'H')
+  const url = "https://valchan.com.br/"
+  const opts = {
+    errorCorrectionLevel,
+    type: "image/jpeg", // Possible values are: image/png, image/jpeg, image/webp.
+    quality: 1, // A number between 0 and 1 indicating image quality if the requested type is image/jpeg or image/webp.
+    margin: 0, // Define how much wide the quiet zone should be.
+    scale: 50,
+  }
+  QRCode.toDataURL(url, opts, (err, urlResponse) => {
+    console.log(urlResponse)
+  })
+}
 ```
 
 Função utilizando a lib qrcode-generator:
 
 ```javascript
 const usingQRCodeGenerator = () => {
-    // https://github.com/kazuhikoarase/qrcode-generator/tree/master/js
-    const errorCorrectionLevel = "M"; // Error correction level ('L', 'M', 'Q', 'H')
-    const url = "https://valchan.com.br/";
-    const typeNumber = 0; // Type number (1 ~ 40), or 0 for auto detection.
-    let qr = qrcodeGenerator(typeNumber, errorCorrectionLevel);
-    qr.addData(url);
-    qr.make();
-    const urlResponse = qr.createDataURL(50, 0); // cellSize, margin
-    console.log(urlResponse);
-};
+  // https://github.com/kazuhikoarase/qrcode-generator/tree/master/js
+  const errorCorrectionLevel = "M" // Error correction level ('L', 'M', 'Q', 'H')
+  const url = "https://valchan.com.br/"
+  const typeNumber = 0 // Type number (1 ~ 40), or 0 for auto detection.
+  let qr = qrcodeGenerator(typeNumber, errorCorrectionLevel)
+  qr.addData(url)
+  qr.make()
+  const urlResponse = qr.createDataURL(50, 0) // cellSize, margin
+  console.log(urlResponse)
+}
 ```
 
 Função para baixar a imagem gerada:
 
 ```javascript
-const downloadImageFile = (urlFile) => {
-    var link = document.createElement("a");
-    link.href = urlFile; // url do arquivo
-    link.download = "qrcode"; // nome do arquivo
-    link.style.display = "none";
-    document.body.appendChild(link);
-    link.click(); // onde a mágica acontece
-    document.body.removeChild(link);
-};
+const downloadImageFile = urlFile => {
+  var link = document.createElement("a")
+  link.href = urlFile // url do arquivo
+  link.download = "qrcode" // nome do arquivo
+  link.style.display = "none"
+  document.body.appendChild(link)
+  link.click() // onde a mágica acontece
+  document.body.removeChild(link)
+}
 ```
 
 Exemplo App.js:
 
 ```javascript
-import { useEffect, useState } from "react";
+import { useEffect, useState } from "react"
 
-import QRCode from "qrcode";
-import qrcodeGenerator from "qrcode-generator";
+import QRCode from "qrcode"
+import qrcodeGenerator from "qrcode-generator"
 
-const errorCorrectionLevel = "M";
-const url = "https://valchan.com.br/";
+const errorCorrectionLevel = "M"
+const url = "https://valchan.com.br/"
 
 export default function App() {
-  const [qrcode1, setQrcode1] = useState("");
-  const [qrcode2, setQrcode2] = useState("");
+  const [qrcode1, setQrcode1] = useState("")
+  const [qrcode2, setQrcode2] = useState("")
 
   useEffect(() => {
-    usingQRCodeJS();
-    usingQRCodeGenerator();
-  }, []);
+    usingQRCodeJS()
+    usingQRCodeGenerator()
+  }, [])
 
   const usingQRCodeJS = () => {
     const opts = {
@@ -82,31 +82,31 @@ export default function App() {
       type: "image/jpeg",
       quality: 1,
       margin: 0,
-      scale: 50
-    };
+      scale: 50,
+    }
     QRCode.toDataURL(url, opts, (err, urlResponse) => {
-      setQrcode1(urlResponse);
-    });
-  };
+      setQrcode1(urlResponse)
+    })
+  }
 
   const usingQRCodeGenerator = () => {
-    const typeNumber = 0;
-    let qr = qrcodeGenerator(typeNumber, errorCorrectionLevel);
-    qr.addData(url);
-    qr.make();
-    const urlResponse = qr.createDataURL(50, 0);
-    setQrcode2(urlResponse);
-  };
+    const typeNumber = 0
+    let qr = qrcodeGenerator(typeNumber, errorCorrectionLevel)
+    qr.addData(url)
+    qr.make()
+    const urlResponse = qr.createDataURL(50, 0)
+    setQrcode2(urlResponse)
+  }
 
-  const downloadImageFile = (urlFile) => {
-    var link = document.createElement("a");
-    link.href = urlFile;
-    link.download = "qrcode";
-    link.style.display = "none";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
+  const downloadImageFile = urlFile => {
+    var link = document.createElement("a")
+    link.href = urlFile
+    link.download = "qrcode"
+    link.style.display = "none"
+    document.body.appendChild(link)
+    link.click()
+    document.body.removeChild(link)
+  }
 
   return (
     <div>
@@ -118,7 +118,7 @@ export default function App() {
       <img src={qrcode2} alt="Qrcode generated by qrcode-generator lib" />
       <button onClick={() => downloadImageFile(qrcode2)}>Download</button>
     </div>
-  );
+  )
 }
 ```
 
@@ -126,11 +126,10 @@ export default function App() {
     src="https://codesandbox.io/embed/generate-qr-code-img-and-download-it-l4c5e?fontsize=14&hidenavigation=1&theme=dark"
     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
     title="generate-qr-code-img-and-download-it"
-    allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+    allow="camera; geolocation; microphone;"
     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
 ></iframe>
 
+- <a href="https://github.com/soldair/node-qrcode" target="_blank" rel="noopener noreferrer">qrcode</a>
 
-- <a href="https://github.com/soldair/node-qrcode" target="_blank" rel="noopener noreferrer">qrcode</a> 
-
-- <a href="https://github.com/kazuhikoarase/qrcode-generator" target="_blank" rel="noopener noreferrer">qrcode-generator</a> 
+- <a href="https://github.com/kazuhikoarase/qrcode-generator" target="_blank" rel="noopener noreferrer">qrcode-generator</a>

@@ -1,30 +1,31 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { useStaticQuery, graphql } from "gatsby";
+import { graphql, useStaticQuery } from "gatsby"
+import PropTypes from "prop-types"
+import React from "react"
 
-import * as S from './style';
-import GlobalStyles from "../../styles/global";
+import GlobalStyles from "../../styles/global"
+import * as S from "./style"
 
-import Header from "../Header";
-import Sidebar from "../Sidebar";
+import Header from "../Header"
+import Sidebar from "../Sidebar"
 
 const Main = ({ children }) => {
   const data = useStaticQuery(graphql`
-  query {
-    site {
-      siteMetadata {
-        title
+    query {
+      site {
+        siteMetadata {
+          title
+        }
       }
     }
-  }`)
+  `)
 
   return (
-    <S.LayoutWrapper>      
+    <S.LayoutWrapper>
       <GlobalStyles />
       <Header siteTitle={data.site.siteMetadata.title} />
       <S.Content>
-          <Sidebar/>
-          <S.LayoutMain>{children}</S.LayoutMain>
+        <Sidebar />
+        <S.LayoutMain>{children}</S.LayoutMain>
       </S.Content>
     </S.LayoutWrapper>
   )

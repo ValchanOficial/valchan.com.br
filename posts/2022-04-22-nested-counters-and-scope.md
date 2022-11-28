@@ -50,10 +50,9 @@ li:before {
 <iframe src="https://codesandbox.io/embed/html-list-nested-counters-and-scope-yukb2t?fontsize=14&hidenavigation=1&theme=dark"
   style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
   title="html list - nested counters and scope"
-  allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+  allow="camera; geolocation; microphone;"
   sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
 ></iframe>
-
 
 - <a href="https://stackoverflow.com/questions/10405945/html-ordered-list-1-1-1-2-nested-counters-and-scope-not-working" target="_blank" rel="noopener noreferrer">Stackoverflow - html ordered list (Nested counters and scope)</a>
 - <a href="https://gabrieleromanato.name/css-counters-in-depth" target="_blank" rel="noopener noreferrer">CSS counters in depth</a>
