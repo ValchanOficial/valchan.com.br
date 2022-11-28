@@ -2,7 +2,7 @@ import styled from "styled-components"
 // import media from "styled-media-query";
 // import { Link } from "gatsby";
 
-export const Container = styled.form`
+export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;

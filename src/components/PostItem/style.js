@@ -7,10 +7,11 @@ export const PostItemLink = styled(Link)`
   display: flex;
   text-decoration: none;
   height: 180px;
-  margin-bottom: 2rem; // at ListWrapper gap: 2rem; doesn't work
+  margin-bottom: 1.5rem; // at ListWrapper gap: 2rem; doesn't work
 
   ${media.lessThan("medium")`
     height: 280px;
+    margin-bottom: 1.5rem;
   `}
 
   body#grid & {
@@ -44,19 +45,10 @@ export const PostItemWrapper = styled.section`
   `}
 `
 
-export const PostItemTag = styled.div`
-  background: transparent;
+export const PostItemTag = styled.span`
   color: var(--colorTagTwo);
-  transform: rotate(-10deg);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
-  font-size: 1rem;
-  font-weight: 700;
-  min-height: 3rem;
-  min-width: 7.1rem;
-  text-transform: uppercase;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
   font-family: Dosis, Arial, Helvetica, sans-serif;
 
   body#grid & {
@@ -64,11 +56,9 @@ export const PostItemTag = styled.div`
   }
 
   ${media.lessThan("medium")`
-    font-size: 0.8rem;
+    font-size: 1.5rem;
     min-height: 2rem;
     min-width: 5.5rem;
-
-    position: absolute;
     top: 10px;
     left: 5px;
   `}
@@ -88,9 +78,11 @@ export const PostItemInfo = styled.div`
 export const PostItemBreak = styled.span``
 
 export const PostItemDate = styled.time`
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: 300;
   font-family: Montserrat, Arial, Helvetica, sans-serif;
+  margin-top: 1rem;
+  text-transform: uppercase;
 
   ${media.lessThan("large")`
     display: flex;

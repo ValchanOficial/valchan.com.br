@@ -30,16 +30,16 @@ Feito isto, crie uma pasta para salvar os arquivos de traduções, por exemplo `
 Ainda dentro de `locations`, crie um arquivo chamado `index.js` e adicione o seguinte código:
 
 ```js
-import i18next from "i18next";
-import LanguageDetector from "i18next-browser-languagedetector";
-import enUS from "./en-US.json";
-import ptBR from "./pt-BR.json";
+import i18next from "i18next"
+import LanguageDetector from "i18next-browser-languagedetector"
+import enUS from "./en-US.json"
+import ptBR from "./pt-BR.json"
 
-export const DEFAULT_LNG = "pt-BR";
+export const DEFAULT_LNG = "pt-BR"
 export const resources = {
   "en-US": enUS,
-  "pt-BR": ptBR
-};
+  "pt-BR": ptBR,
+}
 
 i18next
   .use(LanguageDetector) // Utilizado para a detecção automática do idioma
@@ -47,26 +47,26 @@ i18next
     compatibilityJSON: "v4",
     lng: DEFAULT_LNG,
     fallbackLng: DEFAULT_LNG,
-    resources
-  });
+    resources,
+  })
 ```
 
 Agora, no seu `App.js`, adicione o seguinte código:
 
 ```js
-import "./styles.css";
-import i18next from "i18next";
-import { DEFAULT_LNG } from "./locations";
-import { useState } from "react";
+import "./styles.css"
+import i18next from "i18next"
+import { DEFAULT_LNG } from "./locations"
+import { useState } from "react"
 
 export default function App() {
-  const [lng, setLng] = useState(DEFAULT_LNG);
-  const { t, changeLanguage } = i18next;
+  const [lng, setLng] = useState(DEFAULT_LNG)
+  const { t, changeLanguage } = i18next
 
-  const updateLang = (language) =>
+  const updateLang = language =>
     changeLanguage(language)
       .then(() => setLng(language))
-      .catch((e) => console.log(e));
+      .catch(e => console.log(e))
 
   return (
     <div className="App">
@@ -76,7 +76,7 @@ export default function App() {
       <button onClick={() => updateLang("pt-BR")}>pt-BR</button>
       <p>{t("interpolation", { value: lng })}</p>
     </div>
-  );
+  )
 }
 ```
 
@@ -85,7 +85,7 @@ Segue exemplo:
 <iframe src="https://codesandbox.io/embed/i18n-translation-bsozc9?fontsize=14&hidenavigation=1&theme=dark"
   style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
   title="i18n-translation"
-  allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+  allow="camera; geolocation; microphone;"
   sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
 ></iframe></br></br>
 
@@ -99,7 +99,7 @@ E caso você queira usar hooks, existe a biblioteca `react-i18next`.
 
 O que achou? 😉 </br></br>
 
-***Fontes:***
+**_Fontes:_**
 
 - <a href="https://www.i18next.com/" target="_blank" rel="noopener noreferrer">i18next</a>
 - <a href="https://react.i18next.com/" target="_blank" rel="noopener noreferrer">react-i18next</a>

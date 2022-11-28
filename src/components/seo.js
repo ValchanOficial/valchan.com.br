@@ -1,28 +1,29 @@
-import React from "react"
+import { graphql, useStaticQuery } from "gatsby"
 import PropTypes from "prop-types"
+import React from "react"
 import { Helmet } from "react-helmet"
-import { useStaticQuery, graphql } from "gatsby"
 
 function Seo({ description, lang, meta, title, image }) {
-  const { 
+  const {
     site: {
-      info: {description: descriptionSeo, siteUrl, title: titleSeo, author}
-    } 
+      info: { description: descriptionSeo, siteUrl, title: titleSeo, author },
+    },
   } = useStaticQuery(graphql`
-  query {
-    site {
-      info: siteMetadata {
-        title
-        description
-        author
-        siteUrl
+    query {
+      site {
+        info: siteMetadata {
+          title
+          description
+          author
+          siteUrl
+        }
       }
     }
-  }`)
+  `)
 
-  const metaDescription = description || descriptionSeo;
-  const url = siteUrl;
-  const ogImage = `${url}${image || "/assets/img/cover.png"}`;
+  const metaDescription = description || descriptionSeo
+  const url = siteUrl
+  const ogImage = `${url}${image || "/assets/img/cover.png"}`
 
   return (
     <Helmet

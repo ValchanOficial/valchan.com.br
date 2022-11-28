@@ -11,7 +11,7 @@ const Avatar = () => {
     query {
       file(relativePath: { eq: "valchan.jpg" }) {
         childImageSharp {
-          gatsbyImageData(quality: 100)
+          gatsbyImageData(quality: 100, width: 150, height: 150)
         }
       }
     }

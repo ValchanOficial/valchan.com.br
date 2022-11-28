@@ -29,3 +29,4 @@ Node version: 18
 - [Coolors](https://coolors.co/);
 - [Netlify CMS](https://www.netlifycms.org/);
 - [React Icons](https://react-icons.github.io/react-icons/);
+- [Web illustrations by Storyset](https://storyset.com/web);
