@@ -3,7 +3,7 @@ import styled from "styled-components"
 import media from "styled-media-query"
 
 export const PostItemLink = styled(Link)`
-  color: var(--secTitle);
+  color: var(--text);
   display: flex;
   text-decoration: none;
   height: 180px;

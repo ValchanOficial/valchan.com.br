@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from "styled-components"
 
 const GlobalStyles = createGlobalStyle`
   /* http://meyerweb.com/eric/tools/css/reset/
@@ -89,13 +89,13 @@ const GlobalStyles = createGlobalStyle`
     font-size: 1rem;
     font-weight: 300;
     font-family: Montserrat, Arial, Helvetica, sans-serif;
-    color: #A51073;
+    color: #BE95C4;
   }
 
   hr {
     border: 0;
     height: 2px;
-    background-image: linear-gradient(to right, transparent, #7F054E, transparent);
+    background-image: linear-gradient(to right, transparent, #BE95C4, transparent);
   }
 
   code[class*="language-"], pre[class*="language-"] {
@@ -193,56 +193,54 @@ const GlobalStyles = createGlobalStyle`
 
   body.dark {
     --background: #18191A;
-    --text: #F1C4CB;
-    --color: #E5183A;
-    --mainTitle: #e43f5a;
-    --secTitle: #F793A4;
-    --postHeader: #FA607A;
-    --link: #e43f5a;
-    --linkHover: #e43f5a;
-    --colorTag: #E5183A;
-    --colorTagTwo: #FA607A;
-    --avatarColor: #e43f5a;
-    --avatarColorTwo: #F793A4;
-    --border: #e43f5a;
-    --mark: #F1C4CB;
+    --text: #BE95C4;
+    --color: #5E548E;
+    --mainTitle: #5E548E;
+    --secTitle: #CEB1E0;
+    --postHeader: #9F86C0;
+    --link: #5E548E;
+    --linkHover: #5E548E;
+    --colorTag: #231942;
+    --colorTagTwo: #9F86C0;
+    --avatarColor: #5E548E;
+    --avatarColorTwo: #CEB1E0;
+    --border: #5E548E;
+    --mark: #BE95C4;
     --markText: #222;
-    --textarea: #e43f5a;
-    --thead: #F1C4CB;
+    --textarea: #5E548E;
+    --thead: #BE95C4;
     --recommendedPost: #242526;
-    --input: #e43f5a;
-    --hover: #E5183A;
-    --menuBarHover: #e43f5a;
+    --input: #5E548E;
+    --hover: #231942;
   }
   
   body.light {
     --background: #FFF4FF;
     --text: #222;
-    --color: #E5183A;
-    --mainTitle: #e43f5a;
+    --color: #231942;
+    --mainTitle: #5E548E;
     --secTitle: #222;
-    --postHeader: #E5183A;
-    --link: #e43f5a;
-    --linkHover: #E5183A;
-    --colorTag: #E5183A;
-    --colorTagTwo: #FA607A;
-    --avatarColor: #E5183A;
-    --avatarColorTwo: #F793A4;
-    --border: #e43f5a;
-    --mark: #FA607A;
+    --postHeader: #231942;
+    --link: #5E548E;
+    --linkHover: #5E548E;
+    --colorTag: #231942;
+    --colorTagTwo: #9F86C0;
+    --avatarColor: #231942;
+    --avatarColorTwo: #CEB1E0;
+    --border: #5E548E;
+    --mark: #9F86C0;
     --markText: #222;
-    --textarea: #FA607A;
-    --thead: #F1C4CB;
-    --recommendedPost: #F793A4;
-    --input: #FA607A;
-    --hover: #FA607A;
-    --menuBarHover: #e43f5a;
+    --textarea: #9F86C0;
+    --thead: #BE95C4;
+    --recommendedPost: #CEB1E0;
+    --input: #9F86C0;
+    --hover: #9F86C0;
   }
 
   *{
-    scrollbar-color: #FA607A #F793A4;
+    scrollbar-color: #9F86C0 #CEB1E0;
     scrollbar-shadow-color: none;
   }
 
 `
-export default GlobalStyles;
+export default GlobalStyles

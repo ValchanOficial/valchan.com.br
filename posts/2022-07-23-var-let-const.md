@@ -38,13 +38,13 @@ image: "/assets/img/cover.png"
         <td>🚫</td>
     </tr>
     <tr>
-        <td>Pode ser redeclarada?</td>
+        <td>Pode ser redeclarada ou usada antes de sua declaração?</td>
         <td>✅</td>
         <td>🚫</td>
         <td>🚫</td>
     </tr>
     <tr>
-        <td>Pode ser movida pra o topo de seu escopo(hoisting)?</td>
+        <td>Pode ser movida pra o topo de seu escopo(hoisting) e o valor ser mantido?</td>
         <td>✅</td>
         <td>🚫</td>
         <td>🚫</td>
@@ -56,4 +56,5 @@ image: "/assets/img/cover.png"
 A partir das informações apresentadas uma dica que eu dou é: **não utilize var** 😉
 
 E caso você queira saber mais sobre os escopos, recomendo ler este artigo:
+
 - https://imasters.com.br/desenvolvimento/escopos-em-javascript
