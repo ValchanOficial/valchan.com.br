@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import media from "styled-media-query";
+import styled from "styled-components"
+import media from "styled-media-query"
 
 export const CommentsWrapper = styled.section`
   background: var(--background);
@@ -18,10 +18,10 @@ export const CommentsWrapper = styled.section`
       color: var(--color) !important;
     }
   }
-
+  /* 
   ${media.lessThan("large")`
     display: none;
-  `}
+  `} */
 `
 
 export const CommentsTitle = styled.h2`
