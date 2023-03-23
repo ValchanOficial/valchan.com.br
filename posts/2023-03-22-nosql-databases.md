@@ -87,7 +87,7 @@ Casos de uso (Neo4j):
 
 **_Fontes:_**
 
-- PUCRS - Pós-Graduação em Desenvolvimento Full Stack
+- <a href="https://online.pucrs.br/pos-graduacao/desenvolvimento-full-stack" target="_blank" rel="noopener noreferrer">PUCRS - Pós-Graduação em Desenvolvimento Full Stack</a>
 
 - <a href="https://neo4j.com/news/introducao-aos-bancos-de-dados-nosql/" target="_blank" rel="noopener noreferrer">Neo4j News - Introdução aos bancos de dados NoSQL</a>
 
