@@ -142,6 +142,11 @@ const GlobalStyles = createGlobalStyle`
     margin: auto !important;
   }
 
+  .mediumSize p img, .mediumSize p span img {
+    min-height: auto;
+    max-height: 20rem;
+  }
+
   .midSize p img, .midSize p span img {
     min-height: auto;
     max-height: 35rem;
