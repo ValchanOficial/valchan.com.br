@@ -1,5 +1,5 @@
 ---
-date: 2023-06-20
+date: 2023-06-21
 title: "Como criar um chatbot com o Rasa"
 description: "Rasa Open Source Versão 3.x"
 category: "Rasa 3.x"
