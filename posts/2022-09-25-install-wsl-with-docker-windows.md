@@ -116,6 +116,8 @@ options = "metadata"
 generateResolvConf = false
 ```
 
+- - Exemplo mais completo de wsl.conf: <a href="https://learn.microsoft.com/en-us/windows/wsl/wsl-config#example-wslconf-file" target="_blank" rel="noopener noreferrer">Microsoft Learn</a>
+
 - Caso você tenha este erro: `Error response from daemon: Get https://registry-1.docker.io/v2/: x509: certificate is valid for *.api.trato.io, *.app.trato.io, not registry-1.docker.io.`, acesse o arquivo hosts `(C:\Windows\System32\drivers\etc\hosts)` e adicione o registry do docker:
 
 ```bash
