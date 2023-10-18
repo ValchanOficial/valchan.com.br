@@ -72,7 +72,7 @@ nodes:
 kind create cluster --config=config.yml --name nomedoseucluster
 
 # Verificando se o cluster foi criado
-kubectl cluster-info --context kind-examplename
+kubectl cluster-info --context kind-nomedoseucluster
 ```
 
 ## Alguns erros e como corrigir:
