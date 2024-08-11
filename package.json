@@ -4,6 +4,7 @@
   "description": "A blog about a technology-loving developer who constantly seeks knowledge.",
   "version": "0.1.0",
   "author": "Valéria Padilha de Vargas",
+  "packageManager": "yarn@4.0.2",
   "dependencies": {
     "algoliasearch": "^4.14.2",
     "dotenv": "^16.0.3",
@@ -71,6 +72,7 @@
     "url": "https://github.com/ValchanOficial/valchan.com.br/issues"
   },
   "engines": {
-    "node": ">=20.16"
+    "node": ">=20.16",
+    "yarn": ">=4"
   }
 }
