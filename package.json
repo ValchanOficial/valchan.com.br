@@ -71,6 +71,6 @@
     "url": "https://github.com/ValchanOficial/valchan.com.br/issues"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=20.16"
   }
 }
