@@ -15,22 +15,22 @@ Se você é uma pessoa desenvolvedora que trabalha com a AWS, você sabe que o d
 Para começar a usar o LocalStack, você precisará do Docker configurado em sua máquina. Veja como iniciar o LocalStack:
 
 ```bash
-# Baixa a imagem do LocalStack
+# Baixe a imagem do LocalStack
 docker pull localstack/localstack
 
-# Lista as imagens baixadas
+# Lista das imagens baixadas
 docker images
 
-# Executa o container do LocalStack
+# Execute o container do LocalStack
 docker run --rm -d -p 4566:4566 -p 4510-4559:4510-4559 localstack/localstack
 # rm: Remove o container após a execução
 # d: Executa o container em background
 # p: Mapeia as portas do container para a máquina host
 
-# Lista os containers em execução e copia o containerId
+# Liste os containers em execução, copie o containerId do localstack
 docker ps
 
-# Acessa o terminal do container
+# Acesse o terminal do container
 docker exec -it <containerId> /bin/bash
 # it: Mantém o terminal aberto
 ```
@@ -40,7 +40,7 @@ docker exec -it <containerId> /bin/bash
 Dentro do container do LocalStack, você pode usar o AWS CLI para interagir com os serviços da AWS. A configuração é simples:
 
 ```bash
-# Configura o AWS CLI
+# Configure o AWS CLI
 aws configure
 
 # Chave de acesso, aqui você pode colocar qualquer valor
