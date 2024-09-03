@@ -15171,12 +15171,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-icons@npm:^4.6.0":
-  version: 4.6.0
-  resolution: "react-icons@npm:4.6.0"
+"react-icons@npm:^5.3.0":
+  version: 5.3.0
+  resolution: "react-icons@npm:5.3.0"
   peerDependencies:
     react: "*"
-  checksum: 8918b18c7a956d8832cf2a508b023a8893bfb551fdbaa16aecb9b2eb2ad4c783af6abbcb4609106362d7ad9497b0c6143bb4e8426e2df598f2509cfcf87af4ac
+  checksum: a53af0de558f0e2bacfbafc973aa8ca1e6a429006a2f83d70becad5be431726a691e096336c95949bb0d967587b145264c5046d2bc1518969dbae731855d0712
   languageName: node
   linkType: hard
 
@@ -18674,7 +18674,7 @@ __metadata:
     react-disqus-comments: "npm:^1.4.0"
     react-dom: "npm:^18.2.0"
     react-helmet: "npm:^6.1.0"
-    react-icons: "npm:^4.6.0"
+    react-icons: "npm:^5.3.0"
     react-instantsearch-dom: "npm:^6.38.1"
     styled-components: "npm:^5.3.6"
     styled-media-query: "npm:^2.1.2"
