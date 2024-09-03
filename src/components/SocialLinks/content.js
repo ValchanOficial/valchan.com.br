@@ -17,10 +17,20 @@ const links = [
         url: `https://www.facebook.com/${handle}`
     },
     {
-        label: 'Twitter',
-        icon: 'Twitter',
-        url: `https://www.twitter.com/${handle}`
+        label: 'BlueSky',
+        icon: 'BlueSky',
+        url: `https://bsky.app/profile/${handle}.bsky.social`
     },
+    {
+        label: 'Threads',
+        icon: 'Threads',
+        url: `https://www.threads.net/@${handle}`
+    },
+    // {
+    //     label: 'Twitter',
+    //     icon: 'Twitter',
+    //     url: `https://www.twitter.com/${handle}`
+    // },
     {
         label: 'Instagram',
         icon: 'Instagram',
@@ -32,7 +42,7 @@ const links = [
         url: `https://www.buymeacoffee.com/${handle}`
     },
     {
-        label: 'MailSend',
+        label: 'Email',
         icon: 'MailSend',
         url: `mailto:valeria_padilha@yahoo.com.br?Subject=Contato&body=Ola%20Valchan`
     },
