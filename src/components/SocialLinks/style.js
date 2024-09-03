@@ -4,13 +4,18 @@ import media from "styled-media-query"
 export const SocialLinksWrapper = styled.nav`
   background: var(--background);
   width: 100%;
+  display: flex;
+  justify-content: center;
 `
 
 export const SocialLinksList = styled.ul`
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   list-style: none;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 0.5rem;
 `
 
 export const SocialLinksItem = styled.li``
