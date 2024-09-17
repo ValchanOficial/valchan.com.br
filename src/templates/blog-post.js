@@ -2,7 +2,7 @@ import React from "react";
 import { graphql } from "gatsby";
 
 import Main from '../components/Main';
-import Seo from "../components/seo";
+import Head from "../components/seo";
 import RecommendedPosts from "../components/RecommendedPosts";
 import Comments from "../components/Comments";
 
@@ -15,7 +15,7 @@ const BlogPost = ({ data, pageContext }) => {
 
   return (
     <Main>
-      <Seo 
+      <Head 
         title={post.frontmatter.title}
         description={post.frontmatter.description}
         image={post.frontmatter.image}

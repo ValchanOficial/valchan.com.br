@@ -1,9 +1,8 @@
 import { graphql, useStaticQuery } from "gatsby"
 import PropTypes from "prop-types"
-import React from "react"
-import { Helmet } from "react-helmet"
+import * as React from "react"
 
-function Seo({ description, lang, meta, title, image }) {
+function Head({ title, description, image }) {
   const {
     site: {
       info: { description: descriptionSeo, siteUrl, title: titleSeo, author },
@@ -25,70 +24,55 @@ function Seo({ description, lang, meta, title, image }) {
   const url = siteUrl
   const ogImage = `${url}${image || "/assets/img/cover.png"}`
 
+  console.log(title, titleSeo)
+
   return (
-    <Helmet
-      htmlAttributes={{
-        lang,
-      }}
-      title={title}
-      titleTemplate={`%s | ${titleSeo}`}
-      meta={[
-        {
-          name: `description`,
-          content: metaDescription,
-        },
-        {
-          property: `og:title`,
-          content: title,
-        },
-        {
-          property: `og:description`,
-          content: metaDescription,
-        },
-        {
-          property: `og:image`,
-          content: ogImage,
-        },
-        {
-          property: `og:type`,
-          content: `website`,
-        },
-        {
-          name: `twitter:card`,
-          content: `summary_large_image`,
-        },
-        {
-          name: `twitter:image:src`,
-          content: ogImage,
-        },
-        {
-          name: `twitter:creator`,
-          content: author,
-        },
-        {
-          name: `twitter:title`,
-          content: title,
-        },
-        {
-          name: `twitter:description`,
-          content: metaDescription,
-        },
-      ].concat(meta)}
-    />
+    <>
+      <html lang='pt-BR' />
+      <title>{title ? `${title} | ${titleSeo}` : titleSeo}</title>
+      <meta name="description" content={metaDescription} />
+      <meta
+        name="author"
+        content={author}
+      />
+      <meta
+        name="title"
+        property="og:title"
+        content={title ? `${title} | ${titleSeo}` : titleSeo}
+      />
+      <meta
+        name="url"
+        property="og:url"
+        content={url}
+      />
+      <meta
+        name="image"
+        property="og:image"
+        content={ogImage}
+      />
+      <meta
+        name="description"
+        property="og:description"
+        content={metaDescription}
+      />
+      <meta
+        name="type"
+        property="og:type"
+        content='website'
+      />
+      <meta
+        name="site_name"
+        property="og:site_name"
+        content={title ? `${title} | ${titleSeo}` : titleSeo}
+      />
+    </>
   )
 }
 
-Seo.defaultProps = {
-  lang: `pt-br`,
-  meta: [],
-  description: ``,
-}
-
-Seo.propTypes = {
-  description: PropTypes.string,
-  lang: PropTypes.string,
-  meta: PropTypes.arrayOf(PropTypes.object),
+Head.propTypes = {
   title: PropTypes.string.isRequired,
+  description: PropTypes.string,
+  image: PropTypes.string,
 }
 
-export default Seo
+export default Head

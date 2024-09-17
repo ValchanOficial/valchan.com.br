@@ -13,7 +13,6 @@ module.exports = {
   plugins: [
     `gatsby-plugin-smoothscroll`,
     `gatsby-plugin-styled-components`,
-    `gatsby-plugin-react-helmet`,
     {
       resolve: "gatsby-plugin-mailchimp",
       options: {
@@ -169,7 +168,9 @@ module.exports = {
             },
             query: `
               {
-                allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}) {
+                allMarkdownRemark(
+                  sort: { frontmatter: { date: DESC } }
+                ) {
                   edges {
                     node {
                       fields {

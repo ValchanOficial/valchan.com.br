@@ -1,12 +1,12 @@
 import React from "react"
 
 import Main from "../components/Main"
-import Seo from "../components/seo"
+import Head from "../components/seo"
 import NotFoundSVG from "../components/SVG/404.svg"
 
 const NotFoundPage = () => (
   <Main>
-    <Seo
+    <Head
       title="404: Not found"
       description="Página não encontrada | Page not found"
     />

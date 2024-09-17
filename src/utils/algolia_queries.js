@@ -1,5 +1,7 @@
 const postQuery = `{
-    posts: allMarkdownRemark(sort: { fields: frontmatter___date, order: DESC }){
+    posts: allMarkdownRemark(
+      sort: { frontmatter: { date: DESC } }
+    ){
       edges {
         node {
           objectID: id
