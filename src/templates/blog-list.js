@@ -4,7 +4,7 @@ import React from "react"
 import Main from "../components/Main"
 import Pagination from "../components/Pagination"
 import PostItem from "../components/PostItem"
-import Seo from "../components/seo"
+import Head from "../components/seo"
 
 import { graphql } from "gatsby"
 import * as S from "../components/ListWrapper/style"
@@ -22,7 +22,7 @@ export default function BlogList(props) {
 
   return (
     <Main>
-      <Seo title="Home" />
+      <Head />
       <S.ListWrapper>
         {postList.map(
           ({
@@ -60,7 +60,7 @@ export default function BlogList(props) {
 export const query = graphql`
   query ($skip: Int, $limit: Int) {
     posts: allMarkdownRemark(
-      sort: { fields: frontmatter___date, order: DESC }
+      sort: { frontmatter: { date: DESC } }
       limit: $limit
       skip: $skip
     ) {
