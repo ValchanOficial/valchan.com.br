@@ -25,9 +25,21 @@ Obter a certificação do GitHub é um atestado poderoso que comprova suas habil
 - Link de inscrição: <a href="https://examregistration.github.com/login" target="_blank" rel="nofollow, noreferrer,noopener,external">GitHub Certification Registration</a>  
 - Link: <a href="https://education.github.com/experiences/foundations_certificate" target="_blank" rel="nofollow, noreferrer,noopener,external">GitHub Foundations Certification</a>
 
-- Link: <a href="https://learn.microsoft.com/en-us/collections/o1njfe825p602p" target="_blank" rel="nofollow, noreferrer,noopener,external">GitHub Foundations Learning Path</a>
+- Link: <a href="https://github.com/LadyKerr/github-certification-guide/blob/main/study-guides/gh-foundations.md" target="_blank" rel="nofollow, noreferrer,noopener,external">Guia de estudos</a>
 
-O "GitHub Foundations Learning Path" é uma jornada concisa e amigável para iniciantes, projetada para introduzir você aos conceitos e produtos fundamentais do GitHub. Você descobrirá os benefícios de usar o GitHub como uma plataforma colaborativa e explorará suas principais funcionalidades, como gerenciamento de repositórios, commits, branches e merge. Através de módulos cuidadosamente selecionados e exercícios práticos, você obterá uma compreensão sólida das ferramentas essenciais do GitHub e estará bem preparado para começar a contribuir em projetos e colaborar de forma eficaz dentro do GitHub.
+- Link: <a href="https://learn.microsoft.com/en-us/collections/o1njfe825p602p" target="_blank" rel="nofollow, noreferrer,noopener,external">Microsoft Learn: GitHub Foundations Learning Path</a>
+
+O "GitHub Foundations Learning Path" no MS Learn oferece um percurso simplificado e acessível para iniciantes, projetado para apresentar os conceitos e produtos fundamentais do GitHub voltados para este exame. Esta jornada de aprendizado revela as vantagens de usar o GitHub como uma plataforma colaborativa e explora suas funcionalidades e conceitos essenciais. Ao interagir com módulos cuidadosamente elaborados e exercícios práticos, você estabelecerá uma compreensão básica das ferramentas indispensáveis do GitHub, preparando-se para contribuir melhor em projetos e promover uma colaboração eficiente no ambiente GitHub.
+
+- Link: <a href="https://www.linkedin.com/learning/paths/prepare-for-the-github-foundations-certification" target="_blank" rel="nofollow, noreferrer,noopener,external">LinkedIn Learning: Prepare for the GitHub Foundations Certification</a>
+
+O "Prepare for the GitHub Foundations Certification" no LinkedIn Learning é um conjunto abrangente de cursos projetados para equipá-lo com as habilidades e conhecimentos necessários para se destacar no exame GitHub Foundations. Através de lições em vídeo envolventes, exemplos práticos e instruções claras, você obterá uma sólida compreensão de conceitos essenciais como controle de versão, melhores práticas de colaboração e navegação em repositórios. Os cursos deste caminho de aprendizagem são estruturados para não apenas ajudá-lo a dominar essas habilidades fundamentais do GitHub, mas também oferecer insights práticos e cenários do mundo real para reforçar seu aprendizado.
+
+<div class="smallSize" align="center">
+
+![Octocat](/assets/img/octocat.gif)
+
+</div>
 
 ## Learn Live: Certificação GitHub Foundations
 
@@ -47,8 +59,8 @@ Você também receberá um voucher de desconto para obter uma Certificação Git
 
 ***Oferta válida por 48 horas após uma sessão.** Limite de um voucher de desconto do GitHub por pessoa. Esta oferta é intransferível e não pode ser combinada com nenhuma outra oferta. Esta oferta termina 48 horas após uma sessão e não pode ser trocada por dinheiro. Os impostos, se houver, são de responsabilidade exclusiva do destinatário. A Microsoft reserva-se o direito de cancelar, alterar ou suspender esta oferta a qualquer momento sem aviso prévio.
 
-<div class="smallSize" align="center">
+<div class="averageSize" align="center">
 
-![Octocat](/assets/img/octocat.gif)
+![Octocat segurando um certificado de conclusão](/assets/img/github-certifications/octocat-certification.png)
 
 </div>
