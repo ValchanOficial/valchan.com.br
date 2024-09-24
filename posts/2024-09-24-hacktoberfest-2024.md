@@ -14,7 +14,7 @@ Agora é a hora, o momento chegou—o Hacktoberfest começou!
 
 </div>
 
-O Hacktoberfest é um evento anual que ocorre durante o mês de Outubro, onde pessoas desenvolvedoras e entusiastas de tecnologia são convidados a contribuir com projetos de código aberto no GitHub, podendo ganhar brindes e camisetas exclusivas do evento.
+O Hacktoberfest é um evento anual que ocorre durante o mês de Outubro, onde pessoas desenvolvedoras e entusiastas de tecnologia são convidados a contribuir com projetos de código aberto no GitHub.
 
 Para participar, basta se cadastrar no site do evento e realizar 4 Pull Requests em projetos de código aberto no GitHub durante o mês de Outubro.
 
