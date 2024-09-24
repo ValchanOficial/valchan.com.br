@@ -74,21 +74,21 @@ const GlobalStyles = createGlobalStyle`
 
   p {
     font-style: normal;
-    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-family: "Atkinson Hyperlegible", sans-serif;
   }
   
   h1, h2, h3, h4, h5, h6 {
-    font-family: Dosis, Arial, Helvetica, sans-serif;
+    font-family: "Atkinson Hyperlegible", sans-serif;
   }
 
   small {
-    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-family: "Atkinson Hyperlegible", sans-serif;
   }
 
   address {
     font-size: 1rem;
-    font-weight: 300;
-    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-family: "Atkinson Hyperlegible", sans-serif;
     color: #BE95C4;
   }
 
@@ -121,7 +121,7 @@ const GlobalStyles = createGlobalStyle`
     align-items: center;
     font-size: 2.5rem;
     text-align: center;
-    font-weight: bold;
+    font-weight: 700;
     color: var(--color);
   }
 

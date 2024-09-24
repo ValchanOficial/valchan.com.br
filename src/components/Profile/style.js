@@ -43,7 +43,7 @@ export const ProfilePosition = styled.small`
 
 export const ProfileDescription = styled.p`
     font-size: 1.2rem;
-    font-weight: 300;
+    font-weight: 400;
 
     ${media.lessThan("large")`
         display: none;
@@ -55,7 +55,7 @@ export const ProfileSubtitle = styled.h2`
     font-size: 1.2rem;
     margin-top: 2em;
     margin-bottom: 0.6em;
-    font-weight: bold;
+    font-weight: 700;
 
     ${media.lessThan("large")`
         display: none;

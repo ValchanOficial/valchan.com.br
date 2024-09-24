@@ -18,8 +18,8 @@ export const RecommendedWrapper = styled.section`
 `
 
 export const RecommendedLink = styled(Link)`
-    font-weight: bold;
-    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-family: "Atkinson Hyperlegible", sans-serif;
     align-items: center;
     color: var(--color);
     display: flex;

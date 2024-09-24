@@ -14,8 +14,8 @@ export const PaginationWrapper = styled.section`
 
   a {
     color: var(--text);
-    font-weight: bold;
-    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-family: "Atkinson Hyperlegible", sans-serif;
     text-decoration: none;
     transition: color 0.5s;
     white-space: nowrap;

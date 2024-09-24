@@ -29,7 +29,7 @@ export const Input = styled.input`
 
 export const Button = styled.button`
   cursor: pointer;
-  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-family: "Atkinson Hyperlegible", sans-serif;
   border-radius: 4px;
   border-color: var(--border);
   background-color: var(--background);
