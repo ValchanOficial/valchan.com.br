@@ -61,7 +61,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts-with-attributes`,
       options: {
-        fonts: [`Dosis`, `Satisfy`, `Montserrat\:100,300,400,400i,700`],
+        fonts: [`Atkinson Hyperlegible\:400,400i,700,700i`, `Satisfy`],
         display: "swap",
         attributes: {
           rel: "stylesheet preload prefetch",

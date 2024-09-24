@@ -30,7 +30,7 @@ export const PostHeader = styled.header`
 
 export const PostTitle = styled.h1`
   font-size: 2.5rem;
-  font-weight: bold;
+  font-weight: 700;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 
@@ -45,7 +45,7 @@ export const PostTitle = styled.h1`
 
 export const PostDescription = styled.h2`
   font-size: 1.5rem;
-  font-weight: 300;
+  font-weight: 400;
   margin-bottom: 2rem;
   padding-left: 0.1em;
 
@@ -60,7 +60,7 @@ export const PostDescription = styled.h2`
 
 export const PostDate = styled.p`
   font-size: 1.1rem;
-  font-weight: 300;
+  font-weight: 400;
   padding-left: 0.1rem;
 
   ${media.lessThan("large")`
@@ -88,10 +88,10 @@ export const MainContent = styled.section`
   s,
   var,
   iframe {
-    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-family: "Atkinson Hyperlegible", sans-serif;
     color: var(--text);
     font-size: 1.15rem;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 1.7;
     letter-spacing: 0.069rem;
 
@@ -157,7 +157,7 @@ export const MainContent = styled.section`
     margin: auto;
     flex-direction: column;
     color: var(--color);
-    font-family: Dosis, Arial, Helvetica, sans-serif;
+    font-family: "Atkinson Hyperlegible", sans-serif;
     font-size: 1.5rem;
     font-style: italic;
     width: 70%;
@@ -204,7 +204,7 @@ export const MainContent = styled.section`
   h4,
   h5,
   h6 {
-    font-family: Dosis, Arial, Helvetica, sans-serif;
+    font-family: "Atkinson Hyperlegible", sans-serif;
     color: var(--secTitle);
     margin: 2.4rem auto 1rem;
     font-weight: 800;
@@ -273,7 +273,7 @@ export const MainContent = styled.section`
   }
 
   a {
-    font-weight: 300;
+    font-weight: 400;
     color: var(--link);
     text-decoration: none;
     transition: font-weight 0.3s;
@@ -295,8 +295,8 @@ export const MainContent = styled.section`
 
   dl {
     font-size: 1.25rem;
-    font-weight: 300;
-    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-family: "Atkinson Hyperlegible", sans-serif;
     color: var(--text);
 
     ${media.lessThan("large")`
@@ -308,8 +308,8 @@ export const MainContent = styled.section`
   input,
   select {
     font-size: 1.2rem;
-    font-weight: 300;
-    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-family: "Atkinson Hyperlegible", sans-serif;
     color: var(--text);
 
     ${media.lessThan("large")`
@@ -325,9 +325,9 @@ export const MainContent = styled.section`
 
   select {
     cursor: pointer;
-    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-family: "Atkinson Hyperlegible", sans-serif;
     font-size: 1.25rem;
-    font-weight: bold;
+    font-weight: 700;
     color: var(--text);
     background: var(--color);
     padding: 0.2rem;
@@ -344,7 +344,7 @@ export const MainContent = styled.section`
   }
 
   table {
-    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-family: "Atkinson Hyperlegible", sans-serif;
     font-size: 1.1rem;
     border-collapse: collapse;
     border-spacing: 0;
@@ -371,7 +371,7 @@ export const MainContent = styled.section`
   td {
     color: var(--text);
     border: 0.1rem solid var(--color);
-    font-weight: 300;
+    font-weight: 400;
     text-align: left;
     padding: 8px;
 
@@ -386,7 +386,7 @@ export const MainContent = styled.section`
   mark {
     color: var(--markText);
     background: var(--mark);
-    font-weight: bold;
+    font-weight: 700;
   }
 
   textarea::before {
@@ -394,7 +394,7 @@ export const MainContent = styled.section`
   }
 
   textarea {
-    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-family: "Atkinson Hyperlegible", sans-serif;
     color: var(--text);
     font-size: 1rem;
     display: flex;
@@ -441,15 +441,15 @@ export const MainContent = styled.section`
     align-items: center;
 
     font-size: 1.2rem;
-    font-weight: 300;
-    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-family: "Atkinson Hyperlegible", sans-serif;
     color: var(--text);
   }
 
   aside {
     font-size: 1rem;
-    font-weight: 300;
-    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-family: "Atkinson Hyperlegible", sans-serif;
     color: var(--color);
   }
 

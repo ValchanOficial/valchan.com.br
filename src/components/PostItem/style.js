@@ -49,7 +49,7 @@ export const PostItemTag = styled.span`
   color: var(--colorTagTwo);
   font-size: 1.5rem;
   margin-bottom: 1rem;
-  font-family: Dosis, Arial, Helvetica, sans-serif;
+  font-family: "Atkinson Hyperlegible", sans-serif;
 
   body#grid & {
     margin-bottom: 1.5rem;
@@ -79,8 +79,8 @@ export const PostItemBreak = styled.span``
 
 export const PostItemDate = styled.time`
   font-size: 0.8rem;
-  font-weight: 300;
-  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-family: "Atkinson Hyperlegible", sans-serif;
   margin-top: 1rem;
   text-transform: uppercase;
 
@@ -111,7 +111,7 @@ export const PostItemTitle = styled.h1`
 
 export const PostItemDescription = styled.p`
   font-size: 1.2rem;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.2;
 
   ${media.lessThan("large")`
