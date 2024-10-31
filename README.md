@@ -14,6 +14,14 @@ Node version: 18
     yarn dev or yarn start or gatsby develop // http://localhost:8000/
 ```
 
+## Start with Docker
+
+Node version: 18
+
+```bash
+    docker-compose up --build
+```
+
 ## Tecnologies
 
 - [ReactJS](https://pt-br.reactjs.org/);
