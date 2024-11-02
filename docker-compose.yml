@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - NODE_ENV=development
+    volumes:
+      - .:/usr/src/app  # Mounts project code as volume
+      - /usr/src/app/node_modules  # Avoid conflicts with host node_modules
+    command: yarn dev #yarn dev or yarn start or gatsby develop
