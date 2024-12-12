@@ -45,7 +45,7 @@ model = MusicGen.get_pretrained('facebook/musicgen-small')
 model.set_generation_params(duration=8)
 ```
 
-- Crio uma área de texto para a informar o prompt da música
+- Crio uma área de texto para informar o prompt da música
 
 ```python
 description = Textarea(value='', placeholder='Give a music prompt', disabled=False, rows=4)
