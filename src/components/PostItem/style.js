@@ -15,18 +15,18 @@ export const PostItemLink = styled(Link)`
   `}
 
   body#grid & {
-    background-color: var(--background);
+    background-color: var(--background-dark);
     height: 100%;
   }
 
   &:hover {
-    color: var(--linkHover);
+    color: var(--main);
   }
 `
 
 export const PostItemWrapper = styled.section`
   align-items: center;
-  border: 1px solid var(--border);
+  border: 1px solid var(--main);
   position: relative;
   display: flex;
   padding: 2rem 2rem;
@@ -34,7 +34,7 @@ export const PostItemWrapper = styled.section`
   position: relative;
 
   body#grid & {
-    border: 1px solid var(--border);
+    border: 1px solid var(--main);
     padding: 2rem 1rem;
     flex-direction: column;
     justify-content: center;
@@ -43,10 +43,14 @@ export const PostItemWrapper = styled.section`
   ${media.lessThan("medium")`
     padding: 1.8rem;
   `}
+
+  -webkit-box-shadow:  0px 8px 8px 2px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 8px 8px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 8px 8px 2px rgba(0, 0, 0, 0.1);
 `
 
 export const PostItemTag = styled.span`
-  color: var(--colorTagTwo);
+  color: var(--main);
   font-size: 1.5rem;
   margin-bottom: 1rem;
   font-family: "Atkinson Hyperlegible", sans-serif;

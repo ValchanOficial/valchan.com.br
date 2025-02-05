@@ -9,9 +9,9 @@ const Avatar = () => {
     },
   } = useStaticQuery(graphql`
     query {
-      file(relativePath: { eq: "valchan.jpg" }) {
+      file(relativePath: { eq: "valchan.png" }) {
         childImageSharp {
-          gatsbyImageData(quality: 100, width: 150, height: 150)
+          gatsbyImageData(quality: 100, width: 200, height: 200)
         }
       }
     }

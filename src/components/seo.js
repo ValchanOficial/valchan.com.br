@@ -24,42 +24,25 @@ function Head({ title, description, image }) {
   const url = siteUrl
   const ogImage = `${url}${image || "/assets/img/cover.png"}`
 
-  console.log(title, titleSeo)
-
   return (
     <>
-      <html lang='pt-BR' />
+      <html lang="pt-BR" />
       <title>{title ? `${title} | ${titleSeo}` : titleSeo}</title>
       <meta name="description" content={metaDescription} />
-      <meta
-        name="author"
-        content={author}
-      />
+      <meta name="author" content={author} />
       <meta
         name="title"
         property="og:title"
         content={title ? `${title} | ${titleSeo}` : titleSeo}
       />
-      <meta
-        name="url"
-        property="og:url"
-        content={url}
-      />
-      <meta
-        name="image"
-        property="og:image"
-        content={ogImage}
-      />
+      <meta name="url" property="og:url" content={url} />
+      <meta name="image" property="og:image" content={ogImage} />
       <meta
         name="description"
         property="og:description"
         content={metaDescription}
       />
-      <meta
-        name="type"
-        property="og:type"
-        content='website'
-      />
+      <meta name="type" property="og:type" content="website" />
       <meta
         name="site_name"
         property="og:site_name"

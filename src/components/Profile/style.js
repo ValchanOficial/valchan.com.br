@@ -10,12 +10,12 @@ export const ProfileWrapper = styled.section`
     align-items: center;
 `
 export const ProfileLink = styled(Link)`
-    color: var(--link);
+    color: var(--main);
     text-decoration: none;
     transition: color 0.5s;
 
     &:hover {
-        color: var(--linkHover);
+        color: var(--main);
     }
 `
 

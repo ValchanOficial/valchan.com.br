@@ -4,7 +4,7 @@ import media from "styled-media-query";
 export const PaginationWrapper = styled.section`
   margin-top: 0.5rem;
   align-items: center;
-  border-top: 6px double var(--border);
+  border-top: 6px double var(--main);
   color: var(--text);
   display: flex;
   padding: 1.5rem 3rem;
@@ -23,7 +23,7 @@ export const PaginationWrapper = styled.section`
     align-items: center;
 
     &:hover {
-      color: var(--color);
+      color: var(--cta);
     }
 
     > svg {

@@ -2,7 +2,6 @@ import styled from "styled-components"
 import media from "styled-media-query"
 
 export const SocialLinksWrapper = styled.nav`
-  background: var(--background);
   width: 100%;
   display: flex;
   justify-content: center;
@@ -11,11 +10,12 @@ export const SocialLinksWrapper = styled.nav`
 export const SocialLinksList = styled.ul`
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   list-style: none;
   flex-wrap: wrap;
   width: 100%;
   gap: 0.5rem;
+  margin-left: 0.2rem;
 `
 
 export const SocialLinksItem = styled.li``
@@ -26,7 +26,7 @@ export const SocialLinksLink = styled.a`
   transition: color 0.5s;
 
   &:hover {
-    color: var(--linkHover);
+    color: var(--main);
   }
 `
 
@@ -51,6 +51,6 @@ export const Icon = styled.div`
     `}
 
   &:hover {
-    color: var(--linkHover);
+    color: var(--main);
   }
 `

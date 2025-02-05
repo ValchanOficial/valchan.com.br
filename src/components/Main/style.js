@@ -2,14 +2,15 @@ import styled from "styled-components"
 import media from "styled-media-query"
 
 export const LayoutWrapper = styled.section`
-  background: var(--background);
+  position: relative;
+  background: var(--background-dark);
   display: flex;
   flex-direction: column;
   height: 100vh;
 `
 
 export const LayoutMain = styled.main`
-  background: var(--background);
+  background: var(--background-dark);
   padding-right: 1rem;
   padding-left: 1rem;
   margin: auto;
@@ -32,7 +33,7 @@ export const LayoutMain = styled.main`
 `
 
 export const Content = styled.div`
-  background: var(--background);
+  background: var(--background-dark);
   display: flex;
   flex-direction: row-reverse;
 
