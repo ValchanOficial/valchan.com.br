@@ -35,9 +35,7 @@ exports.createPages = ({ graphql, actions }) => {
 
   return graphql(`
     {
-      posts: allMarkdownRemark(
-        sort: { frontmatter: { date: DESC } }
-      ) {
+      posts: allMarkdownRemark(sort: { frontmatter: { date: DESC } }) {
         edges {
           node {
             fields {
@@ -89,7 +87,7 @@ exports.createPages = ({ graphql, actions }) => {
 
     Array.from({ length: numPages }).forEach((_, index) => {
       createPage({
-        path: index === 0 ? `/` : `/page/${index + 1}`,
+        path: index === 0 ? `/` : `/${index + 1}`,
         component: path.resolve(`./src/templates/blog-list.js`),
         context: {
           limit: postsPerPage,

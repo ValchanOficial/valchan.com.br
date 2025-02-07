@@ -61,7 +61,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    background: #FFE9F7;
+    background: var(--background-dark);
     line-height: 1;
     font-size: 100%;
   }
@@ -89,13 +89,13 @@ const GlobalStyles = createGlobalStyle`
     font-size: 1rem;
     font-weight: 400;
     font-family: "Atkinson Hyperlegible", sans-serif;
-    color: #BE95C4;
+    color: var(--secondary);
   }
 
   hr {
     border: 0;
     height: 2px;
-    background-image: linear-gradient(to right, transparent, #BE95C4, transparent);
+    background-image: linear-gradient(to right, transparent, var(--secondary), transparent);
   }
 
   code[class*="language-"], pre[class*="language-"] {
@@ -111,8 +111,8 @@ const GlobalStyles = createGlobalStyle`
     background: #2d2d2d;
     color: white;
     border-radius: 15px;
-    border-left: 3px solid var(--border);
-    border-right: 3px solid var(--border);
+    border-left: 3px solid var(--main);
+    border-right: 3px solid var(--main);
   }
 
   .notFound {
@@ -122,7 +122,7 @@ const GlobalStyles = createGlobalStyle`
     font-size: 2.5rem;
     text-align: center;
     font-weight: 700;
-    color: var(--color);
+    color: var(--cta);
   }
 
   .notFound__img {
@@ -194,58 +194,26 @@ const GlobalStyles = createGlobalStyle`
     max-height: 30rem;
   }
 
-  /* Themes */
-
-  body.dark {
-    --background: #18191A;
-    --text: #edeced;
-    --color: #5E548E;
-    --mainTitle: #5E548E;
-    --secTitle: #CEB1E0;
-    --postHeader: #9F86C0;
-    --link: #8075B6;
-    --linkHover: #5E548E;
-    --colorTag: #231942;
-    --colorTagTwo: #9F86C0;
-    --avatarColor: #5E548E;
-    --avatarColorTwo: #CEB1E0;
-    --border: #5E548E;
-    --mark: #BE95C4;
-    --markText: #222;
-    --textarea: #5E548E;
-    --thead: #BE95C4;
-    --recommendedPost: #242526;
-    --input: #5E548E;
-    --hover: #231942;
-  }
-  
-  body.light {
-    --background: #FFF4FF;
-    --text: #222;
-    --color: #231942;
-    --mainTitle: #5E548E;
-    --secTitle: #222;
-    --postHeader: #231942;
-    --link: #5E548E;
-    --linkHover: #5E548E;
-    --colorTag: #231942;
-    --colorTagTwo: #9F86C0;
-    --avatarColor: #231942;
-    --avatarColorTwo: #CEB1E0;
-    --border: #5E548E;
-    --mark: #9F86C0;
-    --markText: #222;
-    --textarea: #9F86C0;
-    --thead: #BE95C4;
-    --recommendedPost: #CEB1E0;
-    --input: #9F86C0;
-    --hover: #9F86C0;
-  }
-
-  *{
-    scrollbar-color: #9F86C0 #CEB1E0;
+  * {
+    scroll-behavior: smooth;
+    scrollbar-color: #222 #cdad7d;
     scrollbar-shadow-color: none;
+
+    --background-dark: #131e3d;
+    --background-light: #f4f1ec;
+    --main: #cdad7d;
+    --text-dark: #222344;
+    --text-light: #f4f1ec;
+    --cta: #cdad7d;
+    --secondary: #dbbf94;
   }
 
+  
+  /* [
+    #F7E9CC, #131415, #20304f, #A4BECD, #E3D87B, #FDFEF9,
+    #4F364B, #262628, #DB3E1D, #C6C3F2, #D6DC82, #FFF6EF,
+    #676652, #292929, #70877f, #DDA05D, #EDDDC7, #F6F2EA,
+    #D2E8FF, #A37F4F, #413524, #1f2744, #E2CDA5, #F8F0E2
+  ] */
 `
 export default GlobalStyles

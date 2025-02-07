@@ -7,8 +7,8 @@ export const ListWrapper = styled.section`
   width: 100%;
 
   body#grid & {
-    background-color: var(--borders);
-    border-bottom: 1px solid var(--borders);
+    background-color: var(--mains);
+    border-bottom: 1px solid var(--mains);
     display: grid;
     grid-area: posts;
     grid-gap: 1rem;

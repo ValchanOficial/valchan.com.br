@@ -30,11 +30,10 @@ Node version: 18
 - [Styled Components](https://styled-components.com/);
 - [Styled Media Query](https://github.com/morajabi/styled-media-query);
 - [PrismJS](https://prismjs.com/);
-- [Disqus](https://disqus.com/);
+- [Chirpy](https://chirpy.dev);
 - [Algolia](https://www.algolia.com/);
 - [Google Fonts](https://fonts.google.com/);
 - [Markdown](https://daringfireball.net/projects/markdown/);
-- [Coolors](https://coolors.co/);
 - [Netlify CMS](https://www.netlifycms.org/);
 - [React Icons](https://react-icons.github.io/react-icons/);
 - [Web illustrations by Storyset](https://storyset.com/web);

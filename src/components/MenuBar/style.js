@@ -32,7 +32,7 @@ export const MenuBarLink = styled(Link)`
 `
 
 export const MenuBarIcon = styled.div`
-  color: var(--text);
+  color: var(--cta);
   cursor: pointer;
   width: 32px;
   height: auto;
@@ -48,6 +48,6 @@ export const MenuBarIcon = styled.div`
   }
 
   &:hover {
-    color: var(--linkHover);
+    color: var(--main);
   }
 `

@@ -11,29 +11,25 @@ export const Avatar = styled.div`
 
 export const AvatarDetails = styled.section`
   display: flex;
-  width: 165px;
-  height: 165px;
+  width: 20.5rem;
+  height: 20.5rem;
   border-radius: 100%;
-  background: linear-gradient(
-    to bottom right,
-    var(--avatarColor),
-    var(--avatarColorTwo)
-  );
+  background: linear-gradient(to bottom right, var(--main), var(--secondary));
 
   ${media.lessThan("large")`
-        width: 110px;
-        height: 110px;
-    `}
+    width: 110px;
+    height: 110px;
+  `}
 `
 
 export const AvatarImg = styled(GatsbyImage)`
-  width: 150px;
-  height: 150px;
+  width: 20rem;
+  height: 20rem;
   border-radius: 100%;
   margin: auto;
 
   ${media.lessThan("large")`
-        height: 100px;
-        width: 100px;
-    `}
+    width: 6rem;
+    height: 6rem;
+  `}
 `

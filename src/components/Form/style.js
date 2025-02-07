@@ -31,7 +31,7 @@ export const Button = styled.button`
   cursor: pointer;
   font-family: "Atkinson Hyperlegible", sans-serif;
   border-radius: 4px;
-  border-color: var(--border);
+  border-color: var(--main);
   background-color: var(--background);
   color: var(--text);
   font-size: 1rem;

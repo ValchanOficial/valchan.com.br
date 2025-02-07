@@ -2,7 +2,7 @@ import styled from "styled-components";
 import media from "styled-media-query";
 
 export const AsideMenuBar = styled.div`
-    background: var(--background);
+    background: var(--background-dark);
     display: flex;
     flex-direction: row;
     margin-right: 2.3rem;

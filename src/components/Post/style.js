@@ -8,12 +8,12 @@ export const PostContainer = styled.div`
 `
 
 export const PostContent = styled.div`
-  background: var(--background);
+  background: var(--background-light);
   display: flex;
   flex-direction: column;
-  border: 1px solid var(--border);
+  border: 1px solid var(--main);
   padding: 2rem;
-  margin-bottom: 1rem;
+  margin: 1rem;
   width: 100%;
   align-items: center;
 
@@ -23,7 +23,7 @@ export const PostContent = styled.div`
 `
 
 export const PostHeader = styled.header`
-  color: var(--postHeader);
+  color: var(--main);
   padding: 0;
   align-self: flex-start;
 `
@@ -156,7 +156,7 @@ export const MainContent = styled.section`
     display: flex;
     margin: auto;
     flex-direction: column;
-    color: var(--color);
+    color: var(--cta);
     font-family: "Atkinson Hyperlegible", sans-serif;
     font-size: 1.5rem;
     font-style: italic;
@@ -167,7 +167,7 @@ export const MainContent = styled.section`
   blockquote p::before,
   blockquote p::after {
     content: "“";
-    color: var(--color);
+    color: var(--cta);
     font-size: 7rem;
     font-family: Georgia;
     margin: -3rem 0 0 -3rem;
@@ -181,7 +181,7 @@ export const MainContent = styled.section`
 
   blockquote p::after {
     content: "”";
-    color: var(--color);
+    color: var(--cta);
     margin: -2rem -4rem 0 0;
   }
 
@@ -205,7 +205,7 @@ export const MainContent = styled.section`
   h5,
   h6 {
     font-family: "Atkinson Hyperlegible", sans-serif;
-    color: var(--secTitle);
+    color: var(--text);
     margin: 2.4rem auto 1rem;
     font-weight: 800;
     letter-spacing: 0.069rem;
@@ -274,16 +274,15 @@ export const MainContent = styled.section`
 
   a {
     font-weight: 400;
-    color: var(--link);
-    text-decoration: none;
+    color: var(--cta);
     transition: font-weight 0.3s;
 
     svg {
-      color: var(--linkHover);
+      color: var(--main);
     }
 
     &:hover {
-      color: var(--linkHover);
+      color: var(--text-dark);
       font-weight: 500;
     }
   }
@@ -320,7 +319,7 @@ export const MainContent = styled.section`
   input,
   select {
     border-color: none;
-    background: var(--input);
+    background: var(--secondary);
   }
 
   select {
@@ -329,14 +328,14 @@ export const MainContent = styled.section`
     font-size: 1.25rem;
     font-weight: 700;
     color: var(--text);
-    background: var(--color);
+    background: var(--cta);
     padding: 0.2rem;
 
     border: none;
     -moz-border-radius: 1rem 1rem 1rem 1rem;
     -webkit-border-radius: 1rem 1rem 1rem 1rem;
     border-radius: 1rem 1rem 1rem 1rem;
-    box-shadow: 1px 1px 11px var(--color);
+    box-shadow: 1px 1px 11px var(--cta);
 
     ${media.lessThan("large")`
       font-size: 1rem;
@@ -359,8 +358,8 @@ export const MainContent = styled.section`
   }
 
   thead {
-    background: var(--thead);
-    border: 0.1rem solid var(--color);
+    background: var(--cta);
+    border: 0.1rem solid var(--cta);
   }
 
   thead th {
@@ -370,7 +369,7 @@ export const MainContent = styled.section`
   th,
   td {
     color: var(--text);
-    border: 0.1rem solid var(--color);
+    border: 0.1rem solid var(--cta);
     font-weight: 400;
     text-align: left;
     padding: 8px;
@@ -384,8 +383,8 @@ export const MainContent = styled.section`
   }
 
   mark {
-    color: var(--markText);
-    background: var(--mark);
+    color: var(--text);
+    background: var(--secondary);
     font-weight: 700;
   }
 
@@ -404,7 +403,7 @@ export const MainContent = styled.section`
     min-height: 10rem;
     min-width: 10rem;
     border: none;
-    background: var(--textarea);
+    background: var(--secondary);
 
     ${media.lessThan("large")`
       font-size: 0.9rem;
@@ -450,7 +449,7 @@ export const MainContent = styled.section`
     font-size: 1rem;
     font-weight: 400;
     font-family: "Atkinson Hyperlegible", sans-serif;
-    color: var(--color);
+    color: var(--cta);
   }
 
   ${media.lessThan("large")`
