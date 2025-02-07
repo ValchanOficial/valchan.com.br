@@ -275,7 +275,6 @@ export const MainContent = styled.section`
   a {
     font-weight: 400;
     color: var(--cta);
-    text-decoration: none;
     transition: font-weight 0.3s;
 
     svg {

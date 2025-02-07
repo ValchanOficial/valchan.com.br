@@ -18,7 +18,8 @@ export const LinkGroup = styled.div`
     margin-left: 0.6rem;
 
     ${media.lessThan("large")`
-      height: 1rem;
+      height: 0.8rem;
+      margin-left: 0.4rem;
     `}
   }
 
@@ -45,7 +46,8 @@ export const LinkWrapper = styled(Link)`
   }
 
   ${media.lessThan("large")`
-    font-size: 1rem;
+    font-size: 0.8rem;
+    margin-right: 1rem;
   `}
 `
 

@@ -22,7 +22,7 @@ const Header = ({ siteTitle = "Valchan", isPost = false }) => (
             Experiência
           </S.LinkWrapper>
           <S.LinkWrapper to="#blog" id="link">
-            BLOG
+            Blog
           </S.LinkWrapper>
           <S.LinkWrapper to="#contact" id="link">
             Contato

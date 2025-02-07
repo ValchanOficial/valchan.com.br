@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import media from "styled-media-query"
 
 export const FlyingBird = styled.img`
   max-width: 20rem;
@@ -15,6 +16,12 @@ export const FlyingBird = styled.img`
       transform: translate(0, -1rem);
     }
   }
+
+  ${media.lessThan("large")`
+    top: -2rem;
+    right: -4rem;
+    max-width: 8rem;
+  `}
 `
 
 export const RestingBird = styled.img`
@@ -22,6 +29,10 @@ export const RestingBird = styled.img`
   position: absolute;
   bottom: 5rem;
   right: 5rem;
+
+  ${media.lessThan("large")`
+    max-width: 10rem;
+  `}
 `
 
 export const WaitingBird = styled.img`
@@ -29,6 +40,10 @@ export const WaitingBird = styled.img`
   position: absolute;
   bottom: 2rem;
   right: 2rem;
+
+  ${media.lessThan("large")`
+    max-width: 10rem;
+  `}
 `
 
 export const LovelyBird = styled.img`
@@ -36,6 +51,12 @@ export const LovelyBird = styled.img`
   position: absolute;
   bottom: 15rem;
   left: 5rem;
+
+  ${media.lessThan("large")`
+    max-width: 10rem;
+    bottom: 0;
+    left: 0;
+  `}
 `
 
 export const Butterfly = styled.img`
@@ -44,12 +65,20 @@ export const Butterfly = styled.img`
   top: -4rem;
   left: 0;
   z-index: 1;
+
+  ${media.lessThan("large")`
+    max-width: 8rem;
+  `}
 `
 export const Crown = styled.img`
   max-width: 25rem;
   position: absolute;
   top: 4rem;
   right: 4rem;
+
+  ${media.lessThan("large")`
+    max-width: 10rem;
+  `}
 `
 
 export const Error404 = styled.img`
@@ -58,10 +87,13 @@ export const Error404 = styled.img`
 
 export const Rocket = styled.img`
   max-width: 20rem;
-  max-width: 20rem;
   align-self: flex-end;
   display: flex;
   margin: 0;
+
+  ${media.lessThan("large")`
+    max-width: 8rem;
+  `}
 `
 
 export const Stars = styled.img`
@@ -69,6 +101,10 @@ export const Stars = styled.img`
   align-self: flex-start;
   display: flex;
   margin: 0;
+
+  ${media.lessThan("large")`
+    max-width: 8rem;
+  `}
 `
 
 export const Developer = styled.img`
@@ -76,6 +112,10 @@ export const Developer = styled.img`
   position: absolute;
   bottom: 2rem;
   right: 2rem;
+
+  ${media.lessThan("large")`
+    max-width: 10rem;
+  `}
 `
 
 export const Flower = styled.img`

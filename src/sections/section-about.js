@@ -19,20 +19,22 @@ export default function SectionAbout() {
       <S.AboutContainer>
         <S.Article>
           <S.Title>
-            A technology-loving developer who constantly seeks knowledge.
+            Uma desenvolvedora apaixonada por tecnologia que está sempre em
+            busca de conhecimento.
           </S.Title>
           <S.Paragraph>
-            Professional with over six years of experience in full-stack
-            development using technologies around javascript such as NodeJS,
-            NestJS, NextJS, ReactJS among others, having a career developed in
-            relevant companies in the technology area. <br></br>
+            Sou uma profissional com mais de seis anos de experiência em
+            desenvolvimento full-stack, utilizo tecnologias em torno do
+            JavaScript, como NodeJS, NestJS, NextJS, ReactJS, entre outras, com
+            uma carreira desenvolvida em empresas relevantes na área de
+            tecnologia. <br></br>
             <br></br>
-            Graduated in Systems Analysis and Development at UNICESUMAR,
-            Post-Graduation in Fullstack Development at PUCRS, currently
-            specializing with MBA Full Cycle Architecture at Full Cycle, and
-            Post-graduation tech developer 360º at Rocktseat, creative,
-            determined, contributing to problem-solving, and always seeking and
-            sharing knowledge.
+            Graduada em Análise e Desenvolvimento de Sistemas pela UNICESUMAR,
+            Pós-Graduada em Desenvolvimento Fullstack pela PUCRS, atualmente me
+            especializando com o MBA em Arquitetura Full Cycle pela FCTECH e a
+            Pós-graduação Tech Developer 360º na Rocktseat, sou criativa,
+            determinada, contribuindo para a solução de problemas e buscando
+            sempre compartilhar conhecimento.
           </S.Paragraph>
         </S.Article>
         <S.Container>

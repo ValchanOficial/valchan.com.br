@@ -1,5 +1,6 @@
 import { Link } from "gatsby"
 import styled from "styled-components"
+import media from "styled-media-query"
 
 // Section About
 
@@ -10,6 +11,11 @@ export const AboutContainer = styled.div`
   justify-content: center;
   gap: 3rem;
   align-items: center;
+
+  ${media.lessThan("large")`
+    padding: 10rem 0;
+    flex-direction: column;
+  `}
 `
 
 export const Container = styled.div`
@@ -37,6 +43,10 @@ export const Title = styled.h2`
   font-size: 3rem;
   color: var(--text-dark);
   margin-bottom: 2.5rem;
+
+  ${media.lessThan("large")`
+    font-size: 2.5rem;
+  `}
 `
 
 export const Paragraph = styled.p`
@@ -64,6 +74,10 @@ export const Quote = styled.q`
   color: var(--text-light);
   max-width: 70rem;
   text-align: center;
+
+  ${media.lessThan("large")`
+    font-size: 2rem;
+  `}
 `
 
 // Section Blog
@@ -73,6 +87,12 @@ export const BlogWrapper = styled.div`
   flex-direction: row;
   align-items: flex-start;
   margin: 12rem auto;
+
+  ${media.lessThan("large")`
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+  `}
 `
 
 export const TitleWrapper = styled.div`
@@ -82,6 +102,10 @@ export const TitleWrapper = styled.div`
   justify-content: flex-start;
   align-items: flex-start;
   margin-left: 5rem;
+
+  ${media.lessThan("large")`
+    margin-left: 0;
+  `}
 `
 
 export const ListWrapper = styled.ul`
@@ -164,6 +188,11 @@ export const RecommendationsWrapper = styled.div`
   align-items: center;
   gap: 2rem;
   height: 30rem;
+
+  ${media.lessThan("large")`
+    flex-direction: column;
+    height: auto;
+  `}
 `
 
 export const Recommendation = styled.div`
@@ -192,6 +221,10 @@ export const Recommendation = styled.div`
   > p {
     margin-top: 1rem;
   }
+
+  ${media.lessThan("large")`
+    width: auto;
+  `}
 `
 
 // Section Contact
@@ -204,8 +237,20 @@ export const ContactWrapper = styled.div`
   height: 25rem;
   margin: 15rem 15rem 2rem;
   align-items: flex-end;
+
+  ${media.lessThan("large")`
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin: 2rem 0;
+  `}
 `
 
 export const ContactTitle = styled.div`
   align-self: center;
+
+  ${media.lessThan("large")`
+    text-align: center;
+  `}
 `

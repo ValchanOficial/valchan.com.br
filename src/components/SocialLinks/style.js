@@ -16,6 +16,11 @@ export const SocialLinksList = styled.ul`
   width: 100%;
   gap: 0.5rem;
   margin-left: 0.2rem;
+
+  ${media.lessThan("large")`
+    justify-content: center;
+    margin: 0;
+  `}
 `
 
 export const SocialLinksItem = styled.li``
