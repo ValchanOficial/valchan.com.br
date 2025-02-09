@@ -10,6 +10,7 @@
     "algoliasearch": "^4.14.2",
     "dotenv": "^16.0.3",
     "gatsby": "^5.9.1",
+    "gatsby-adapter-netlify": "^1.0.4",
     "gatsby-plugin-algolia-search": "^0.5.7",
     "gatsby-plugin-feed": "^5.0.0",
     "gatsby-plugin-google-fonts": "^1.0.1",
