@@ -9,21 +9,24 @@ import SectionContact from "../sections/section-contact"
 import SectionExperiences from "../sections/section-experiences"
 import SectionMain from "../sections/section-main"
 // import SectionProjects from "../sections/section-projects"
+import { ParallaxProvider } from "react-scroll-parallax"
 import SectionQuote from "../sections/section-quote"
 import SectionRecommendations from "../sections/section-recommendations"
 
 export default function Home() {
   return (
-    <Main>
-      <Head title="Home" description="Página inicial" />
-      <SectionMain />
-      <SectionAbout />
-      <SectionQuote />
-      {/* <SectionProjects /> */}
-      <SectionExperiences />
-      <SectionRecommendations />
-      <SectionBlog />
-      <SectionContact />
-    </Main>
+    <ParallaxProvider>
+      <Main>
+        <Head title="Home" description="Página inicial" />
+        <SectionMain />
+        <SectionAbout />
+        <SectionQuote />
+        {/* <SectionProjects /> */}
+        <SectionExperiences />
+        <SectionRecommendations />
+        <SectionBlog />
+        <SectionContact />
+      </Main>
+    </ParallaxProvider>
   )
 }

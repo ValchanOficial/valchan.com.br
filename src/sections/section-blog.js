@@ -1,10 +1,11 @@
+import { useAutoAnimate } from "@formkit/auto-animate/react"
 import React, { useEffect, useState } from "react"
 
 import { graphql, useStaticQuery } from "gatsby"
 
 import Button from "../components/Button"
-import Section from "../components/Section"
 import { LovelyBird } from "../components/SVG"
+import Section from "../components/Section"
 
 import * as S from "./style"
 
@@ -12,6 +13,10 @@ export default function SectionBlog() {
   const MAX_POSTS_VISIBLE = 6
   const [visibleItems, setVisibleItems] = useState(MAX_POSTS_VISIBLE)
   const [posts, setPosts] = useState([])
+  const [parent] = useAutoAnimate({
+    easing: "ease-in-out",
+    duration: 500,
+  })
 
   const data = useStaticQuery(graphql`
     query ($skip: Int, $limit: Int) {
@@ -62,7 +67,7 @@ export default function SectionBlog() {
           </S.Title>
           <LovelyBird />
         </S.TitleWrapper>
-        <S.ListWrapper>
+        <S.ListWrapper ref={parent}>
           {posts.slice(0, visibleItems).map(
             ({
               node: {
