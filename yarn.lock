@@ -2553,6 +2553,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@formkit/auto-animate@npm:^0.8.2":
+  version: 0.8.2
+  resolution: "@formkit/auto-animate@npm:0.8.2"
+  checksum: 0b24af241c229f37643cd62ea78fd7fddf621c06516cf62452035ea0bf489b6b53068eea47abb40b6bb3653bb91c1efad8b7257014a3559d26ad77b47b5337cb
+  languageName: node
+  linkType: hard
+
 "@gatsbyjs/parcel-namer-relative-to-cwd@npm:^2.13.1":
   version: 2.13.1
   resolution: "@gatsbyjs/parcel-namer-relative-to-cwd@npm:2.13.1"
@@ -6246,6 +6253,13 @@ __metadata:
   dependencies:
     open: "npm:^7.0.3"
   checksum: c483f52a1c71555926df37a89ae7e521cddff6509e2a02c6af83c2c500e20cb3307417579ce1d5ec4d09855cc7d30f608b20934e7cedc54218888722d5bfc1d3
+  languageName: node
+  linkType: hard
+
+"bezier-easing@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "bezier-easing@npm:2.1.0"
+  checksum: 138a160698de3c12501479cc80280d5cc0ab47df73e20d7b5058cba6d62c0876eb97e63aa1e398233269aa2a6bb396fb0ee394da391de7258c9da20729df5158
   languageName: node
   linkType: hard
 
@@ -16280,6 +16294,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"parallax-controller@npm:^1.7.1":
+  version: 1.7.1
+  resolution: "parallax-controller@npm:1.7.1"
+  dependencies:
+    bezier-easing: "npm:^2.1.0"
+  checksum: 065fbb49de5dbaf513e210c54bd2a3a2e2b978db2d38d6dad2dcd7d309cb7036e2cd7d2555bf37bc3a565d72e6fb842ccbc55938eb30b1a38bffb750a8862f7f
+  languageName: node
+  linkType: hard
+
 "param-case@npm:^3.0.4":
   version: 3.0.4
   resolution: "param-case@npm:3.0.4"
@@ -17901,6 +17924,18 @@ __metadata:
   peerDependencies:
     react: ">=15"
   checksum: e15c00dfef199249b4c6e6d98e5e76cc352ce66f3270f13df37cc069ddf7c05e43281e8c308fc407e4435d72924373baef1d2890e0f6b0b1eb423cf47315a053
+  languageName: node
+  linkType: hard
+
+"react-scroll-parallax@npm:^3.4.5":
+  version: 3.4.5
+  resolution: "react-scroll-parallax@npm:3.4.5"
+  dependencies:
+    parallax-controller: "npm:^1.7.1"
+  peerDependencies:
+    react: ^16.8.0-0 || >=17.0.1 || ^18.0.0
+    react-dom: ^16.8.0-0 || >=17.0.1 || ^18.0.0
+  checksum: 6db8556d94ed22aefcf08c6e1758e24bdcf0dfb68c7f57265ae69b25696cfbaa478af4b569d8a28e55fa304cdfc39ce6b1229aa54a40a8358b8ece52c4d03031
   languageName: node
   linkType: hard
 
@@ -21554,6 +21589,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "valchan@workspace:."
   dependencies:
+    "@formkit/auto-animate": "npm:^0.8.2"
     "@hot-loader/react-dom": "npm:^17.0.2"
     "@react-spring/web": "npm:^9.7.5"
     algoliasearch: "npm:^4.14.2"
@@ -21590,6 +21626,7 @@ __metadata:
     react-dom: "npm:^18.2.0"
     react-icons: "npm:^5.3.0"
     react-instantsearch-dom: "npm:^6.38.1"
+    react-scroll-parallax: "npm:^3.4.5"
     styled-components: "npm:^5.3.6"
     styled-media-query: "npm:^2.1.2"
   languageName: unknown

@@ -147,7 +147,7 @@ export const PostDescription = styled.p`
 
 // Section Experiences
 
-export const ExperiencesContainer = styled.div`
+export const ExperiencesContainer = styled.ul`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -156,7 +156,7 @@ export const ExperiencesContainer = styled.div`
   margin: 15rem auto;
 `
 
-export const Experience = styled.div`
+export const Experience = styled.li`
   width: 100%;
   max-width: 70rem;
   border: 1px solid var(--main);
@@ -181,7 +181,7 @@ export const RecommendationsContainer = styled.div`
   margin: 15rem auto;
 `
 
-export const RecommendationsWrapper = styled.div`
+export const RecommendationsWrapper = styled.ul`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -195,7 +195,7 @@ export const RecommendationsWrapper = styled.div`
   `}
 `
 
-export const Recommendation = styled.div`
+export const Recommendation = styled.li`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -234,21 +234,25 @@ export const ContactWrapper = styled.div`
   flex-direction: row;
   justify-content: space-between;
   gap: 2rem;
-  height: 25rem;
-  margin: 15rem 15rem 2rem;
+  height: 50rem;
+  padding: 15rem 15rem 2rem;
   align-items: flex-end;
 
+  -webkit-box-shadow: inset 50rem 0rem 20rem 0rem var(--main);
+  -moz-box-shadow: inset 50rem 0rem 20rem 0rem var(--main);
+  box-shadow: inset 50rem 0rem 20rem 0rem var(--main);
+
   ${media.lessThan("large")`
-    padding: 0;
+    padding: 10rem 5rem 2rem;
     flex-direction: column;
     align-items: center;
     align-content: center;
-    margin: 2rem 0;
   `}
 `
 
 export const ContactTitle = styled.div`
   align-self: center;
+  z-index: 1;
 
   ${media.lessThan("large")`
     text-align: center;

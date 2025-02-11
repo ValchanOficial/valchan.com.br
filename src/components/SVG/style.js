@@ -29,6 +29,7 @@ export const RestingBird = styled.img`
   position: absolute;
   bottom: 5rem;
   right: 5rem;
+  z-index: 1;
 
   ${media.lessThan("large")`
     max-width: 10rem;
@@ -87,7 +88,6 @@ export const Error404 = styled.img`
 
 export const Rocket = styled.img`
   max-width: 20rem;
-  align-self: flex-end;
   display: flex;
   margin: 0;
 
@@ -98,7 +98,6 @@ export const Rocket = styled.img`
 
 export const Stars = styled.img`
   max-width: 20rem;
-  align-self: flex-start;
   display: flex;
   margin: 0;
 

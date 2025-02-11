@@ -31,7 +31,7 @@ export const SocialLinksLink = styled.a`
   transition: color 0.5s;
 
   &:hover {
-    color: var(--main);
+    color: var(--text-light);
   }
 `
 
@@ -46,16 +46,12 @@ export const Icon = styled.div`
   }
 
   ${media.lessThan("large")`
-        width: 3rem;
-        margin-left: 0.2rem;
+    width: 3rem;
+    margin-left: 0.2rem;
 
-        svg {
-            height: 40px;
-            width: 40px;
-        }
-    `}
-
-  &:hover {
-    color: var(--main);
-  }
+    svg {
+      height: 40px;
+      width: 40px;
+    }
+  `}
 `
