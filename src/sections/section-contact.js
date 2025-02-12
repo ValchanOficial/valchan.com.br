@@ -1,6 +1,7 @@
 import React from "react"
 
 import BackgroundCubes from "../components/BackgroundCubes"
+import Newsletter from "../components/Newsletter"
 import Section from "../components/Section"
 import SocialLinks from "../components/SocialLinks"
 
@@ -16,6 +17,7 @@ export default function SectionContact() {
         <S.ContactTitle>
           <S.Title>Contato</S.Title>
           <SocialLinks />
+          <Newsletter />
         </S.ContactTitle>
         <RestingBird />
         {<S.Paragraph>VALCHAN • {new Date().getFullYear()}</S.Paragraph>}

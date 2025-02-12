@@ -157,11 +157,15 @@ export const ExperiencesContainer = styled.ul`
 `
 
 export const Experience = styled.li`
-  width: 100%;
+  width: 50%;
   max-width: 70rem;
   border: 1px solid var(--main);
   background: rgb(255, 255, 255, 0.4);
   padding: 2rem;
+
+  ${media.lessThan("large")`
+    width: 100%;
+  `}
 `
 
 export const ButterflyWithText = styled.div`

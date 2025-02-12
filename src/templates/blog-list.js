@@ -8,7 +8,6 @@ import Head from "../components/seo"
 
 import { graphql } from "gatsby"
 import * as S from "../components/ListWrapper/style"
-import Newsletter from "../components/Newsletter"
 
 export default function BlogList(props) {
   const { data, pageContext } = props
@@ -52,7 +51,6 @@ export default function BlogList(props) {
         prevPage={prevPage}
         nextPage={nextPage}
       />
-      <Newsletter />
     </Main>
   )
 }
