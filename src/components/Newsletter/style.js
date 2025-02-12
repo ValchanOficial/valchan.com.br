@@ -3,18 +3,18 @@ import styled from "styled-components"
 // import { Link } from "gatsby";
 
 export const Container = styled.div`
+  font-family: "Atkinson Hyperlegible", sans-serif;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
   flex-direction: column;
-  margin-bottom: 2em;
-  padding-left: 2em;
-  padding-right: 2em;
   width: 100%;
-  max-width: 500px;
+  max-width: 500rem;
+  margin-top: 2rem;
 `
 
 export const Message = styled.p`
+  font-family: "Atkinson Hyperlegible", sans-serif;
   margin-top: 0.5em;
   width: 210px;
   color: var(--text);
@@ -24,8 +24,8 @@ export const Message = styled.p`
 `
 
 export const Text = styled.p`
+  font-family: "Atkinson Hyperlegible", sans-serif;
   margin-bottom: 0.8em;
   color: var(--text);
-  font-size: 1.1rem;
-  text-align: center;
+  font-size: 1.5rem;
 `
