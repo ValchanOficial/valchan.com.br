@@ -116,6 +116,7 @@ export const ListWrapper = styled.ul`
 `
 
 export const PostLink = styled(Link)`
+  max-width: 60%;
   color: var(--text);
   display: flex;
   flex-direction: column;
@@ -130,6 +131,10 @@ export const PostLink = styled(Link)`
       text-decoration: underline;
     }
   }
+
+  ${media.lessThan("large")`
+    max-width: 100%;
+  `}
 `
 
 export const PostTag = styled.span`
