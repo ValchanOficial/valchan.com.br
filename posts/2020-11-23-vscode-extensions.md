@@ -3,7 +3,7 @@ date: 2020-11-23
 title: "VSCode e extensões"
 description: "Produtividade com extensões do VSCode"
 category: "VSCode"
-image: '/assets/img/cover.png'
+image: '/assets/img/cover/cover2.png'
 ---
 
 <a href="https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode" target="_blank" rel="noopener noreferrer">Visual Studio IntelliCode</a>

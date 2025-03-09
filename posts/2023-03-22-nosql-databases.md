@@ -3,7 +3,7 @@ date: 2023-03-22
 title: "Bancos de dados NoSQL"
 description: "Famílias de banco de dados NoSQL"
 category: "NoSQL"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 Os bancos de dados NoSQL estão divididos em 4 famílias:

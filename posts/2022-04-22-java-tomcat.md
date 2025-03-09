@@ -3,7 +3,7 @@ date: 2022-04-22
 title: "Tomcat"
 description: "Adicionando o Tomcat no Eclipse"
 category: "Java"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 - Baixe o Tomcat: <a href="https://tomcat.apache.org/" target="_blank" rel="noopener noreferrer">link</a>

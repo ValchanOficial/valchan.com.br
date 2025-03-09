@@ -3,7 +3,7 @@ date: 2021-01-02
 title: "Buscando e removendo itens duplicados de arrays"
 description: "Com Set e Map tudo fica mais simples!! 😉"
 category: "Javascript"
-image: '/assets/img/cover.png'
+image: '/assets/img/cover/cover2.png'
 ---
 
 ``` javascript

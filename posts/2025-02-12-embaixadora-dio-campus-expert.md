@@ -3,7 +3,7 @@ date: 2025-02-12
 title: "DIO Campus Expert"
 description: "Turma 11"
 category: "DIO"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 <div class="midSize">

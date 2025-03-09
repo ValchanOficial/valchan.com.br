@@ -3,7 +3,7 @@ date: 2025-02-17
 title: "15 lições de 15 anos na área de tecnologia"
 description: "Tradução do artigo 15 lessons from 15 years in tech publicado na newsletter Engineering Leadership por Gregor Ojstersek and Owain Lewis"
 category: "Tecnologia"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 Publicação original em inglês:

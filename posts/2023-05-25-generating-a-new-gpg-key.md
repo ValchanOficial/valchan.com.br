@@ -3,7 +3,7 @@ date: 2023-05-25
 title: "Gerando uma chave GPG"
 description: "Como gerar uma chave GPG para utilizar na assinatura de seus commits e tags."
 category: "GPG Key"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 Instale o GnuPG

@@ -3,7 +3,7 @@ date: 2021-10-11
 title: "Copiando textos utilizando a API Clipboard"
 description: "Como copio um texto para a área de transferência?"
 category: "Javascript"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 Com o código abaixo é possível copiar um texto para a área de transferência de forma bem simples utilizando a função ``writeText`` do Clipboard.

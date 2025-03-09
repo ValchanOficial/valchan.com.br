@@ -3,7 +3,7 @@ date: 2023-01-19
 title: "Como atualizar o git?"
 description: "De forma super simples e rápida, veja como atualizar o git"
 category: "Git"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 - Primeira forma:

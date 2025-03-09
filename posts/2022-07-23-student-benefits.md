@@ -3,7 +3,7 @@ date: 2022-07-23
 title: "LinkedIn Premium e GitHub Student Developer Pack"
 description: "Você como estudante já conhecia estes benefícios?"
 category: "Student"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 Você sabia que sendo um estudante, você tem acesso a vários benefícios como o LinkedIn Premium e o GitHub Student Developer Pack?

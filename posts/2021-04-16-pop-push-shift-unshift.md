@@ -3,7 +3,7 @@ date: 2021-04-16
 title: "Pop( ), Push( ), Shift( ) e Unshift( )"
 description: "Métodos de inserção e remoção de items no array do Javascript"
 category: "Javascript"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 - Pop() -> remove o último elemento de um array e retorna este elemento

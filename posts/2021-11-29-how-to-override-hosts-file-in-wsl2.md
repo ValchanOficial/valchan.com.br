@@ -3,7 +3,7 @@ date: 2021-11-29
 title: "Como sobrescrever o arquivo hosts do WSL?"
 description: "Preciso alterar meu arquivo hosts do WSL, como posso fazer isso?"
 category: "Windows"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 Por padrão, o WSL(Subsistema Windows para Linux) gera automaticamente um arquivo hosts no diretório /etc e não é possível sobrescrever o mesmo. Para que seja possível alterá-lo você precisa adicionar algumas configurações, abra o terminal e executa o comando:

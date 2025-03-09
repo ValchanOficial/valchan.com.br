@@ -3,7 +3,7 @@ date: 2020-07-08
 title: "Como criar máscaras(mask) com o regex"
 description: "Como criar máscaras(mask) para os inputs utilizando o regex."
 category: "javascript"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 Essa é uma postagem bem curta com o objetivo de mostrar como adicionar uma máscara enquanto você digita em um campo de texto utilizando o regex.

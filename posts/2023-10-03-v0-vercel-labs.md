@@ -3,7 +3,7 @@ date: 2023-10-03
 title: "v0 da Vercel Labs"
 description: "Gerando UI com prompts de texto simples."
 category: "v0.dev"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 Há duas semanas atrás, na página da Vercel no LinkedIn, foi <a href="https://www.linkedin.com/posts/vercel_v0-activity-7108117486671142913-nrrm/" target="_blank" rel="nofollow, noreferrer,noopener,external">publicado</a> o v0.dev, atualmente a plataforma está em Private Alpha, mas você pode fazer a inscrição para a <a href="https://v0.dev" target="_blank" rel="nofollow, noreferrer,noopener,external">lista de espera</a>.

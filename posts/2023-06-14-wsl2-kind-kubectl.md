@@ -3,7 +3,7 @@ date: 2023-06-14
 title: "WSL2 + Kind + Kubectl"
 description: "Como instalar o Kind e o Kubectl no WSL2"
 category: "WSL2"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 Antes de tudo, é necessário possuir o Docker instalado, no meu outro post você pode verificar como instalar: <a href="https://valchan.com.br/install-wsl-with-docker-windows/" target="_blank" rel="nofollow, noreferrer,noopener,external">Windows + WSL2 + Docker</a>

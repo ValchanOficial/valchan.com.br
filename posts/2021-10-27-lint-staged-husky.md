@@ -3,7 +3,7 @@ date: 2021-10-27
 title: "Lint-staged + Husky"
 description: "A Piece of Cake: como configurar lint-staged com o husky"
 category: "Javascript"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 Primeiramente precisamos instalar o husky e o lint-staged.

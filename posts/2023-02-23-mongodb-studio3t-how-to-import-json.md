@@ -3,7 +3,7 @@ date: 2023-02-23
 title: "MongoDB Studio3T - Importando dados de um arquivo JSON"
 description: "Como inserir múltiplos objetos em uma collection utilizando o Studio3T"
 category: "MongoDB"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 Passo a passo:

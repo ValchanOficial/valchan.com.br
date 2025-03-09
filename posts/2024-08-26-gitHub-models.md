@@ -3,7 +3,7 @@ date: 2024-08-26
 title: "GitHub Models"
 description: "Recebi o acesso à versão beta pública e limitada do GitHub Models"
 category: "AI"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 <div class="smallSize" align="center">

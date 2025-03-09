@@ -3,7 +3,7 @@ date: 2019-10-01
 title: "Node.JS + Nodemailer"
 description: "Enviando e-mail SMTP com Node.JS e Nodemailer."
 category: "node"
-image: '/assets/img/cover.png'
+image: '/assets/img/cover/cover2.png'
 ---
 
 Utilizando a dependência <a href="https://nodemailer.com/about/" target="_blank" rel="nofollow, noreferrer,noopener,external">Nodemailer</a> para enviar e-mail

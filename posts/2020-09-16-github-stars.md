@@ -3,7 +3,7 @@ date: 2020-09-16
 title: "GitHub Stars"
 description: "Você já conhece o GitHub Stars?"
 category: "github"
-image: '/assets/img/cover.png'
+image: '/assets/img/cover/cover2.png'
 ---
 
 Reconheça aqueles que vão além!

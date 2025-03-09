@@ -3,7 +3,7 @@ date: 2024-09-02
 title: "Integração com a API do Mercado Pago"
 description: "Integração com a SDK do Mercado Pago utilizando Node.js e Express.JS"
 category: "Mercado Pago"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 Se você está procurando uma maneira de integrar o Mercado Pago em seu projeto, este tutorial vai te guiar pelos passos básicos, utilizando Node.js e Express.JS. Vamos passar pelas operações essenciais como a geração de tokens de cartão, gerenciamento de pagamentos e preferências.

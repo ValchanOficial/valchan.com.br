@@ -3,7 +3,7 @@ date: 2022-09-18
 title: "Twitch API"
 description: "Integração com a Twitch API"
 category: "API"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 Tutorial rápido de como gerar seu OAuth Token e consumir a Twitch API.

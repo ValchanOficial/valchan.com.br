@@ -3,7 +3,7 @@ date: 2021-07-24
 title: "GitHub Copilot"
 description: "Um pequeno overview sobre o GitHub Copilot"
 category: "Copilot"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 No início de Julho eu recebi o acesso ao GitHub Copilot, e assim como no próprio site diz, ele é mais do que um autocomplete, ele utiliza o OpenAI Codex que é treinado com os códigos públicos e linguagem natural, ou seja, ele entende tanto código de programação quanto escrita humana.

@@ -3,7 +3,7 @@ date: 2021-12-31
 title: "Utilizando o Google Tag Manager(GTM)"
 description: "Como fazer a integração do GTM?"
 category: "ReactJS"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 Há várias formas de fazer a integração do gtm, vejamos algumas abaixo:

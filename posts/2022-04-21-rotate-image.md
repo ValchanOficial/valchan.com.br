@@ -3,7 +3,7 @@ date: 2022-04-21
 title: "Rotacionando imagem"
 description: "Como rotacionar uma imagem via CSS?"
 category: "CSS"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 ```javascript

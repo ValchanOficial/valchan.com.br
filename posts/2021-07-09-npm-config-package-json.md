@@ -3,7 +3,7 @@ date: 2021-07-09
 title: "Customizando seu package.json com o NPM"
 description: "Como setar valores default para o package.json utilizando o NPM(Node Package Manager)"
 category: "NPM"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 Você sabia que é possível setar valores padrão para o package.json que é gerado ao rodar o ``npm init -y``? Segue os comandos:

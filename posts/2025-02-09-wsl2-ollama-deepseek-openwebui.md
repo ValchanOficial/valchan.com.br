@@ -3,7 +3,7 @@ date: 2025-02-09
 title: "WSL2 + Ollama + DeepSeek + Open WebUI"
 description: "Como rodar o DeepSeek local no WSL2 via Ollama e acessar a interface da Open WebUI via navegador"
 category: "AI"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 ## Configurações

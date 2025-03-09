@@ -3,7 +3,7 @@ date: 2022-04-21
 title: "Expira e Inspira"
 description: "Como fazer essa animação utilizando CSS?"
 category: "CSS"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 ```javascript

@@ -3,7 +3,7 @@ date: 2021-10-11
 title: "Desabilitando botão de voltar do hardware: Android e iOS"
 description: "Como desabitar a função de voltar do botão a nível de hardware dos celulares utilizando o React Native?"
 category: "React Native"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 Apenas para Android, você irá no seu ``App.js`` e utilizando a API BackHandler e o hook useEffect, você poderá desabilitar o botão de voltar do celular.

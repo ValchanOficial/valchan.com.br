@@ -3,7 +3,7 @@ date: 2024-12-11
 title: "Gerando música com inteligência artificial"
 description: "Projeto feito na plataforma da Educative.io"
 category: "AI"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 Ultimamente venho buscando aprofundar meus conhecimentos sobre inteligência artificial e recentemente, fiz o projeto de geração de música utilizando a AI na plataforma Educative.io. Foi um projeto bastante interessante, nele usei o framework AudioCraft da MetaAI para gerar músicas de diversos gêneros!

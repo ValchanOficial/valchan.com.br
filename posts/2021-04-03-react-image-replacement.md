@@ -3,7 +3,7 @@ date: 2021-04-03
 title: "Adicionando imagem padrão quando houver erro"
 description: "Setando imagem padrão ao ocorrer uma falha no carregamento de uma imagem"
 category: "React"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 De forma bem simples:

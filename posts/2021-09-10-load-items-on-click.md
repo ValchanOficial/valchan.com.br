@@ -3,7 +3,7 @@ date: 2021-09-10
 title: "Como carregar dados utilizando o evento onClick"
 description: "Estou com um array, mas não quero exibir tudo de uma vez só, como faço para carregar apenas quando o usuário quiser?"
 category: "ReactJS"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 ```javascript

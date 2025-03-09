@@ -3,7 +3,7 @@ date: 2021-11-29
 title: "Gerando um código QRCode e realizando o download dele"
 description: "Exemplo utilizando as libs qrcode e qrcode-generator"
 category: "ReactJS"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 Função utilizando a lib qrcode:

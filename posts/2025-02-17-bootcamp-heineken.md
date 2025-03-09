@@ -3,7 +3,7 @@ date: 2025-02-17
 title: "Bootcamp Heineken"
 description: "Bootcamp gratuito na plataforma da DIO em parceria com a Heineken"
 category: "Bootcamp"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 ## Bootcamp Heineken - Inteligência Artificial Aplicada a Dados com Copilot

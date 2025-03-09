@@ -3,7 +3,7 @@ date: 2020-07-09
 title: "Como executar um script externo no ReactJS"
 description: "Como executar um script externo no ReactJS"
 category: "ReactJS"
-image: '/assets/img/cover.png'
+image: '/assets/img/cover/cover2.png'
 ---
 
 Recentemente precisei executar um script do Ebit no ReactJS diretamente no component.

@@ -3,7 +3,7 @@ date: 2019-10-14
 title: "Lendo arquivo CSV com Golang"
 description: "Utilizando o Golang para ler arquivos CSV."
 category: "golang"
-image: '/assets/img/cover.png'
+image: '/assets/img/cover/cover2.png'
 ---
 
 **Necessário ter instalado:**

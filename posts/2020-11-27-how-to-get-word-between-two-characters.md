@@ -3,7 +3,7 @@ date: 2020-11-27
 title: "Como obter um texto que esta entre dois valores?"
 description: "Com apenas uma linha de código! 😉"
 category: "Javascript"
-image: '/assets/img/cover.png'
+image: '/assets/img/cover/cover2.png'
 ---
 
 Imagina que você quer pegar uma palavra, algo do tipo que está no meio de um texto, exemplo um id de um vídeo na url do YouTube. Com o Javascript é possível fazer isso com apenas uma linha!

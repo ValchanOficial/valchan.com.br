@@ -3,7 +3,7 @@ date: 2022-07-23
 title: "VAR X LET X CONST"
 description: "Você sabe a diferença entre VAR, LET e CONST?"
 category: "Javascript"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 <table style="table-layout: fixed;">

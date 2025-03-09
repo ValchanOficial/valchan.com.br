@@ -3,7 +3,7 @@ date: 2020-03-02
 title: "Javascript e Arrays"
 description: "Parte 1: Exemplos de código utilizando as funções dos Arrays."
 category: "javascript"
-image: '/assets/img/cover.png'
+image: '/assets/img/cover/cover2.png'
 ---
 
 **.some()**

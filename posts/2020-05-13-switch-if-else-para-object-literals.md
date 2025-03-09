@@ -3,7 +3,7 @@ date: 2020-05-13
 title: "A mágica do Object Literals"
 description: "Reescrevendo o Switch e If/else com Object Literals."
 category: "javascript"
-image: '/assets/img/cover.png'
+image: '/assets/img/cover/cover2.png'
 ---
 
 Recentemente eu estava fazendo um desafio e então precisei utilizar o switch, como tinham várias possibilidades eu percebi que o código estava ficando com bastante linhas (e feio).

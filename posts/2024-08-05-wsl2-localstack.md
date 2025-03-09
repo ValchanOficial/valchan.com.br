@@ -3,7 +3,7 @@ date: 2024-08-05
 title: "WSL2 + LocalStack"
 description: "Simule a infraestrutura da AWS localmente!"
 category: "WSL2"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 ## LocalStack

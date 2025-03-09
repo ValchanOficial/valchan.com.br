@@ -3,7 +3,7 @@ date: 2021-09-11
 title: "Barra de progresso ao rolar a página"
 description: "Como fazer uma barra de progresso que indique a rolagem da página?"
 category: "ReactJS"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 Vamos por partes:

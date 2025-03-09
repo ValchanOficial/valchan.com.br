@@ -22,7 +22,7 @@ function Head({ title, description, image }) {
 
   const metaDescription = description || descriptionSeo
   const url = siteUrl
-  const ogImage = `${url}${image || "/assets/img/cover.png"}`
+  const ogImage = `${url}${image || "/assets/img/cover/cover2.png"}`
 
   return (
     <>

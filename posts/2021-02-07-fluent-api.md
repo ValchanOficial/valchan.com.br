@@ -3,7 +3,7 @@ date: 2021-02-07
 title: "Você conhece a Fluent API?"
 description: "Como deixar seu código mais legível"
 category: "Javascript"
-image: '/assets/img/cover.png'
+image: '/assets/img/cover/cover2.png'
 ---
 
 Atualmente eu estou fazendo o treinamento <a href="https://javascriptexpert.com.br" target="_blank" rel="noopener noreferrer">Javascript Expert do Erick Wendel</a>, recomendo demais, e em uma das aulas ele mostrou sobre a Fluent API, que é uma forma de você organizar suas classes encadeando suas funções, bastante comum em linguagens orientadas a objetos como o .NET, eu já havia visto sendo usada bastante no typeorm mas não conhecia o nome, achei muito incrível e fui atrás de ver mais sobre.

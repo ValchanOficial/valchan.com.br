@@ -3,7 +3,7 @@ date: 2021-11-18
 title: "Como importar e exportar variáveis de ambiente no Windows?"
 description: "Tenho variáveis em um arquivo .env e preciso importar essas variáveis de ambiente no Windows, como posso fazer isto?"
 category: "Windows"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 Eu tenho meu arquivo .env e preciso utilizar as variáveis de ambiente no projeto rodando no Windows, como eu posso fazer isso?

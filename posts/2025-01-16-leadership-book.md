@@ -3,7 +3,7 @@ date: 2025-01-16
 title: "Um presente especial"
 description: "Comece pelo Porquê do Simon Sinek 📚 🥰"
 category: "Book"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 Quero expressar minha gratidão ao Rodrigo De Lucca pelo presente tão especial: o livro Comece pelo Porquê, do Simon Sinek. 📖

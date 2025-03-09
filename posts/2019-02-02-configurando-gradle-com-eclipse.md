@@ -3,7 +3,7 @@ date: 2019-02-02
 title: "Configurando Gradle para o Eclipse"
 description: "Aprenda como configurar o Gradle, passo a passo!"
 category: "gradle"
-image: '/assets/img/cover.png'
+image: '/assets/img/cover/cover2.png'
 ---
 
 **Primeiramente vamos baixar os softwares necessários:**

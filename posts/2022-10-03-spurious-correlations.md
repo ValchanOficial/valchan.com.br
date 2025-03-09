@@ -3,7 +3,7 @@ date: 2022-10-03
 title: "Correlações espúrias"
 description: "Correlação não implica causalidade: o que a aparição do Nicolas Cage em filmes tem a ver com afogamentos em piscinas?"
 category: "Data Science"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 Já dando a resposta: uma coisa não tem nada a ver com a outra.

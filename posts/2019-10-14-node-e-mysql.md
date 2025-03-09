@@ -3,7 +3,7 @@ date: 2019-10-14
 title: "Node.JS + MySQL"
 description: "Pequeno CRUD em Node.JS com MySQL."
 category: "node"
-image: '/assets/img/cover.png'
+image: '/assets/img/cover/cover2.png'
 ---
 
 **Necessário ter instalado:**

@@ -3,7 +3,7 @@ date: 2021-04-08
 title: "[Resolvido] React Native e erros"
 description: "Um lista de alguns erros que ocorrem durante o desenvolvendo em React Native e como resolver"
 category: "React Native"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 As soluções que estão aqui são as que funcionaram comigo, podem ou não serem úteis, mas eu espero que alguma seja útil :)

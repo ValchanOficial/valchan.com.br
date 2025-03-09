@@ -3,7 +3,7 @@ date: 2022-04-21
 title: "Root import"
 description: "Fazendo o import de arquivos de uma forma mais limpa"
 category: "Typescript"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 Imagine que você está importando um arquivo, e o caminho para este arquivo fica desta forma:

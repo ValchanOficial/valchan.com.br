@@ -3,7 +3,7 @@ date: 2023-05-02
 title: "Women that Build Awards 2023"
 description: "Fui convidada para a lista da Women that Build Awards 2023"
 category: "Globant Awards"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 Estou muito feliz em compartilhar que fui convidada para a lista da Women that Build Awards 2023, faço parte da categoria Rising Star, que é destinada a mulheres que estão no início da carreira, com menos de 5 anos de experiência e que já estão se destacando na área de tecnologia.

@@ -3,7 +3,7 @@ date: 2020-11-28
 title: "Variável + Expressão Regular"
 description: "Como usar uma variável em uma expressão regular?"
 category: "Javascript"
-image: '/assets/img/cover.png'
+image: '/assets/img/cover/cover2.png'
 ---
 
 ``` javascript

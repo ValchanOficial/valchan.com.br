@@ -3,7 +3,7 @@ date: 2023-02-23
 title: "Windows + WSL2 + VPN"
 description: "Como resolver problemas de conectividade entre a VPN corporativa e o WSL2 utilizando o wsl-vpnkit"
 category: "WSL"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 Fora do WSL2 você consegue conectar às URLs que utilizam a VPN corporativa, e dentro do WSL2 estas mesmas URLs não são acessíveis.<br/><br/>Para resolver este problema, vamos ao passo a passo:

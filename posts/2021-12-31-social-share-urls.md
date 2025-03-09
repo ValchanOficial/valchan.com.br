@@ -3,7 +3,7 @@ date: 2021-12-31
 title: "URLs de compartilhamento"
 description: "Uma pequena lista de URLs de compartilhamento"
 category: "Javascript"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 - What's App: ``https://api.whatsapp.com/send/?phone=5511912345678&text=ExemploDeTexto``

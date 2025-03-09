@@ -3,7 +3,7 @@ date: 2022-12-15
 title: "Conhecendo o Git"
 description: "Ferramentas e sites para você aprender sobre o Git"
 category: "Git"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 <div class="smallSize">

@@ -3,7 +3,7 @@ date: 2022-04-22
 title: "HTML + CSS: Contadores e escopo aninhados"
 description: "Como criar uma lista com tópicos e subtópicos"
 category: "CSS"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 ```html

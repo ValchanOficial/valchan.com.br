@@ -3,7 +3,7 @@ date: 2024-12-20
 title: "Presente que recebi do time de Segurança da Informação 💙"
 description: "O futuro não está escrito. O seu futuro é o que você faz dele. - Dr. Emmett Brown"
 category: "Security"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 Olha só o presente incrível que recebi do time de Segurança da Informação 💙 do Grupo Boticário!

@@ -3,7 +3,7 @@ date: 2021-09-10
 title: "Como listar e matar um processo pela porta no Windows e Linux"
 description: "Adeus reiniciar o computador"
 category: "Command"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 No Windows:

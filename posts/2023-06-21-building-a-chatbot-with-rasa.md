@@ -3,7 +3,7 @@ date: 2023-06-21
 title: "Como criar um chatbot com o Rasa"
 description: "Rasa Open Source Versão 3.x"
 category: "Rasa 3.x"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 - Preparando o ambiente:

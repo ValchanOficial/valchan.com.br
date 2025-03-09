@@ -3,7 +3,7 @@ date: 2024-08-06
 title: "Educa{devas}: Formando educadoras tech! 💜"
 description: "Gratidão: Como a {reprograma} me impactou"
 category: "Comunidade"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 ## A {reprograma} 💜
