@@ -3,7 +3,7 @@ date: 2019-09-07
 title: "Tutorial - Instalando o Maven no Windows"
 description: "Instalando o Apache Maven no Windows 10."
 category: "maven"
-image: '/assets/img/cover.png'
+image: '/assets/img/cover/cover2.png'
 ---
 
 **Obs**.: Necessário ter o JDK instalado, atualizado e o JAVA_HOME configurado. Exemplo: 

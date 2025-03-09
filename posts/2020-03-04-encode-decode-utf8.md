@@ -3,7 +3,7 @@ date: 2020-03-04
 title: "Codificação e decodificação UTF8 com Javascript"
 description: "Enconding e decoding com Javascript."
 category: "javascript"
-image: '/assets/img/cover.png'
+image: '/assets/img/cover/cover2.png'
 ---
 
 ***1º modo:***

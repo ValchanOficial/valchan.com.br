@@ -3,7 +3,7 @@ date: 2023-02-24
 title: "Embaralhando uma lista de competidores"
 description: "Como embaralhar de forma aleatória uma lista de competidores utilizando Javascript"
 category: "Javascript"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 ```js

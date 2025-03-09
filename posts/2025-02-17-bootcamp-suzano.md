@@ -3,7 +3,7 @@ date: 2025-02-17
 title: "Bootcamp Suzano"
 description: "Bootcamp gratuito na plataforma da DIO em parceria com a Suzano"
 category: "Bootcamp"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 ## Bootcamp Suzano - Python Developer

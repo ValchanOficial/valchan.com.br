@@ -3,7 +3,7 @@ date: 2020-09-10
 title: "Expansion Week"
 description: "O que dizer dessa semana? Sensacional e muito incrível!"
 category: "rocketseat"
-image: '/assets/img/cover.png'
+image: '/assets/img/cover/cover2.png'
 ---
 
 Desde que iniciei meus estudos com a Rocketseat, cada vez mais me impressiono com os conteúdos que eles trazem.

@@ -3,7 +3,7 @@ date: 2023-02-25
 title: "Como criar um bot para o Discord"
 description: "Veja o passo a passo para criar um bot para o Discord"
 category: "Javascript"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 **Criando e configurando o bot no Discord:**

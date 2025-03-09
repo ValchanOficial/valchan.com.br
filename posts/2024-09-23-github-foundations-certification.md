@@ -3,7 +3,7 @@ date: 2024-09-23
 title: "Certificação GitHub Foundations"
 description: "Certificação GRATUITA para estudantes inscritos no programa GitHub Student Developer Pack!"
 category: "Github"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 <div class="mediumSize" align="center">

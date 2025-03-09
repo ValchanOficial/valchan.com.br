@@ -3,7 +3,7 @@ date: 2018-11-07
 title: "Configurando o Git com GitHub"
 description: "Vamos versionar nossos códigos com Git e Github!"
 category: "git"
-image: '/assets/img/cover.png'
+image: '/assets/img/cover/cover2.png'
 ---
 
 Realize o download do Git: <a href="https://git-scm.com" target="_blank" rel="nofollow, noreferrer,noopener,external">https://git-scm.com</a> e instale;

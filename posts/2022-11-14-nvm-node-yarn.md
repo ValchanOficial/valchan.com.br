@@ -3,7 +3,7 @@ date: 2022-11-14
 title: "NVM + Node + Yarn"
 description: "Como instalar e gerenciar as versões do NodeJS"
 category: "NodeJS"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 - Instala o curl

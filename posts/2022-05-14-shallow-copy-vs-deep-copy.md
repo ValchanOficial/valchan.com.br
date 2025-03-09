@@ -3,7 +3,7 @@ date: 2022-05-14
 title: "Shallow Copy VS Deep Copy"
 description: "Como criar um cópia de um objeto no Javascript?"
 category: "Javascript"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 Primeiramente qual a diferença entre Shallow Copy e Deep Copy?

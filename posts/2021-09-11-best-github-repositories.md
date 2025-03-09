@@ -3,7 +3,7 @@ date: 2021-09-11
 title: "Os melhores repositórios do Github na minha opinião"
 description: "Fiz uma pequena lista dos repositórios que eu sigo no Github"
 category: "Github"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 Segue uma lista dos repositórios que eu considero os melhores:

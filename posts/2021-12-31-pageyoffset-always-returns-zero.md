@@ -3,7 +3,7 @@ date: 2021-12-31
 title: "pageYOffset sempre retornando zero"
 description: "Quem já se deparou com este erro?"
 category: "CSS"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 Este é um erro bem curioso que acontece quando você tenta utilizar o ``pageYOffset`` para obter a posição vertical do scroll.

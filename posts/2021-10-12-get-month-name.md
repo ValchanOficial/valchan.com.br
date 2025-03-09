@@ -3,7 +3,7 @@ date: 2021-10-12
 title: "Qual o mês?"
 description: "Tenho uma data em formato ISOString e preciso pegar o nome do mês desta data, como faço?"
 category: "Javascript"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 Há várias formas de fazer, segue abaixo dois exemplos:

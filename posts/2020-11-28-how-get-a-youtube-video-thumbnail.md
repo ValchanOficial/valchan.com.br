@@ -3,7 +3,7 @@ date: 2020-11-28
 title: "YouTube thumbnail"
 description: "Como obter a miniatura do vídeo do Youtube?"
 category: "Javascript"
-image: '/assets/img/cover.png'
+image: '/assets/img/cover/cover2.png'
 ---
 
 Eu estava vendo essa <a href="https://stackoverflow.com/a/20542029" target="_blank" rel="noopener noreferrer">pergunta</a> feita no StackOverflow de como obter a miniatura usado PHP, mas eu não fiz com PHP e sim com Javascript, e utilizando também a função de <a href="/how-to-get-word-between-two-characters/">getWordBetweenTwoCharacters()</a> que eu havia criado anteriormente.

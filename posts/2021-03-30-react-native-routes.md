@@ -3,7 +3,7 @@ date: 2021-03-30
 title: "Stack, Tab e Drawer"
 description: "Rotas e navegação no React Native"
 category: "React Native"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 Primeiramente vamos ver a diferença entre os tipos de navegação:

@@ -3,7 +3,7 @@ date: 2021-02-16
 title: "Atualizando as dependências do package.json"
 description: "Como verificar e atualizar todas as dependências do package.json"
 category: "Dev"
-image: '/assets/img/cover.png'
+image: '/assets/img/cover/cover2.png'
 ---
 
 Com poucos comandos é possível atualizar suas dependências:

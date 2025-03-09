@@ -3,7 +3,7 @@ date: 2020-11-28
 title: "É um palíndromo?"
 description: "Verificando se uma frase, palavra ou sequência é um palíndromo"
 category: "Javascript"
-image: '/assets/img/cover.png'
+image: '/assets/img/cover/cover2.png'
 ---
 
 Um palíndromo é uma palavra, frase ou qualquer outra sequência de unidades que tenha a propriedade de poder ser lida tanto da direita para a esquerda como da esquerda para a direita. Num palíndromo, normalmente são desconsiderados os sinais ortográficos, assim como o espaços entre palavras <a href="https://pt.wikipedia.org/wiki/Pal%C3%ADndromo" target="_blank" rel="noopener noreferrer">Wikipédia</a>

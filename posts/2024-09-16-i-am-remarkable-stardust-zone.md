@@ -3,7 +3,7 @@ date: 2024-09-16
 title: "Workshop #IAmRemarkable"
 description: "Eu sou incrível! 💙"
 category: "Workshop"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 

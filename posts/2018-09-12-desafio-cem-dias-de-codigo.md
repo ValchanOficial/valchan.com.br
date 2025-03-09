@@ -3,7 +3,7 @@ date: 2018-09-12
 title: "Desafio: 100 dias de código(#100DaysOfCode) – 50º dia!"
 description: "Hoje já estou no 50º dia estudando a linguagem de programação Java."
 category: "code"
-image: '/assets/img/cover.png'
+image: '/assets/img/cover/cover2.png'
 ---
 
 ![Love Code](/assets/img/codelove.jpg)

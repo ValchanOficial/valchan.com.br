@@ -3,7 +3,7 @@ date: 2021-04-13
 title: "Vamos ligar as pontos com o Linking 😉"
 description: "Enviando mensagens para o What'sApp, E-mail, SMS e abrindo links externos com o Linking do React Native"
 category: "React Native"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 Utilizando o <a href="https://reactnative.dev/docs/linking" target="_blank" rel="noopener noreferrer">Linking</a>, tudo fica mais simples, só utilizar a função ``Linking.openURL()`` passando as informações e corpo das mensagens. Como você pode ver no exemplo abaixo, no ``onPress()`` eu chamo as minhas funções, cada uma passando as informações necessárias.

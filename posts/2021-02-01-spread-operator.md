@@ -3,7 +3,7 @@ date: 2021-01-02
 title: "E o tal do Spread operator?"
 description: "Veja alguns exemplo do que é possível fazer com o Spread operator"
 category: "Javascript"
-image: '/assets/img/cover.png'
+image: '/assets/img/cover/cover2.png'
 ---
 
 ``` javascript

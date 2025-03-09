@@ -3,7 +3,7 @@ date: 2022-04-22
 title: "Ignorando o console no Jest"
 description: "Algumas formas de ignorar as mensagens do console no Jest"
 category: "Jest"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 Dentro da configurações do Jest `setupTests.js`

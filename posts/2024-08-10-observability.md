@@ -3,7 +3,7 @@ date: 2024-08-10
 title: "Observabilidade"
 description: "O segredo para manter sistemas complexos sob controle"
 category: "Observabilidade"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 Nos dias de hoje, as empresas dependem cada vez mais de sistemas complexos e distribuídos para atender às demandas do mercado. Nesse cenário, a observabilidade se torna essencial para garantir o desempenho e a confiabilidade desses sistemas.   Vamos explorar o que é observabilidade, por que é importante e como aplicá-la de forma eficaz.

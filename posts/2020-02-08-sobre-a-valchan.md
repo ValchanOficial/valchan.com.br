@@ -3,7 +3,7 @@ date: 2020-02-08
 title: "Uma pequena grande história sobre a Valchan"
 description: "Um pouco sobre como meu relacionamento  com a tecnologia começou."
 category: "valchan"
-image: '/assets/img/cover.png'
+image: '/assets/img/cover/cover2.png'
 ---
 
 <div class="smallSize">

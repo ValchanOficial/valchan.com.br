@@ -3,7 +3,7 @@ date: 2021-05-15
 title: "Resetando a senha de seu usuário no WSL"
 description: "Esqueci minha senha no WSL, e agora??"
 category: "WSL"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 Passo a passo:

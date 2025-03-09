@@ -3,7 +3,7 @@ date: 2021-11-29
 title: "Quebrando string em substrings"
 description: "Como criar um array de textos a partir de um texto maior"
 category: "Javascript"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 ```javascript

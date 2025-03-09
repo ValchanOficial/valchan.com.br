@@ -3,7 +3,7 @@ date: 2021-03-18
 title: "VSCode + Snippets"
 description: "Melhorando sua produtividade com os snippets"
 category: "VSCode"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 <h2>O que são snippets?</h2>

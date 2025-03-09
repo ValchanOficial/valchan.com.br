@@ -3,7 +3,7 @@ date: 2021-11-29
 title: "Reordenando lista de forma aleatória"
 description: "Reordenando lista de forma aleatória utilizando as funções map() e sort()"
 category: "Javascript"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 

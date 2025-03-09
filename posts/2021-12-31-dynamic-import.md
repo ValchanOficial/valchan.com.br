@@ -3,7 +3,7 @@ date: 2021-12-31
 title: "Importação dinâmica"
 description: "Next.js e a importação dinâmica de módulos ES2020"
 category: "NextJS"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 Eu pensava que não precisaria utilizar recursos avançados do NextJS, mas recentemente em um projeto eu me deparei com um problema relacionado ao SSR(Server-Side Rendering), como vocês sabem, quando utilizamos o SSR o ``navigator``, ``window`` e ``self`` por exemplo não ficam disponíveis durante o processo de renderização, ou seja, não conseguimos utilizar eles direito.

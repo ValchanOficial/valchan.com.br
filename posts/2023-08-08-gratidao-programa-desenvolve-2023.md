@@ -3,7 +3,7 @@ date: 2023-08-08
 title: "Programa Desenvolve 2023"
 description: "Gratidão pela oportunidade de guiar e formar profissionais incríveis em tecnologia."
 category: "Mentoria"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 <blockquote>  

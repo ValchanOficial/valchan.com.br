@@ -3,7 +3,7 @@ date: 2022-09-02
 title: "Encontro Presencial em Atibaia"
 description: "Encontro presencial do time de Tecnologia de Venda Direta do Grupo Boticário"
 category: "GB"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 Nos dias 29, 30 e 31 de Agosto ocorreu o encontro presencial do time de Tecnologia de Venda Direta do <a href="https://www.facebook.com/grupoboticario" target="_blank" rel="noopener noreferrer">Grupo Boticário</a>.</br></br>

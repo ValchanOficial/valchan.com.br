@@ -3,7 +3,7 @@ date: 2025-02-17
 title: "Bootcamp do Bradesco"
 description: "Bootcamp gratuito na plataforma da DIO em parceria com o Bradesco"
 category: "Bootcamp"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 ## Bootcamp Bradesco - Java Cloud Native

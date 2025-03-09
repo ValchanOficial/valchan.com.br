@@ -3,7 +3,7 @@ date: 2021-08-04
 title: "Team Kanban Practitioner"
 description: "Vamos aplicar o Kanban?"
 category: "TKP"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 <div class="smallSize">

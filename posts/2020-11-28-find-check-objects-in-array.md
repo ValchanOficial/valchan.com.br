@@ -3,7 +3,7 @@ date: 2020-11-28
 title: "Verificando ou buscando por objetos em um Array"
 description: "some( ), find( ) e filter( ) com match( )"
 category: "Javascript"
-image: '/assets/img/cover.png'
+image: '/assets/img/cover/cover2.png'
 ---
 
 ``` javascript

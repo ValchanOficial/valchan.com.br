@@ -3,7 +3,7 @@ date: 2022-10-14
 title: "Como adicionar internacionalização no seu projeto React?"
 description: "Super simples e rápido, veja como implementar a internacionalização"
 category: "i18n"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 Abra seu projeto e instale as dependências necessárias:

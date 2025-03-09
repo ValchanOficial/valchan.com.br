@@ -3,7 +3,7 @@ date: 2021-01-01
 title: "São iguais?"
 description: "Organizando objeto por chave e verificando se são iguais"
 category: "Javascript"
-image: '/assets/img/cover.png'
+image: '/assets/img/cover/cover2.png'
 ---
 
 ``` javascript

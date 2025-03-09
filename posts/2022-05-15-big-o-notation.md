@@ -3,7 +3,7 @@ date: 2022-05-15
 title: "Notação de Big-O"
 description: "O que é a notação de Big-O?"
 category: "DSA"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 Atualmente estou estudando sobre Notação de Big-O... E me sinto frustada em saber que muitas faculdades* abordam este assunto de forma muito superficial.

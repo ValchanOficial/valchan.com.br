@@ -3,7 +3,7 @@ date: 2023-02-24
 title: "Como agrupar objetos de um array pela chave"
 description: "Como agrupar objetos de um array pela chave utilizando o reduce() do Javascript"
 category: "Javascript"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 ```js

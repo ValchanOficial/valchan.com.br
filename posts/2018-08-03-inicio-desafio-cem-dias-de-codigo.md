@@ -3,7 +3,7 @@ date: 2018-08-03
 title: "Desafio: 100 dias de código(#100DaysOfCode)"
 description: "Este desafio é para todos, desde quem não possui conhecimento na área, como também para quem já possui poder se aprofundar e melhorar suas habilidades."
 category: "code"
-image: '/assets/img/cover.png'
+image: '/assets/img/cover/cover2.png'
 ---
 
 ![Code](/assets/img/code.png)

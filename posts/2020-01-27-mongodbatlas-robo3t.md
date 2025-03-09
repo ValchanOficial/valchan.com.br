@@ -3,7 +3,7 @@ date: 2020-01-27
 title: "Conectando MongoDB Atlas + Robo 3T"
 description: "Tutorial de como conectar o MongoDB Atlas com o Robo 3T."
 category: "mongodb"
-image: '/assets/img/cover.png'
+image: '/assets/img/cover/cover2.png'
 ---
 
 Step by step ~ Primeiramente você precisa ter sua conta criada no <a href="https://www.mongodb.com/cloud/atlas" target="_blank" rel="nofollow, noreferrer,noopener,external">MongoDB Atlas</a> e ter o <a href="https://robomongo.org/download" target="_blank" rel="nofollow, noreferrer,noopener,external">Robo3T</a> instalado.

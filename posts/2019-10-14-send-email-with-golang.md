@@ -3,7 +3,7 @@ date: 2019-10-14
 title: "Enviando email com Golang"
 description: "A piece of cake: Enviando e-mail SMTP com Golang."
 category: "golang"
-image: '/assets/img/cover.png'
+image: '/assets/img/cover/cover2.png'
 ---
 
 **Necessário ter instalado:**

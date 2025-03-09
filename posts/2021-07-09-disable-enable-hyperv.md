@@ -3,7 +3,7 @@ date: 2021-07-09
 title: "Habilitando e desabilitando o Hyper-V"
 description: "Como habilitar ou desabilitar o Hyper-V no Windows?"
 category: "Hyper-V"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 Segue algumas formas de desativar e ativar o Hyper-V

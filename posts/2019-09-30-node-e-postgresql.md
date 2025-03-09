@@ -3,7 +3,7 @@ date: 2019-09-30
 title: "Node.JS + PostgreSQL"
 description: "CRUD em Node.JS com PostgreSQL."
 category: "node"
-image: '/assets/img/cover.png'
+image: '/assets/img/cover/cover2.png'
 ---
 
 **Necessário ter instalado:**

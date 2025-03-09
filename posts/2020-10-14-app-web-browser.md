@@ -3,7 +3,7 @@ date: 2020-10-14
 title: "Responsively App e BrowserStack"
 description: "Você conhece essas ferramentas de desenvolvimento web?"
 category: "devtools"
-image: '/assets/img/cover.png'
+image: '/assets/img/cover/cover2.png'
 ---
 
 Eu gostaria de compartilhar com vocês duas ferramentas que são muito boas, e que servem para quem trabalha com desenvolvimento web e mobile: <a href="https://responsively.app/" target="_blank" rel="noopener noreferrer">Responsively App</a> e <a href="https://www.browserstack.com/" target="_blank" rel="noopener noreferrer">BrowserStack</a>

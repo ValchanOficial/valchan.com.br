@@ -3,7 +3,7 @@ date: 2022-08-05
 title: "Iniciativa Fridas"
 description: "Programa de Mentoria para Mulheres das Fridas"
 category: "Mentoria"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 Nesta Quinta-feira dia 04 de Agosto de 2022 ocorreu o encontro de encerramento do Programa de Mentoria para Mulheres da <a href="https://linktr.ee/iniciativafridas" target="_blank" rel="nofollow, noreferrer,noopener,external">Iniciativa Fridas</a> 💙

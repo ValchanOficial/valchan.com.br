@@ -3,7 +3,7 @@ date: 2019-08-11
 title: "Node.JS + Mongoose + mongoose-auto-increment"
 description: "CRUD em Node.JS utilizando o Mongoose e mongoose-auto-increment."
 category: "node"
-image: '/assets/img/cover.png'
+image: '/assets/img/cover/cover2.png'
 ---
 
 Link: <a href="https://www.npmjs.com/package/mongoose-auto-increment" target="_blank" rel="nofollow, noreferrer,noopener,external">mongoose-auto-increment</a>

@@ -3,7 +3,7 @@ date: 2020-07-25
 title: "Array em Object e Object para Array"
 description: "Como transformar um Array em Object ou um Object em Array utilizando o Reduce e o forEach"
 category: "javascript"
-image: '/assets/img/cover.png'
+image: '/assets/img/cover/cover2.png'
 ---
 
 Esse post é mais direto, vou mostrar apenas o código comentado com o que as duas funções fazem :3

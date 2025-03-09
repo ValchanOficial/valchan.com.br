@@ -3,7 +3,7 @@ date: 2020-10-15
 title: "Removendo tags HTML e acentos de strings"
 description: "Como remover de forma bem simples as tags HTML e os acentos dos textos"
 category: "Javascript"
-image: '/assets/img/cover.png'
+image: '/assets/img/cover/cover2.png'
 ---
 
 Removendo as tags HTML:

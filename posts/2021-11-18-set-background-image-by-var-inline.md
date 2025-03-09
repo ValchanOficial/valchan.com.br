@@ -3,7 +3,7 @@ date: 2021-11-18
 title: "Imagem de Background utilizando var inline"
 description: "Como alterar uma imagem de background no component com uma var inline?"
 category: "ReactJS"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 ```javascript

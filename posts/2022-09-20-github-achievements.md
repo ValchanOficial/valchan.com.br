@@ -3,7 +3,7 @@ date: 2022-09-20
 title: "Github Achievements"
 description: "Como conseguir e exibir suas conquistas no Github"
 category: "Github"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 <div class="smallSize">

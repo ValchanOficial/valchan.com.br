@@ -3,7 +3,7 @@ date: 2018-07-14
 title: "6º NodeGirls: Sequelize em aplicações Node.js!"
 description: "Um espaço para não apenas programadoras Node, mas sim, estudantes de qualquer área da tecnologia da informação, programadoras de outras linguagens ou simplesmente mulheres que querem apoiar outras mulheres."
 category: "node"
-image: '/assets/img/cover.png'
+image: '/assets/img/cover/cover2.png'
 ---
 
 <div class="averageSize">

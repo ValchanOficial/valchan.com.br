@@ -3,7 +3,7 @@ date: 2021-12-31
 title: "Online IDEs"
 description: "Uma lista de IDEs online"
 category: "IDE"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 Precisando escrever um código rápido ou algum código para compartilhar com os outros? Que tal utilizar uma IDE online? 😃

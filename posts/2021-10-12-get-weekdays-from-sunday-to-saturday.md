@@ -3,7 +3,7 @@ date: 2021-10-12
 title: "Gerando array com dias da semana"
 description: "Preciso dos dias da semana em um array, como faço?"
 category: "Javascript"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 Segue abaixo um exemplo de como gerar um array com os dias da semana.

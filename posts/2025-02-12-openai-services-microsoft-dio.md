@@ -3,7 +3,7 @@ date: 2025-02-12
 title: "Bootcamp Microsoft AI for Tech"
 description: "OpenAI Services"
 category: "Bootcamp"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 

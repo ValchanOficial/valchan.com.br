@@ -3,7 +3,7 @@ date: 2023-01-19
 title: "Árvore de Natal no terminal"
 description: "Como desenhar uma árvore de Natal no terminal?"
 category: "Javascript"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 ```js

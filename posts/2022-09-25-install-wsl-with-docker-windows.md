@@ -3,7 +3,7 @@ date: 2022-09-25
 title: "Windows + WSL2 + Docker"
 description: "Instalando o WSL2 com Docker no Windows"
 category: "WSL"
-image: "/assets/img/cover.png"
+image: "/assets/img/cover/cover2.png"
 ---
 
 ## Requisitos:
