@@ -261,7 +261,7 @@ export const MainContent = styled.section`
   }
 
   .gatsby-highlight {
-    padding: 0 1.6rem 1.6rem;
+    padding: 0;
 
     ${media.lessThan("large")`
       padding: 0;
