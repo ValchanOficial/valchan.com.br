@@ -37,11 +37,10 @@ image: "/assets/img/cover/cover2.png"
 - Quanto mais próximo dos dados você estiver, mais difícil será te substituir.
 - Existem muitas pessoas inteligentes e arrogantes por aí – não seja uma delas.
 - Caminhar ao ar livre resolve mais bugs do que encarar a tela.
+- Nunca pare de aprender.
+- A mudança é constante.
+- Empatia melhora a colaboração.
 - Cuidado com os conselhos que você segue! 😉
-
-- Nunca pare de aprender
-- A mudança é constante
-- Empatia melhora a colaboração
 
 ***Fontes:***
 
