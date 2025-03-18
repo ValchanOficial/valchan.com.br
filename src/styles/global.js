@@ -201,19 +201,13 @@ const GlobalStyles = createGlobalStyle`
 
     --background-dark: #131e3d;
     --background-light: #f4f1ec;
+    --background-dark-light: linear-gradient(to bottom, #131e3d 0, #131e3d 60%, #dbbf94 40%);
     --main: #cdad7d;
     --text-dark: #222344;
     --text-light: #f4f1ec;
     --cta: #cdad7d;
     --secondary: #dbbf94;
+    --transparent: rgba(255, 255, 255, 0.5);
   }
-
-  
-  /* [
-    #F7E9CC, #131415, #20304f, #A4BECD, #E3D87B, #FDFEF9,
-    #4F364B, #262628, #DB3E1D, #C6C3F2, #D6DC82, #FFF6EF,
-    #676652, #292929, #70877f, #DDA05D, #EDDDC7, #F6F2EA,
-    #D2E8FF, #A37F4F, #413524, #1f2744, #E2CDA5, #F8F0E2
-  ] */
 `
 export default GlobalStyles

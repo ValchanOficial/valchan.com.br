@@ -18,6 +18,9 @@ const Header = ({ siteTitle = "Valchan", isPost = false }) => (
           <S.LinkWrapper to="#about" id="link">
             Sobre
           </S.LinkWrapper>
+          <S.LinkWrapper to="#projects" id="link">
+            Projetos
+          </S.LinkWrapper>
           <S.LinkWrapper to="#work" id="link">
             Experiência
           </S.LinkWrapper>
@@ -47,7 +50,7 @@ Header.propTypes = {
 }
 
 Header.defaultProps = {
-  siteTitle: `Valchan`,
+  siteTitle: "Valchan",
 }
 
 export default Header
