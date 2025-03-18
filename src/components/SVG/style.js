@@ -118,5 +118,10 @@ export const Developer = styled.img`
 `
 
 export const Flower = styled.img`
-  max-width: 20rem;
+  max-width: 14rem;
+  margin: 0;
+
+  ${media.lessThan("large")`
+    max-width: 5rem;
+  `}
 `

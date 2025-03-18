@@ -13,7 +13,7 @@ export const AboutContainer = styled.div`
   align-items: center;
 
   ${media.lessThan("large")`
-    padding: 10rem 0;
+    padding: 10rem 0.5rem;
     flex-direction: column;
   `}
 `
@@ -66,6 +66,10 @@ export const QuoteContainer = styled.div`
   justify-content: center;
   align-items: center;
   padding: 8rem 10rem;
+
+  ${media.lessThan("large")`
+    padding: 8rem 1rem;
+  `}
 `
 
 export const Quote = styled.q`
@@ -113,6 +117,11 @@ export const ListWrapper = styled.ul`
   display: flex;
   flex-direction: column;
   gap: 2rem;
+
+  ${media.lessThan("large")`
+    width: 90%;
+    align-items: center;
+  `}
 `
 
 export const PostLink = styled(Link)`
@@ -148,6 +157,25 @@ export const PostDate = styled.span`
 `
 export const PostDescription = styled.p`
   font-size: 1.2rem;
+`
+
+// Section Projects
+
+export const ProjectsContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 10rem;
+  position: relative;
+`
+
+export const Content = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
 `
 
 // Section Experiences
