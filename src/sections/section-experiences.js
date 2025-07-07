@@ -12,7 +12,7 @@ export default function SectionExperiences() {
       company: "Grupo Boticário",
       role: "Desenvolvedora |||",
       dateStart: "2022/06/20",
-      dateEnd: "",
+      dateEnd: "2025/07/01",
     },
     {
       company: "On2",
