@@ -1,5 +1,4 @@
 import React from "react"
-
 import Section from "../components/Section"
 import { Butterfly, Developer } from "../components/SVG"
 
@@ -8,6 +7,12 @@ import * as S from "./style"
 
 export default function SectionExperiences() {
   const experiences = [
+    {
+      company: "Remessa Online",
+      role: "Desenvolvedora de Software Fullstack",
+      dateStart: "2025/09/23",
+      dateEnd: "",
+    },
     {
       company: "Grupo Boticário",
       role: "Desenvolvedora |||",
