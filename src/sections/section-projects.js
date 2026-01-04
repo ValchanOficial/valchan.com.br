@@ -36,6 +36,10 @@ export default function SectionProjects() {
       name: "Next Level Week eSports",
       image: "/assets/img/projects/nlw-esports.png",
     },
+    {
+      name: "Faculdade de Tecnologia Rocketseat - Financy",
+      image: "/assets/img/projects/financy.jpeg",
+    },
   ]
 
   return (
