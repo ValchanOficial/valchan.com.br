@@ -2,7 +2,7 @@
 date: 2026-01-04
 title: "Pós-Graduação em Engenharia de IA Aplicada"
 description: "Novo passo na minha jornada profissional!"
-category: "Pró-Graduação"
+category: "Pós-Graduação"
 image: "/assets/img/cover/cover2.png"
 ---
 
