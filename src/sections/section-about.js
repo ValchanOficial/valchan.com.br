@@ -23,16 +23,15 @@ export default function SectionAbout() {
             busca de conhecimento.
           </S.Title>
           <S.Paragraph>
-            Sou uma profissional com mais de seis anos de experiência em
+            Sou uma profissional com mais de sete anos de experiência em
             desenvolvimento full-stack, utilizo tecnologias em torno do
             JavaScript, como NodeJS, NestJS, NextJS, ReactJS, entre outras, com
             uma carreira desenvolvida em empresas relevantes na área de
             tecnologia. <br></br>
             <br></br>
             Graduada em Análise e Desenvolvimento de Sistemas pela UNICESUMAR,
-            Pós-Graduada em Desenvolvimento Fullstack pela PUCRS, atualmente me
-            especializando com o MBA em Arquitetura Full Cycle pela FCTECH e a
-            Pós-graduação Tech Developer 360º na Rocktseat, sou criativa,
+            Pós-Graduada em Desenvolvimento Fullstack pela PUCRS, Pós-graduação 
+            Tech Developer 360º na Rocktseat, sou criativa,
             determinada, contribuindo para a solução de problemas e buscando
             sempre compartilhar conhecimento.
           </S.Paragraph>
