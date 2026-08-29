@@ -27,6 +27,10 @@ module.exports = {
     author: `Valéria Padilha de Vargas`,
     siteUrl: `https://valchan.com.br`,
   },
+  // Só o que o Gatsby não emite por conta própria: os BASE_HEADERS do core já
+  // cobrem x-content-type-options, x-frame-options, referrer-policy e
+  // x-xss-protection em todas as rotas, e repeti-los aqui geraria cabeçalhos
+  // HTTP duplicados.
   headers: [
     {
       source: `/*`,
@@ -35,9 +39,6 @@ module.exports = {
           key: `Content-Security-Policy-Report-Only`,
           value: contentSecurityPolicy,
         },
-        { key: `X-Content-Type-Options`, value: `nosniff` },
-        { key: `X-Frame-Options`, value: `DENY` },
-        { key: `Referrer-Policy`, value: `strict-origin-when-cross-origin` },
         {
           key: `Permissions-Policy`,
           value: `camera=(), microphone=(), geolocation=(), payment=()`,
