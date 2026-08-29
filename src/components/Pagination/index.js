@@ -15,16 +15,16 @@ const Pagination = ({
 }) => (
   <S.PaginationWrapper>
     {!isFirst && (
-      <Link to={prevPage} title="Página anterior">
-        <Icons.NavigateBefore title="Página anterior" />
+      <Link to={prevPage} title="Página anterior" aria-label="Página anterior">
+        <Icons.NavigateBefore aria-hidden="true" />
       </Link>
     )}
     <p>
       {currentPage} de {numPages}
     </p>
     {!isLast && (
-      <Link to={nextPage} title="Próxima página">
-        <Icons.NavigateNext title="Próxima página" />
+      <Link to={nextPage} title="Próxima página" aria-label="Próxima página">
+        <Icons.NavigateNext aria-hidden="true" />
       </Link>
     )}
   </S.PaginationWrapper>

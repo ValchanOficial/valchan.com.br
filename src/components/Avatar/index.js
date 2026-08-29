@@ -20,7 +20,11 @@ const Avatar = () => {
   return (
     <S.Avatar>
       <S.AvatarDetails>
-        <S.AvatarImg image={gatsbyImageData} alt="Valchan" className="image" />
+        <S.AvatarImg
+          image={gatsbyImageData}
+          alt="Foto de Valéria Padilha de Vargas"
+          className="image"
+        />
       </S.AvatarDetails>
     </S.Avatar>
   )

@@ -6,10 +6,13 @@ import * as S from "./style"
 
 const Main = ({ children }) => {
   return (
-    <S.LayoutWrapper>
+    <S.Page>
       <GlobalStyles />
-      {children}
-    </S.LayoutWrapper>
+      <S.SkipLink href="#main-content">Ir para o conteúdo principal</S.SkipLink>
+      <S.LayoutWrapper id="main-content" tabIndex={-1}>
+        {children}
+      </S.LayoutWrapper>
+    </S.Page>
   )
 }
 

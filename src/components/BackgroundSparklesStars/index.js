@@ -1,28 +1,23 @@
 import React from "react"
-import { getRandom } from "../../utils/functions"
+
+import { createStarParticles } from "../../utils/functions"
 import * as S from "./style"
 
+const PARTICLES = createStarParticles(100, 84)
+
 const BackgroundSparklesStars = () => {
-  const COUNT = 100
-
   return (
-    <S.BackgroundSparklesStars>
-      {[...Array(COUNT)].map((_, index) => {
-        const bottom = getRandom(0, 100)
-        const left = getRandom(0, 100)
-        const delay = getRandom(0, 15)
-
-        return (
-          <li
-            key={index}
-            style={{
-              bottom: `${bottom}rem`,
-              left: `${left}%`,
-              animationDelay: `${delay}s`,
-            }}
-          />
-        )
-      })}
+    <S.BackgroundSparklesStars aria-hidden="true">
+      {PARTICLES.map(({ id, bottom, left, delay }) => (
+        <li
+          key={id}
+          style={{
+            bottom: `${bottom}rem`,
+            left: `${left}%`,
+            animationDelay: `${delay}s`,
+          }}
+        />
+      ))}
     </S.BackgroundSparklesStars>
   )
 }

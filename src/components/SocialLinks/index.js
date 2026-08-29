@@ -16,10 +16,11 @@ const SocialLinks = () => {
               <S.SocialLinksLink
                 href={link.url}
                 title={link.label}
+                aria-label={link.label}
                 target="_blank"
-                rel="nofollow, noreferrer, noopener, external"
+                rel="noopener noreferrer"
               >
-                <S.Icon>
+                <S.Icon aria-hidden="true">
                   <Icon />
                 </S.Icon>
               </S.SocialLinksLink>

@@ -40,7 +40,7 @@ export default function SectionExperiences() {
   ]
 
   return (
-    <Section id="work" name="Home" bg="--background-light">
+    <Section id="work" bg="--background-light">
       <S.ButterflyWithText>
         <Butterfly />
         <CircularText>Driven by purpose & impact •&nbsp;</CircularText>
@@ -49,13 +49,13 @@ export default function SectionExperiences() {
         <S.Title>Experiências</S.Title>
         {experiences.map((experience, index) => (
           <S.Experience key={index}>
-            <S.Paragraph>
+            <S.ExperienceDetails>
               <h3>{experience.company}</h3>
               <p>{experience.role}</p>
               <p>
                 {experience.dateStart} - {experience.dateEnd || "Atual"}
               </p>
-            </S.Paragraph>
+            </S.ExperienceDetails>
           </S.Experience>
         ))}
       </S.ExperiencesContainer>

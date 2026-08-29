@@ -201,6 +201,22 @@ export const Experience = styled.li`
   `}
 `
 
+export const ExperienceDetails = styled.div`
+  font-family: "Inter", serif;
+  font-size: 1.5rem;
+  color: var(--text-dark);
+
+  h3 {
+    font-family: "Libre Baskerville", serif;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  p {
+    margin-bottom: 0.25rem;
+  }
+`
+
 export const ButterflyWithText = styled.div`
   position: absolute;
   top: 10rem;

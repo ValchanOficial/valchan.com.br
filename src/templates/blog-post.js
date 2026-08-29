@@ -3,7 +3,7 @@ import React from "react"
 
 import Main from "../components/Main"
 import RecommendedPosts from "../components/RecommendedPosts"
-import Head from "../components/seo"
+import Seo from "../components/seo"
 
 import Header from "../components/Header"
 import * as S from "../components/Post/style"
@@ -15,11 +15,6 @@ const BlogPost = ({ data, pageContext }) => {
 
   return (
     <Main>
-      <Head
-        title={post.frontmatter.title}
-        description={post.frontmatter.description}
-        image={post.frontmatter.image}
-      />
       <Header isPost={true} />
       <S.PostContainer>
         <S.PostContent>
@@ -45,6 +40,26 @@ const BlogPost = ({ data, pageContext }) => {
         </S.PostContent>
       </S.PostContainer>
     </Main>
+  )
+}
+
+export const Head = ({ data, location }) => {
+  const post = data.post
+  return (
+    <>
+      <Seo
+        title={post.frontmatter.title}
+        description={post.frontmatter.description}
+        image={post.frontmatter.image}
+        pathname={location.pathname}
+        type="article"
+      />
+      <script
+        defer
+        src="https://chirpy.dev/bootstrapper.js"
+        data-chirpy-domain="valchan.com.br"
+      />
+    </>
   )
 }
 

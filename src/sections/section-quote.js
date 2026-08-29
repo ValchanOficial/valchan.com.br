@@ -12,7 +12,7 @@ import * as S from "./style"
 
 export default function SectionQuote() {
   return (
-    <Section name="Home" bg="--background-dark">
+    <Section id="quote" bg="--background-dark">
       <BackgroundSparklesStars />
       <S.QuoteContainer>
         <Parallax

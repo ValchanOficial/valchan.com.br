@@ -1,35 +1,23 @@
-import PropTypes from "prop-types"
 import React from "react"
+import PropTypes from "prop-types"
 import * as S from "./style"
 
 const Header = ({ siteTitle = "Valchan", isPost = false }) => (
   <>
     {isPost && (
-      <S.LinkGroup>
-        <S.LinkWrapper to="/" id="link">
-          Home
-        </S.LinkWrapper>
+      <S.LinkGroup as="nav" aria-label="Navegação do post">
+        <S.LinkWrapper to="/">Home</S.LinkWrapper>
       </S.LinkGroup>
     )}
 
     {!isPost && (
       <>
-        <S.LinkGroup>
-          <S.LinkWrapper to="#about" id="link">
-            Sobre
-          </S.LinkWrapper>
-          <S.LinkWrapper to="#projects" id="link">
-            Projetos
-          </S.LinkWrapper>
-          <S.LinkWrapper to="#work" id="link">
-            Experiência
-          </S.LinkWrapper>
-          <S.LinkWrapper to="#blog" id="link">
-            Blog
-          </S.LinkWrapper>
-          <S.LinkWrapper to="#contact" id="link">
-            Contato
-          </S.LinkWrapper>
+        <S.LinkGroup as="nav" aria-label="Navegação principal">
+          <S.LinkWrapper to="#about">Sobre</S.LinkWrapper>
+          <S.LinkWrapper to="#projects">Projetos</S.LinkWrapper>
+          <S.LinkWrapper to="#work">Experiência</S.LinkWrapper>
+          <S.LinkWrapper to="#blog">Blog</S.LinkWrapper>
+          <S.LinkWrapper to="#contact">Contato</S.LinkWrapper>
         </S.LinkGroup>
 
         <S.Header id="header">

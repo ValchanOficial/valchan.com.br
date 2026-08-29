@@ -30,6 +30,8 @@ const Slider = ({ slides = [] }) => {
                 src={slide.image}
                 alt={slide.name}
                 title={slide.name}
+                loading="lazy"
+                decoding="async"
               />
             </S.Slide>
           ))}
@@ -37,6 +39,7 @@ const Slider = ({ slides = [] }) => {
             <>
               <Arrow
                 left
+                label="Slide anterior"
                 onClick={e =>
                   e.stopPropagation() || instanceRef.current?.prev()
                 }
@@ -44,6 +47,7 @@ const Slider = ({ slides = [] }) => {
               />
 
               <Arrow
+                label="Próximo slide"
                 onClick={e =>
                   e.stopPropagation() || instanceRef.current?.next()
                 }
@@ -57,13 +61,17 @@ const Slider = ({ slides = [] }) => {
         </div>
       </S.SlideContainer>
       {loaded && instanceRef.current && (
-        <S.Dots>
+        <S.Dots role="tablist" aria-label="Slides de projetos">
           {[
             ...Array(instanceRef.current.track.details.slides.length).keys(),
           ].map(idx => {
             return (
               <S.Dot
                 key={idx}
+                type="button"
+                role="tab"
+                aria-label={`Ir para o slide ${idx + 1}`}
+                aria-selected={currentSlide === idx}
                 onClick={() => {
                   instanceRef.current?.moveToIdx(idx)
                 }}
@@ -77,23 +85,37 @@ const Slider = ({ slides = [] }) => {
   )
 }
 
-function Arrow(props) {
-  const disabled = props.disabled ? " arrow--disabled" : ""
+function Arrow({ left, label, onClick, disabled }) {
+  const handleKeyDown = e => {
+    if (disabled) return
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault()
+      onClick(e)
+    }
+  }
+
   return (
-    <S.Arrow
-      onClick={props.onClick}
-      tabIndex={0}
-      className={`${props.left ? "arrow--left" : "arrow--right"} ${disabled}`}
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 24 24"
+    <S.ArrowButton
+      type="button"
+      aria-label={label}
+      onClick={onClick}
+      onKeyDown={handleKeyDown}
+      disabled={disabled}
+      className={left ? "arrow--left" : "arrow--right"}
     >
-      {props.left && (
-        <path d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z" />
-      )}
-      {!props.left && (
-        <path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z" />
-      )}
-    </S.Arrow>
+      <S.ArrowIcon
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        aria-hidden="true"
+        focusable="false"
+      >
+        {left ? (
+          <path d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z" />
+        ) : (
+          <path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z" />
+        )}
+      </S.ArrowIcon>
+    </S.ArrowButton>
   )
 }
 

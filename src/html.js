@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 
 export default function HTML(props) {
   return (
-    <html {...props.htmlAttributes} lang="pt-br">
+    <html {...props.htmlAttributes} lang="pt-BR">
       <head>
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
@@ -11,17 +11,18 @@ export default function HTML(props) {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
+        />
         {props.headComponents}
       </head>
       <body {...props.bodyAttributes}>
-        <script
-          defer
-          src="https://chirpy.dev/bootstrapper.js"
-          data-chirpy-domain="valchan.com.br"
-        ></script>
         {props.preBodyComponents}
         <noscript key="noscript" id="gatsby-noscript">
-          This app works best with JavaScript enabled.
+          Este site funciona melhor com JavaScript habilitado.
         </noscript>
         <div
           key={`body`}

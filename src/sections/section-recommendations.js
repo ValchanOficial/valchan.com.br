@@ -22,7 +22,7 @@ São alguns pequenos exemplos de uma participação grandiosa.`,
   ]
 
   return (
-    <Section name="Home" bg="--background-dark">
+    <Section id="recommendations" bg="--background-dark">
       <Crown />
       <S.RecommendationsContainer>
         <S.Title style={{ color: "var(--main)" }}>Recomendações</S.Title>

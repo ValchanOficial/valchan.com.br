@@ -1,7 +1,7 @@
 import React from "react"
 
 import Main from "../components/Main"
-import Head from "../components/seo"
+import Seo, { HOME_DESCRIPTION } from "../components/seo"
 
 import { ParallaxProvider } from "react-scroll-parallax"
 import SectionAbout from "../sections/section-about"
@@ -17,7 +17,6 @@ export default function Home() {
   return (
     <ParallaxProvider>
       <Main>
-        <Head title="Home" description="Página inicial" />
         <SectionMain />
         <SectionAbout />
         <SectionQuote />
@@ -30,3 +29,7 @@ export default function Home() {
     </ParallaxProvider>
   )
 }
+
+export const Head = () => (
+  <Seo title="Home" description={HOME_DESCRIPTION} pathname="/" />
+)

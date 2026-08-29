@@ -14,11 +14,13 @@ const Form = ({ setSending, setResult }) => {
 
   const onSubmit = async e => {
     e.preventDefault()
-    setSending(oldValue => !oldValue)
+    if (disabled) return
+
+    setSending(true)
     const { result } = await subscribe(values)
     setResult(result)
     setDisabled(true)
-    setSending(oldValue => !oldValue)
+    setSending(false)
   }
 
   const handleChange = ({ target: { name, value } }) => {
@@ -29,25 +31,36 @@ const Form = ({ setSending, setResult }) => {
   }
 
   return (
-    <S.Container>
+    <S.Container onSubmit={onSubmit} noValidate>
       <S.InputContainer>
-        <S.Input
-          type="text"
-          value={values.FNAME}
-          placeholder="Nome"
-          name="FNAME"
-          onChange={handleChange}
-        />
-        <S.Input
-          type="text"
-          value={values.email}
-          placeholder="E-mail"
-          name="email"
-          onChange={handleChange}
-        />
+        <S.Field>
+          <S.Label htmlFor="newsletter-name">Nome</S.Label>
+          <S.Input
+            id="newsletter-name"
+            type="text"
+            value={values.FNAME}
+            placeholder="Nome"
+            name="FNAME"
+            autoComplete="name"
+            onChange={handleChange}
+          />
+        </S.Field>
+        <S.Field>
+          <S.Label htmlFor="newsletter-email">E-mail</S.Label>
+          <S.Input
+            id="newsletter-email"
+            type="email"
+            value={values.email}
+            placeholder="E-mail"
+            name="email"
+            autoComplete="email"
+            required
+            onChange={handleChange}
+          />
+        </S.Field>
       </S.InputContainer>
       <Button
-        onClick={disabled ? () => {} : e => onSubmit(e)}
+        type="submit"
         disabled={disabled}
         style={{ width: "100%", fontSize: "1rem" }}
       >
