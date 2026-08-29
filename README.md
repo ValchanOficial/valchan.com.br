@@ -7,7 +7,7 @@
 
 ## Start
 
-Node version: 18
+Node version: 24 (LTS)
 
 ```bash
     yarn install
@@ -16,7 +16,7 @@ Node version: 18
 
 ## Start with Docker
 
-Node version: 18
+Node version: 24 (LTS)
 
 ```bash
     docker-compose up --build
