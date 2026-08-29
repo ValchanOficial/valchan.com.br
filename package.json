@@ -72,7 +72,7 @@
     "url": "https://github.com/ValchanOficial/valchan.com.br/issues"
   },
   "engines": {
-    "node": ">=20.16",
+    "node": ">=24.20 <26",
     "yarn": ">=4"
   }
 }
