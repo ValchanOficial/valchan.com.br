@@ -6,9 +6,9 @@ COPY . ./
 
 RUN corepack enable
 
-RUN yarn cache clean && yarn install 
-
-COPY . .
+# --immutable falha o build se o lockfile divergir do package.json, evitando
+# que versões não revisadas entrem na imagem.
+RUN yarn install --immutable
 
 EXPOSE 8000
 

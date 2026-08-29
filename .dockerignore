@@ -1,0 +1,24 @@
+# Sem este arquivo, o `COPY . ./` do Dockerfile levaria .env e .git para
+# dentro das camadas da imagem — apagar depois não remove das camadas anteriores.
+.env
+.env.*
+.git
+.gitignore
+
+node_modules
+.yarn/cache
+.yarn/install-state.gz
+
+.cache
+public
+
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+.DS_Store

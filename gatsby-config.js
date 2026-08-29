@@ -2,6 +2,23 @@ require("dotenv").config()
 
 const queries = require("./src/utils/algolia_queries")
 
+// A CSP entra como Report-Only de propósito: o Gatsby emite scripts inline no
+// HTML e o styled-components injeta <style> em runtime, então uma política
+// bloqueante precisa ser validada com os relatórios antes de ser aplicada.
+const contentSecurityPolicy = [
+  `default-src 'self'`,
+  `script-src 'self' 'unsafe-inline' https://chirpy.dev`,
+  `style-src 'self' 'unsafe-inline' https://fonts.googleapis.com`,
+  `font-src 'self' data: https://fonts.gstatic.com`,
+  `img-src 'self' data: https:`,
+  `connect-src 'self' https://*.algolia.net https://*.algolianet.com https://chirpy.dev https://valchan.us1.list-manage.com`,
+  `frame-src https://chirpy.dev`,
+  `object-src 'none'`,
+  `base-uri 'self'`,
+  `form-action 'self' https://valchan.us1.list-manage.com`,
+  `frame-ancestors 'none'`,
+].join("; ")
+
 module.exports = {
   siteMetadata: {
     title: `Valchan`,
@@ -10,6 +27,25 @@ module.exports = {
     author: `Valéria Padilha de Vargas`,
     siteUrl: `https://valchan.com.br`,
   },
+  // Só o que o Gatsby não emite por conta própria: os BASE_HEADERS do core já
+  // cobrem x-content-type-options, x-frame-options, referrer-policy e
+  // x-xss-protection em todas as rotas, e repeti-los aqui geraria cabeçalhos
+  // HTTP duplicados.
+  headers: [
+    {
+      source: `/*`,
+      headers: [
+        {
+          key: `Content-Security-Policy-Report-Only`,
+          value: contentSecurityPolicy,
+        },
+        {
+          key: `Permissions-Policy`,
+          value: `camera=(), microphone=(), geolocation=(), payment=()`,
+        },
+      ],
+    },
+  ],
   plugins: [
     `gatsby-plugin-smoothscroll`,
     `gatsby-plugin-styled-components`,
@@ -196,6 +232,5 @@ module.exports = {
     },
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-offline`,
-    `gatsby-plugin-netlify-cms`,
   ],
 }
