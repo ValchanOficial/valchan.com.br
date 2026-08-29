@@ -11,7 +11,7 @@ import * as S from "./style"
 export default function SectionAbout() {
   const onClickDownloadCV = async () => {
     const pdfPath = require("../../static/assets/pdf/cv.pdf")
-    window.open(pdfPath.default, "_blank")
+    window.open(pdfPath.default, "_blank", "noopener")
   }
 
   return (
