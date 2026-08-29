@@ -62,7 +62,7 @@ const GlobalStyles = createGlobalStyle`
 
   body {
     background: var(--background-dark);
-    line-height: 1;
+    line-height: 1.5;
     font-size: 100%;
   }
 
@@ -208,6 +208,17 @@ const GlobalStyles = createGlobalStyle`
     --cta: #cdad7d;
     --secondary: #dbbf94;
     --transparent: rgba(255, 255, 255, 0.5);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
   }
 `
 export default GlobalStyles

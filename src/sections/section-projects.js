@@ -43,7 +43,7 @@ export default function SectionProjects() {
   ]
 
   return (
-    <Section id="projects" name="Home" bg="--background-dark-light">
+    <Section id="projects" bg="--background-dark-light">
       <S.ProjectsContainer>
         <S.Content>
           <Flower />

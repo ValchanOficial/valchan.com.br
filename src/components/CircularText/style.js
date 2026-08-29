@@ -33,4 +33,8 @@ export const CircularTextContainer = styled.div`
       transform: rotate(0deg);
     }
   }
+
+  @media (prefers-reduced-motion: reduce) {
+    animation: none;
+  }
 `

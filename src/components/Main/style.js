@@ -1,7 +1,27 @@
 import styled from "styled-components"
 import media from "styled-media-query"
 
-export const LayoutWrapper = styled.section`
+export const Page = styled.div`
+  position: relative;
+`
+
+export const SkipLink = styled.a`
+  position: absolute;
+  top: -3rem;
+  left: 1rem;
+  z-index: 100;
+  padding: 0.5rem 1rem;
+  background: var(--text-dark);
+  color: var(--text-light);
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  text-decoration: none;
+
+  &:focus {
+    top: 1rem;
+  }
+`
+
+export const LayoutWrapper = styled.main`
   position: relative;
   background: var(--background-dark);
   display: flex;

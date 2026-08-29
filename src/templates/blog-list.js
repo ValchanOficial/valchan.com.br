@@ -4,7 +4,7 @@ import React from "react"
 import Main from "../components/Main"
 import Pagination from "../components/Pagination"
 import PostItem from "../components/PostItem"
-import Head from "../components/seo"
+import Seo from "../components/seo"
 
 import { graphql } from "gatsby"
 import * as S from "../components/ListWrapper/style"
@@ -16,12 +16,11 @@ export default function BlogList(props) {
   const { currentPage, numPages } = pageContext
   const isFirst = currentPage === 1
   const isLast = currentPage === numPages
-  const prevPage = currentPage - 1 === 1 ? "/" : `/page/${currentPage - 1}`
-  const nextPage = `/page/${currentPage + 1}`
+  const prevPage = currentPage - 1 === 1 ? "/blog" : `/blog/${currentPage - 1}`
+  const nextPage = `/blog/${currentPage + 1}`
 
   return (
     <Main>
-      <Head />
       <S.ListWrapper>
         {postList.map(
           ({
@@ -32,7 +31,7 @@ export default function BlogList(props) {
             },
           }) => (
             <PostItem
-              key={title}
+              key={slug}
               slug={slug}
               category={category}
               date={date}
@@ -54,6 +53,18 @@ export default function BlogList(props) {
     </Main>
   )
 }
+
+export const Head = ({ pageContext, location }) => (
+  <Seo
+    title={
+      pageContext.currentPage > 1
+        ? `Blog · página ${pageContext.currentPage}`
+        : "Blog"
+    }
+    description="Lista de posts do blog da Valchan"
+    pathname={location.pathname}
+  />
+)
 
 export const query = graphql`
   query ($skip: Int, $limit: Int) {

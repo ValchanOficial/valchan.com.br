@@ -15,7 +15,7 @@ export default function SectionAbout() {
   }
 
   return (
-    <Section id="about" name="Home" bg="--background-light">
+    <Section id="about" bg="--background-light">
       <S.AboutContainer>
         <S.Article>
           <S.Title>
@@ -30,8 +30,8 @@ export default function SectionAbout() {
             tecnologia. <br></br>
             <br></br>
             Graduada em Análise e Desenvolvimento de Sistemas pela UNICESUMAR,
-            Pós-Graduada em Desenvolvimento Fullstack pela PUCRS, Pós-graduação 
-            Tech Developer 360º na Rocktseat, sou criativa,
+            Pós-Graduada em Desenvolvimento Fullstack pela PUCRS, Pós-graduação
+            Tech Developer 360º na Rocketseat, sou criativa,
             determinada, contribuindo para a solução de problemas e buscando
             sempre compartilhar conhecimento.
           </S.Paragraph>
@@ -40,7 +40,11 @@ export default function SectionAbout() {
           <FlyingBird />
           <Avatar />
           <CircularText>progress over perfection •&nbsp;</CircularText>
-          <Button onClick={onClickDownloadCV} style={{ marginTop: "4rem" }}>
+          <Button
+            onClick={onClickDownloadCV}
+            aria-label="Baixar currículo em PDF"
+            style={{ marginTop: "4rem" }}
+          >
             CV
           </Button>
         </S.Container>

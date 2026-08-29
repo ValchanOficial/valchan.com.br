@@ -7,14 +7,14 @@ const RecommendedPosts = ({ next, previous }) => (
   <S.RecommendedWrapper>
     {previous && (
       <S.RecommendedLink to={previous.fields.slug} className="previous">
-        <Icons.NavigateBefore title={previous.frontmatter.title} />
+        <Icons.NavigateBefore aria-hidden="true" />
         <span>{previous.frontmatter.title}</span>
       </S.RecommendedLink>
     )}
     {next && (
       <S.RecommendedLink to={next.fields.slug} className="next">
         <span>{next.frontmatter.title}</span>
-        <Icons.NavigateNext width="30" title={next.frontmatter.title} />
+        <Icons.NavigateNext width="30" aria-hidden="true" />
       </S.RecommendedLink>
     )}
   </S.RecommendedWrapper>

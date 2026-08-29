@@ -64,7 +64,7 @@ module.exports = {
         fonts: [`Atkinson Hyperlegible\:400,400i,700,700i`, `Libre Baskerville`, `Inter\:400,400i,700,700i`],
         display: "swap",
         attributes: {
-          rel: "stylesheet preload prefetch",
+          rel: "stylesheet",
         },
       },
     },

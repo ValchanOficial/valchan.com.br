@@ -80,28 +80,36 @@ export const Dot = styled.button`
     background-color: var(--main);
   }
 
+  &:focus-visible {
+    outline: 2px solid var(--main);
+    outline-offset: 2px;
+  }
+
   &.active {
     background-color: var(--text-dark);
   }
 `
 
-export const Arrow = styled.svg`
+export const ArrowButton = styled.button`
   width: 30px;
   height: 30px;
   position: absolute;
   top: 60%;
   transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
-  fill: var(--text-light);
+  background: transparent;
+  border: none;
+  padding: 0;
   cursor: pointer;
 
-  &:hover {
-    fill: var(--main);
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.4;
   }
 
-  &.arrow--disabled {
-    fill: var(--transparent);
-    cursor: not-allowed;
+  &:focus-visible {
+    outline: 2px solid var(--main);
+    outline-offset: 2px;
   }
 
   &.arrow--left {
@@ -111,5 +119,15 @@ export const Arrow = styled.svg`
   &.arrow--right {
     left: auto;
     right: 5px;
+  }
+`
+
+export const ArrowIcon = styled.svg`
+  width: 30px;
+  height: 30px;
+  fill: var(--text-light);
+
+  ${ArrowButton}:not(:disabled):hover & {
+    fill: var(--main);
   }
 `

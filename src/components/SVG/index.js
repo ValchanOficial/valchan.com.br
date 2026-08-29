@@ -14,25 +14,21 @@ import StarsSVG from "./stars.svg"
 
 import * as S from "./style"
 
-const RestingBird = () => (
-  <S.RestingBird src={Bird1SVG} alt="Pássaro de origami descansando" />
+const decorativeImg = { alt: "", role: "presentation", "aria-hidden": true }
+
+const RestingBird = () => <S.RestingBird src={Bird1SVG} {...decorativeImg} />
+const WaitingBird = () => <S.WaitingBird src={Bird2SVG} {...decorativeImg} />
+const FlyingBird = () => <S.FlyingBird src={Bird3SVG} {...decorativeImg} />
+const LovelyBird = () => <S.LovelyBird src={Bird4SVG} {...decorativeImg} />
+const Butterfly = () => <S.Butterfly src={ButterflySVG} {...decorativeImg} />
+const Crown = () => <S.Crown src={CrownSVG} {...decorativeImg} />
+const Error404 = () => (
+  <S.Error404 src={Error404SVG} alt="Ilustração de erro 404" />
 )
-const WaitingBird = () => (
-  <S.WaitingBird src={Bird2SVG} alt="Pássaro de origami esperando" />
-)
-const FlyingBird = () => (
-  <S.FlyingBird src={Bird3SVG} alt="Pássaro de origami voando" />
-)
-const LovelyBird = () => (
-  <S.LovelyBird src={Bird4SVG} alt="Pássaro de origami amável" />
-)
-const Butterfly = () => <S.Butterfly src={ButterflySVG} alt="Borboleta" />
-const Crown = () => <S.Crown src={CrownSVG} alt="Coroa" />
-const Error404 = () => <S.Error404 src={Error404SVG} alt="Erro 404" />
-const Rocket = () => <S.Rocket src={RocketSVG} alt="Foguete" />
-const Stars = () => <S.Stars src={StarsSVG} alt="Estrelas" />
-const Developer = () => <S.Developer src={DeveloperSVG} alt="Desenvolvedora" />
-const Flower = () => <S.Flower src={FlowerSVG} alt="Flor" />
+const Rocket = () => <S.Rocket src={RocketSVG} {...decorativeImg} />
+const Stars = () => <S.Stars src={StarsSVG} {...decorativeImg} />
+const Developer = () => <S.Developer src={DeveloperSVG} {...decorativeImg} />
+const Flower = () => <S.Flower src={FlowerSVG} {...decorativeImg} />
 
 export {
   Butterfly,

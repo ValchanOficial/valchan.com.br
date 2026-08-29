@@ -55,7 +55,7 @@ export const Header = styled.header`
   background: var(--background-dark);
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   max-width: 60rem;
   margin: 15rem auto;
@@ -75,7 +75,7 @@ export const Header = styled.header`
   }
 `
 
-export const Title = styled.p`
+export const Title = styled.h1`
   color: var(--main);
   text-shadow: 0 0.05rem var(--text);
   text-decoration: none;

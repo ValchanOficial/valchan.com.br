@@ -11,7 +11,7 @@ import * as S from "./style"
 
 export default function SectionContact() {
   return (
-    <Section id="contact" name="Home" bg="--background-light">
+    <Section id="contact" bg="--background-light">
       <S.ContactWrapper>
         <BackgroundCubes />
         <S.ContactTitle>

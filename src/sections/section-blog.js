@@ -1,5 +1,5 @@
 import { useAutoAnimate } from "@formkit/auto-animate/react"
-import React, { useEffect, useState } from "react"
+import React, { useState } from "react"
 
 import { graphql, useStaticQuery } from "gatsby"
 
@@ -12,19 +12,14 @@ import * as S from "./style"
 export default function SectionBlog() {
   const MAX_POSTS_VISIBLE = 6
   const [visibleItems, setVisibleItems] = useState(MAX_POSTS_VISIBLE)
-  const [posts, setPosts] = useState([])
   const [parent] = useAutoAnimate({
     easing: "ease-in-out",
     duration: 500,
   })
 
   const data = useStaticQuery(graphql`
-    query ($skip: Int, $limit: Int) {
-      posts: allMarkdownRemark(
-        sort: { frontmatter: { date: DESC } }
-        limit: $limit
-        skip: $skip
-      ) {
+    query HomeBlogPosts {
+      posts: allMarkdownRemark(sort: { frontmatter: { date: DESC } }) {
         edges {
           node {
             fields {
@@ -43,9 +38,7 @@ export default function SectionBlog() {
     }
   `)
 
-  useEffect(() => {
-    setPosts(data?.posts?.edges || [])
-  }, [data])
+  const posts = data?.posts?.edges || []
 
   const handleLoadMore = () => {
     if (visibleItems < posts.length) {
@@ -59,7 +52,7 @@ export default function SectionBlog() {
   }
 
   return (
-    <Section id="blog" name="Home" bg="--background-light">
+    <Section id="blog" bg="--background-light">
       <S.BlogWrapper>
         <S.TitleWrapper>
           <S.Title style={{ color: "var(--main)", textTransform: "uppercase" }}>
@@ -76,7 +69,7 @@ export default function SectionBlog() {
                 fields: { slug },
               },
             }) => (
-              <S.PostLink key={title} to={slug}>
+              <S.PostLink key={slug} to={slug}>
                 <S.PostTag># {category}</S.PostTag>
                 <S.PostTitle>{title}</S.PostTitle>
                 <S.PostDate>
