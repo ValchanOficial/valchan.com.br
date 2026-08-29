@@ -29,18 +29,43 @@ Aplicadas na branch `fix/security-hardening`:
 
 | Achado | Status | Commit |
 | --- | --- | --- |
+| A-01 — script do Chirpy | Aceito com mitigação — restrito no `script-src` da CSP | (ver A-03) |
+| A-02 — Netlify CMS descontinuado | Resolvido — CMS removido | `feat(security)!: remover o Netlify CMS` |
 | A-03 — CSP ausente | Corrigido (em Report-Only) | `chore(security): adicionar cabeçalhos de segurança via Gatsby Headers API` + `fix(security): remover cabeçalhos que o Gatsby já emite por padrão` |
-| M-02 — Docker sem `.dockerignore` | Corrigido | `chore(security): endurecer a imagem Docker de desenvolvimento` |
-| B-01 — `window.open` sem `noopener` | Corrigido | `fix(security): abrir o CV com noopener` |
-| B-03 — `/admin` no `robots.txt` | Corrigido | `chore(security): desautorizar /admin no robots.txt` |
-| A-01 — script do Chirpy | Pendente — decisão de produto | — |
-| A-02 — Netlify CMS descontinuado | Pendente — depende de migrar ou remover | — |
 | M-01 — sanitização do markdown | Pendente — risco de regressão visual | — |
-| M-03 — atualização de dependências | Pendente | — |
+| M-02 — Docker sem `.dockerignore` | Corrigido | `chore(security): endurecer a imagem Docker de desenvolvimento` |
+| M-03 — dependências | Corrigido parcialmente | `chore(security): atualizar Gatsby 5.13.7 -> 5.16.1` + `chore(security): migrar react-instantsearch-dom@6 para react-instantsearch@7` |
+| B-01 — `window.open` sem `noopener` | Corrigido | `fix(security): abrir o CV com noopener` |
+| B-03 — `/admin` no `robots.txt` | Descartado — a rota deixou de existir com A-02 | — |
+
+### Efeito na auditoria de dependências
+
+| Severidade | Antes | Depois |
+| --- | --- | --- |
+| Crítica | 2 | 2 |
+| Alta | 81 | 63 |
+| Moderada | 90 | 54 |
+| Baixa | 14 | 10 |
+
+As duas críticas remanescentes são de tempo de build e não têm correção pela raiz: `shell-quote` (GHSA-w7jw-789q-3m8p) entra via `react-dev-utils@12.0.1`, dependência direta do próprio `gatsby@5.16.1`, e `tar` (GHSA-23hp-3jrh-7fpw) via `node-gyp@10.0.1`, puxado por `@parcel/watcher` e `fsevents`. Nenhuma das duas vai para o bundle do browser; resolver depende de upstream no Gatsby.
+
+Ganho que não aparece nessa tabela: o **DOMPurify saiu inteiramente da árvore** com a remoção do CMS, e o `immutable` vulnerável passou a existir apenas via `@ardatan/relay-compiler` (build-time do Gatsby), deixando de ser código executado no browser.
 
 A CSP ficou em `Content-Security-Policy-Report-Only`: ela **relata** violações sem bloquear nada. Para virar proteção efetiva, é preciso coletar os relatórios em produção, ajustar as diretivas e só então renomear o cabeçalho para `Content-Security-Policy`. **Até que essa troca aconteça, A-03 não está de fato mitigado** — o valor atual é diagnóstico, não proteção.
 
-Verificação executada: build local com `NETLIFY_LOCAL=true` (para ativar o `gatsby-adapter-netlify`) confirmou que a CSP e o `Permissions-Policy` são escritos no `public/_headers`, sem duplicar os cabeçalhos que o Gatsby já emite. O build do Docker **não** pôde ser verificado — o Docker não está instalado na máquina onde as correções foram aplicadas.
+### O que foi verificado, e o que não foi
+
+**Verificado:** build limpo (`gatsby clean && gatsby build`) passando no Gatsby 5.16.1, com as 228 páginas geradas. Com `NETLIFY_LOCAL=true` para ativar o `gatsby-adapter-netlify`, a CSP e o `Permissions-Policy` aparecem nas 700 rotas do `public/_headers`, sem duplicar os cabeçalhos do core. O `/admin` deixou de ser gerado no output. As classes `ais-*` usadas pelo CSS da busca continuam presentes no markup da v7.
+
+**Não verificado — precisa de atenção antes do merge:**
+
+1. **Busca (`/search`) não foi testada funcionalmente.** As chaves do Algolia não existem no `.env` local, então o build falha no `onPostBuild` do plugin de indexação e a busca não pode ser exercitada. A migração compila e renderiza, mas confirme em um deploy preview.
+2. **A v7 não renderiza os widgets no server-side.** O `useConnector` só produz markup de SSR quando existe um `InstantSearchServerContext`, criado pelo `getServerState()`. Sem ele, o `<section>` da busca vem vazio no HTML e os widgets aparecem só após a hidratação. A v6, baseada em componentes de classe, renderizava o campo de busca já no HTML. É uma regressão de percepção de carregamento, não de funcionalidade — adotar `getServerState` exigiria mudar a arquitetura de SSR da página, o que ficou fora do escopo.
+3. **Build do Docker não foi validado** — o Docker não está instalado na máquina onde as correções foram aplicadas. O `--immutable` falha se o `yarn.lock` divergir do `package.json`, então rode um `docker compose build` antes de confiar.
+
+### Observação fora do escopo de segurança
+
+O `@hot-loader/react-dom` nas devDependencies é um resíduo da era React 17 e gera aviso de peer dependency a cada install. Não é usado em nenhum lugar do código. Removê-lo reduziria superfície de supply chain, mas ficou de fora por não ser um achado de segurança.
 
 ---
 
@@ -67,6 +92,8 @@ Verificação executada: build local com `NETLIFY_LOCAL=true` (para ativar o `ga
 
 **Notas de falso positivo:** o risco é intrínseco a qualquer script de terceiro; não é um bug do código. O que agrava aqui é a ausência de CSP como rede de segurança.
 
+> **Aceito com mitigação.** Decidido manter o widget. O `script-src` da CSP restringe os scripts a `'self'` e `https://chirpy.dev`, o que limita o dano de um comprometimento do vendor — mas isso só vale de fato quando a CSP sair do modo Report-Only. Até então, A-01 permanece sem mitigação efetiva.
+
 ---
 
 ### A-02 — Painel Netlify CMS descontinuado e publicamente acessível em `/admin`
@@ -84,6 +111,8 @@ Verificação executada: build local com `NETLIFY_LOCAL=true` (para ativar o `ga
 **Mitigação:** se a migração não for imediata, restringir `/admin` no edge da Netlify (proteção por senha ou regra de acesso) para que o bundle desatualizado não fique exposto ao público.
 
 **Notas de falso positivo:** confirmar se o CMS ainda é usado para publicar. Se os posts hoje são escritos direto no repositório, o caminho mais simples e seguro é remover o plugin e o `static/admin/` por completo.
+
+> **Resolvido por remoção.** Confirmado que os posts são escritos direto no repositório, então o CMS foi removido em vez de migrado — some a rota, o bundle e a árvore de dependências de uma vez. Publicar passa a ser exclusivamente por commit em `posts/`.
 
 ---
 
@@ -214,7 +243,16 @@ Vale registrar para não regredirem:
 
 ---
 
-## Ordem sugerida de correção
+## Próximos passos recomendados
+
+1. **Coletar os relatórios da CSP em produção e migrar para modo bloqueante.** Enquanto o cabeçalho for `Report-Only`, A-03 não protege nada. Este é o item de maior valor pendente, justamente porque é o que sustenta a mitigação de A-01.
+2. **Validar a busca em deploy preview** (ver item 1 da seção anterior).
+3. **Validar o build do Docker** (ver item 3 da seção anterior).
+4. **Decidir sobre M-01** (sanitização do HTML de markdown), que segue pendente por risco de regressão visual nos posts.
+
+---
+
+## Ordem sugerida de correção (avaliação original)
 
 1. **A-03** (cabeçalhos + CSP em report-only) — baixo risco de quebra e mitiga parcialmente A-01, A-02 e M-01 de uma vez.
 2. **A-02** (migrar para Decap CMS ou remover `/admin`) — maior redução de superfície de ataque do lado do cliente.
