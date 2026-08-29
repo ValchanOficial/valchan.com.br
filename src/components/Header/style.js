@@ -12,7 +12,7 @@ export const LinkGroup = styled.div`
     content: "";
     display: inline-block;
     position: absolute;
-    height: 1.5rem;
+    height: 2rem;
     width: 2px;
     background-color: var(--text-light);
     margin-left: 0.6rem;
