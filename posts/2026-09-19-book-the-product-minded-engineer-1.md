@@ -151,4 +151,4 @@ Reforçando, nas mensagens:
 
 Entregar
 
-Valide o produto com usuários: validar o produto com usuários ajuda a responder questões abertas importantes sobre ele e também a revelar problemas que não haviam sido considerados. 
+Valide o produto com usuários: validar o produto com usuários ajuda a responder questões abertas importantes sobre ele e também a revelar problemas que não haviam sido considerados.
