@@ -131,7 +131,7 @@ Então, uma vez que estabelecemos confiança e tornamos a mudança simples, o qu
 
 Slicing and dicing: é um técnica de análise de dados usada em ferramentas OLAP (Online Analytical Processing) para dividir e explorar grandes conjuntos de dados multidimensionais de forma flexível.
 
-  O QUE VOCÊ FARIA SE NÃO TIVESSE MEDO? - Laboratório de Pesquisa Analógica do Facebook 
+  O QUE VOCÊ FARIA SE NÃO TIVESSE MEDO? - Laboratório de Pesquisa Analógica do Facebook
 
 Obtendo feedback de usuários:
 
@@ -256,4 +256,4 @@ O valor pode até ser dinâmico, dependendo de fatores de mercado. No transporte
 
 Priorizando entre personas concorrentes:
 
-Se o produto sustenta um marketplace multilateral, será necessário priorizar o desenvolvimento de funcionalidades entre os diferentes lados. 
+Se o produto sustenta um marketplace multilateral, será necessário priorizar o desenvolvimento de funcionalidades entre os diferentes lados.
